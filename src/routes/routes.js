@@ -12,7 +12,7 @@ router.get("/", async (req, res) => {
   res.json({ types: await getTypes() });
 });
 
-router.get("/:type/{:id}", async (req, res) => {
+router.get("/:type{/:id}", async (req, res) => {
   const { type, id } = req.params;
 
   const fullPath = id ? type + "/" + id : type;

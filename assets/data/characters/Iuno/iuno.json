@@ -1,9 +1,329 @@
 {
-  "name": "Iuno",
-  "element": "Aero",
-  "weapon": "Gauntlets",
-  "gender": "Female",
-  "nation": "Rinascita",
-  "class": "Congenital",
-  "rarity": 5
+    "id": "iuno",
+    "name": "Iuno",
+    "element": "Aero",
+    "weapon": "Gauntlets",
+    "gender": "Female",
+    "nation": "Rinascita",
+    "class": "Congenital",
+    "rarity": 5,
+    "release": "2025-09-25",
+    "ascension_materials": {
+        "20": [
+            {
+                "name": "Shell Credit",
+                "value": 5000
+            },
+            {
+                "name": "LF Polygon Core",
+                "value": 4
+            }
+        ],
+        "40": [
+            {
+                "name": "Shell Credit",
+                "value": 10000
+            },
+            {
+                "name": "Silverglow Bloom",
+                "value": 4
+            },
+            {
+                "name": "MF Polygon Core",
+                "value": 4
+            },
+            {
+                "name": "Abyssal Husk",
+                "value": 3
+            }
+        ],
+        "50": [
+            {
+                "name": "Shell Credit",
+                "value": 15000
+            },
+            {
+                "name": "Silverglow Bloom",
+                "value": 8
+            },
+            {
+                "name": "MF Polygon Core",
+                "value": 8
+            },
+            {
+                "name": "Abyssal Husk",
+                "value": 6
+            }
+        ],
+        "60": [
+            {
+                "name": "Shell Credit",
+                "value": 20000
+            },
+            {
+                "name": "Silverglow Bloom",
+                "value": 12
+            },
+            {
+                "name": "HF Polygon Core",
+                "value": 4
+            },
+            {
+                "name": "Abyssal Husk",
+                "value": 9
+            }
+        ],
+        "70": [
+            {
+                "name": "Shell Credit",
+                "value": 40000
+            },
+            {
+                "name": "Silverglow Bloom",
+                "value": 16
+            },
+            {
+                "name": "HF Polygon Core",
+                "value": 8
+            },
+            {
+                "name": "Abyssal Husk",
+                "value": 12
+            }
+        ],
+        "80": [
+            {
+                "name": "Shell Credit",
+                "value": 80000
+            },
+            {
+                "name": "Silverglow Bloom",
+                "value": 20
+            },
+            {
+                "name": "FF Polygon Core",
+                "value": 4
+            },
+            {
+                "name": "Abyssal Husk",
+                "value": 16
+            }
+        ]
+    },
+    "skill_materials": {
+        "2": [
+            {
+                "name": "Shell Credit",
+                "value": 1500
+            },
+            {
+                "name": "Cadence Seed",
+                "value": 2
+            },
+            {
+                "name": "LF Polygon Core",
+                "value": 2
+            }
+        ],
+        "3": [
+            {
+                "name": "Shell Credit",
+                "value": 2000
+            },
+            {
+                "name": "Cadence Seed",
+                "value": 3
+            },
+            {
+                "name": "LF Polygon Core",
+                "value": 3
+            }
+        ],
+        "4": [
+            {
+                "name": "Shell Credit",
+                "value": 4500
+            },
+            {
+                "name": "Cadence Bud",
+                "value": 2
+            },
+            {
+                "name": "MF Polygon Core",
+                "value": 2
+            }
+        ],
+        "5": [
+            {
+                "name": "Shell Credit",
+                "value": 6000
+            },
+            {
+                "name": "Cadence Bud",
+                "value": 3
+            },
+            {
+                "name": "MF Polygon Core",
+                "value": 3
+            }
+        ],
+        "6": [
+            {
+                "name": "Shell Credit",
+                "value": 16000
+            },
+            {
+                "name": "Cadence Leaf",
+                "value": 3
+            },
+            {
+                "name": "HF Polygon Core",
+                "value": 2
+            }
+        ],
+        "7": [
+            {
+                "name": "Shell Credit",
+                "value": 30000
+            },
+            {
+                "name": "Cadence Leaf",
+                "value": 5
+            },
+            {
+                "name": "HF Polygon Core",
+                "value": 3
+            },
+            {
+                "name": "The Netherworld's Stare",
+                "value": 1
+            }
+        ],
+        "8": [
+            {
+                "name": "Shell Credit",
+                "value": 50000
+            },
+            {
+                "name": "Cadence Blossom",
+                "value": 2
+            },
+            {
+                "name": "FF Polygon Core",
+                "value": 2
+            },
+            {
+                "name": "The Netherworld's Stare",
+                "value": 1
+            }
+        ],
+        "9": [
+            {
+                "name": "Shell Credit",
+                "value": 70000
+            },
+            {
+                "name": "Cadence Blossom",
+                "value": 3
+            },
+            {
+                "name": "FF Polygon Core",
+                "value": 3
+            },
+            {
+                "name": "The Netherworld's Stare",
+                "value": 1
+            }
+        ],
+        "10": [
+            {
+                "name": "Shell Credit",
+                "value": 100000
+            },
+            {
+                "name": "Cadence Blossom",
+                "value": 6
+            },
+            {
+                "name": "FF Polygon Core",
+                "value": 4
+            },
+            {
+                "name": "The Netherworld's Stare",
+                "value": 1
+            }
+        ]
+    },
+    "stats_bonus_materials": {
+        "rank_1": [
+            {
+                "name": "Shell Credit",
+                "value": 50000
+            },
+            {
+                "name": "HF Polygon Core",
+                "value": 3
+            },
+            {
+                "name": "Cadence Leaf",
+                "value": 3
+            }
+        ],
+        "rank_2": [
+            {
+                "name": "Shell Credit",
+                "value": 100000
+            },
+            {
+                "name": "FF Polygon Core",
+                "value": 3
+            },
+            {
+                "name": "Cadence Blossom",
+                "value": 3
+            },
+            {
+                "name": "The Netherworld's Stare",
+                "value": 1
+            }
+        ]
+    },
+    "inherent_skill_materials": {
+        "skill_1": [
+            {
+                "name": "Shell Credit",
+                "value": 10000
+            },
+            {
+                "name": "MF Polygon Core",
+                "value": 3
+            },
+            {
+                "name": "Cadence Bud",
+                "value": 3
+            },
+            {
+                "name": "The Netherworld's Stare",
+                "value": 1
+            }
+        ],
+        "skill_2": [
+            {
+                "name": "Shell Credit",
+                "value": 20000
+            },
+            {
+                "name": "HF Polygon Core",
+                "value": 3
+            },
+            {
+                "name": "Cadence Leaf",
+                "value": 3
+            },
+            {
+                "name": "The Netherworld's Stare",
+                "value": 1
+            }
+        ]
+    }
 }

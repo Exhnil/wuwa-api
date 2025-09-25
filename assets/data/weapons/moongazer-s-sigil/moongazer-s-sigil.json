@@ -1,0 +1,91 @@
+{
+    "name": "Moongazer's Sigil",
+    "id": "moongazer-s-sigil",
+    "type": "Gauntlets",
+    "rarity": 4,
+    "base_attack": 40,
+    "sub_stat": "Crit. Rate",
+    "sub_stat_base": 8.0,
+    "ascension_materials": {
+        "20": [
+            {
+                "name": "Shell Credit",
+                "value": 5000
+            },
+            {
+                "name": "LF Polygon Core",
+                "value": 6
+            }
+        ],
+        "40": [
+            {
+                "name": "Shell Credit",
+                "value": 10000
+            },
+            {
+                "name": "MF Polygon Core",
+                "value": 6
+            },
+            {
+                "name": "Cadence Seed",
+                "value": 6
+            }
+        ],
+        "50": [
+            {
+                "name": "Shell Credit",
+                "value": 15000
+            },
+            {
+                "name": "HF Polygon Core",
+                "value": 4
+            },
+            {
+                "name": "Cadence Bud",
+                "value": 8
+            }
+        ],
+        "60": [
+            {
+                "name": "Shell Credit",
+                "value": 20000
+            },
+            {
+                "name": "HF Polygon Core",
+                "value": 6
+            },
+            {
+                "name": "Cadence Leaf",
+                "value": 6
+            }
+        ],
+        "70": [
+            {
+                "name": "Shell Credit",
+                "value": 40000
+            },
+            {
+                "name": "FF Polygon Core",
+                "value": 4
+            },
+            {
+                "name": "Cadence Blossom",
+                "value": 8
+            }
+        ],
+        "80": [
+            {
+                "name": "Shell Credit",
+                "value": 80000
+            },
+            {
+                "name": "FF Polygon Core",
+                "value": 8
+            },
+            {
+                "name": "Cadence Blossom",
+                "value": 12
+            }
+        ]
+    }
+}

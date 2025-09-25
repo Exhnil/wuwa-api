@@ -13,7 +13,7 @@ export async function containsFolders(path) {
 }
 
 export async function getTypes() {
-  const types = await fs.readdirSync(dataDir);
+  const types = await fs.readdir(dataDir);
   return types;
 }
 
