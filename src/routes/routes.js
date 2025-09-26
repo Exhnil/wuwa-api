@@ -17,8 +17,6 @@ router.get("/:type{/:id}", async (req, res) => {
 
   const fullPath = id ? type + "/" + id : type;
 
-  console.log(fullPath);
-
   if (await containsFolders(fullPath)) {
     const entities = await getAvailableEntities(fullPath);
     res.json(entities);
