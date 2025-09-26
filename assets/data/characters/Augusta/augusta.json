@@ -1,13 +1,13 @@
 {
-  "id": "iuno",
-  "name": "Iuno",
-  "attribute": "Aero",
-  "weapon": "Gauntlets",
+  "id": "augusta",
+  "name": "Augusta",
+  "attribute": "Electro",
+  "weapon": "Broadblade",
   "gender": "Female",
   "nation": "Rinascita",
   "class": "Congenital",
   "rarity": 5,
-  "release": "2025-09-25",
+  "release": "2025-08-28",
   "ascension_materials": {
     "20": [
       {
@@ -15,7 +15,7 @@
         "value": 5000
       },
       {
-        "name": "LF Polygon Core",
+        "name": "LF Tidal Residuum",
         "value": 4
       }
     ],
@@ -25,15 +25,15 @@
         "value": 10000
       },
       {
-        "name": "Silverglow Bloom",
+        "name": "Luminous Calendula",
         "value": 4
       },
       {
-        "name": "MF Polygon Core",
+        "name": "MF Tidal Residuum",
         "value": 4
       },
       {
-        "name": "Abyssal Husk",
+        "name": "Blighted Crown of Puppet King",
         "value": 3
       }
     ],
@@ -43,15 +43,15 @@
         "value": 15000
       },
       {
-        "name": "Silverglow Bloom",
+        "name": "Luminous Calendula",
         "value": 8
       },
       {
-        "name": "MF Polygon Core",
+        "name": "MF Tidal Residuum",
         "value": 8
       },
       {
-        "name": "Abyssal Husk",
+        "name": "Blighted Crown of Puppet King",
         "value": 6
       }
     ],
@@ -61,15 +61,15 @@
         "value": 20000
       },
       {
-        "name": "Silverglow Bloom",
+        "name": "Luminous Calendula",
         "value": 12
       },
       {
-        "name": "HF Polygon Core",
+        "name": "HF Tidal Residuum",
         "value": 4
       },
       {
-        "name": "Abyssal Husk",
+        "name": "Blighted Crown of Puppet King",
         "value": 9
       }
     ],
@@ -79,15 +79,15 @@
         "value": 40000
       },
       {
-        "name": "Silverglow Bloom",
+        "name": "Luminous Calendula",
         "value": 16
       },
       {
-        "name": "HF Polygon Core",
+        "name": "HF Tidal Residuum",
         "value": 8
       },
       {
-        "name": "Abyssal Husk",
+        "name": "Blighted Crown of Puppet King",
         "value": 12
       }
     ],
@@ -97,15 +97,15 @@
         "value": 80000
       },
       {
-        "name": "Silverglow Bloom",
+        "name": "Luminous Calendula",
         "value": 20
       },
       {
-        "name": "FF Polygon Core",
+        "name": "FF Tidal Residuum",
         "value": 4
       },
       {
-        "name": "Abyssal Husk",
+        "name": "Blighted Crown of Puppet King",
         "value": 16
       }
     ]
@@ -117,11 +117,11 @@
         "value": 1500
       },
       {
-        "name": "Cadence Seed",
+        "name": "Waveworn Residue 210",
         "value": 2
       },
       {
-        "name": "LF Polygon Core",
+        "name": "LF Tidal Residuum",
         "value": 2
       }
     ],
@@ -131,11 +131,11 @@
         "value": 2000
       },
       {
-        "name": "Cadence Seed",
+        "name": "Waveworn Residue 210",
         "value": 3
       },
       {
-        "name": "LF Polygon Core",
+        "name": "LF Tidal Residuum",
         "value": 3
       }
     ],
@@ -145,11 +145,11 @@
         "value": 4500
       },
       {
-        "name": "Cadence Bud",
+        "name": "Waveworn Residue 226",
         "value": 2
       },
       {
-        "name": "MF Polygon Core",
+        "name": "MF Tidal Residuum",
         "value": 2
       }
     ],
@@ -159,11 +159,11 @@
         "value": 6000
       },
       {
-        "name": "Cadence Bud",
+        "name": "Waveworn Residue 226",
         "value": 3
       },
       {
-        "name": "MF Polygon Core",
+        "name": "MF Tidal Residuum",
         "value": 3
       }
     ],
@@ -173,11 +173,11 @@
         "value": 16000
       },
       {
-        "name": "Cadence Leaf",
+        "name": "Waveworn Residue 235",
         "value": 3
       },
       {
-        "name": "HF Polygon Core",
+        "name": "HF Tidal Residuum",
         "value": 2
       }
     ],
@@ -187,15 +187,15 @@
         "value": 30000
       },
       {
-        "name": "Cadence Leaf",
+        "name": "Waveworn Residue 235",
         "value": 5
       },
       {
-        "name": "HF Polygon Core",
+        "name": "HF Tidal Residuum",
         "value": 3
       },
       {
-        "name": "The Netherworld's Stare",
+        "name": "When Irises Bloom",
         "value": 1
       }
     ],
@@ -205,15 +205,15 @@
         "value": 50000
       },
       {
-        "name": "Cadence Blossom",
+        "name": "Waveworn Residue 239",
         "value": 2
       },
       {
-        "name": "FF Polygon Core",
+        "name": "FF Tidal Residuum",
         "value": 2
       },
       {
-        "name": "The Netherworld's Stare",
+        "name": "When Irises Bloom",
         "value": 1
       }
     ],
@@ -223,15 +223,15 @@
         "value": 70000
       },
       {
-        "name": "Cadence Blossom",
+        "name": "Waveworn Residue 239",
         "value": 3
       },
       {
-        "name": "FF Polygon Core",
+        "name": "FF Tidal Residuum",
         "value": 3
       },
       {
-        "name": "The Netherworld's Stare",
+        "name": "When Irises Bloom",
         "value": 1
       }
     ],
@@ -241,15 +241,15 @@
         "value": 100000
       },
       {
-        "name": "Cadence Blossom",
+        "name": "Waveworn Residue 239",
         "value": 6
       },
       {
-        "name": "FF Polygon Core",
+        "name": "FF Tidal Residuum",
         "value": 4
       },
       {
-        "name": "The Netherworld's Stare",
+        "name": "When Irises Bloom",
         "value": 1
       }
     ]
@@ -261,11 +261,11 @@
         "value": 50000
       },
       {
-        "name": "HF Polygon Core",
+        "name": "HF Tidal Residuum",
         "value": 3
       },
       {
-        "name": "Cadence Leaf",
+        "name": "Waveworn Residue 235",
         "value": 3
       }
     ],
@@ -275,15 +275,15 @@
         "value": 100000
       },
       {
-        "name": "FF Polygon Core",
+        "name": "FF Tidal Residuum",
         "value": 3
       },
       {
-        "name": "Cadence Blossom",
+        "name": "Waveworn Residue 239",
         "value": 3
       },
       {
-        "name": "The Netherworld's Stare",
+        "name": "When Irises Bloom",
         "value": 1
       }
     ]
@@ -295,15 +295,15 @@
         "value": 10000
       },
       {
-        "name": "MF Polygon Core",
+        "name": "MF Tidal Residuum",
         "value": 3
       },
       {
-        "name": "Cadence Bud",
+        "name": "Waveworn Residue 226",
         "value": 3
       },
       {
-        "name": "The Netherworld's Stare",
+        "name": "When Irises Bloom",
         "value": 1
       }
     ],
@@ -313,15 +313,15 @@
         "value": 20000
       },
       {
-        "name": "HF Polygon Core",
+        "name": "HF Tidal Residuum",
         "value": 3
       },
       {
-        "name": "Cadence Leaf",
+        "name": "Waveworn Residue 235",
         "value": 3
       },
       {
-        "name": "The Netherworld's Stare",
+        "name": "When Irises Bloom",
         "value": 1
       }
     ]

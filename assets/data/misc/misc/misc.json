@@ -1,0 +1,15 @@
+{
+  "nations": ["Huanglong", "Rinascita", "Black Shores"],
+  "attributes": ["Fusion", "Glacio", "Aero", "Electro", "Spectro", "Havoc"],
+  "classes": [
+    "Congenital",
+    "Mutant",
+    "Natural",
+    "Artificial",
+    "Unknown",
+    "Non-congenital",
+    "Acquired",
+    "Arbiters"
+  ],
+  "weapons": ["Swords", "Broadblade", "Pistols", "Gauntlets", "Rectifiers"]
+}

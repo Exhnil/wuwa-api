@@ -1,13 +1,13 @@
 {
-  "id": "iuno",
-  "name": "Iuno",
-  "attribute": "Aero",
-  "weapon": "Gauntlets",
+  "id": "lupa",
+  "name": "Lupa",
+  "attribute": "Fusion",
+  "weapon": "Broadblade",
   "gender": "Female",
   "nation": "Rinascita",
-  "class": "Congenital",
+  "class": "Non-congenital",
   "rarity": 5,
-  "release": "2025-09-25",
+  "release": "2025-07-03",
   "ascension_materials": {
     "20": [
       {
@@ -15,7 +15,7 @@
         "value": 5000
       },
       {
-        "name": "LF Polygon Core",
+        "name": "LF Howler Core",
         "value": 4
       }
     ],
@@ -25,15 +25,15 @@
         "value": 10000
       },
       {
-        "name": "Silverglow Bloom",
+        "name": "Bloodleaf Viburnum",
         "value": 4
       },
       {
-        "name": "MF Polygon Core",
+        "name": "MF Howler Core",
         "value": 4
       },
       {
-        "name": "Abyssal Husk",
+        "name": "Unfading Glory",
         "value": 3
       }
     ],
@@ -43,15 +43,15 @@
         "value": 15000
       },
       {
-        "name": "Silverglow Bloom",
+        "name": "Bloodleaf Viburnum",
         "value": 8
       },
       {
-        "name": "MF Polygon Core",
+        "name": "MF Howler Core",
         "value": 8
       },
       {
-        "name": "Abyssal Husk",
+        "name": "Unfading Glory",
         "value": 6
       }
     ],
@@ -61,15 +61,15 @@
         "value": 20000
       },
       {
-        "name": "Silverglow Bloom",
+        "name": "Bloodleaf Viburnum",
         "value": 12
       },
       {
-        "name": "HF Polygon Core",
+        "name": "HF Howler Core",
         "value": 4
       },
       {
-        "name": "Abyssal Husk",
+        "name": "Unfading Glory",
         "value": 9
       }
     ],
@@ -79,15 +79,15 @@
         "value": 40000
       },
       {
-        "name": "Silverglow Bloom",
+        "name": "Bloodleaf Viburnum",
         "value": 16
       },
       {
-        "name": "HF Polygon Core",
+        "name": "HF Howler Core",
         "value": 8
       },
       {
-        "name": "Abyssal Husk",
+        "name": "Unfading Glory",
         "value": 12
       }
     ],
@@ -97,15 +97,15 @@
         "value": 80000
       },
       {
-        "name": "Silverglow Bloom",
+        "name": "Bloodleaf Viburnum",
         "value": 20
       },
       {
-        "name": "FF Polygon Core",
+        "name": "FF Howler Core",
         "value": 4
       },
       {
-        "name": "Abyssal Husk",
+        "name": "Unfading Glory",
         "value": 16
       }
     ]
@@ -117,11 +117,11 @@
         "value": 1500
       },
       {
-        "name": "Cadence Seed",
+        "name": "Waveworn Residue 210",
         "value": 2
       },
       {
-        "name": "LF Polygon Core",
+        "name": "LF Howler Core",
         "value": 2
       }
     ],
@@ -131,11 +131,11 @@
         "value": 2000
       },
       {
-        "name": "Cadence Seed",
+        "name": "Waveworn Residue 210",
         "value": 3
       },
       {
-        "name": "LF Polygon Core",
+        "name": "LF Howler Core",
         "value": 3
       }
     ],
@@ -145,11 +145,11 @@
         "value": 4500
       },
       {
-        "name": "Cadence Bud",
+        "name": "Waveworn Residue 226",
         "value": 2
       },
       {
-        "name": "MF Polygon Core",
+        "name": "MF Howler Core",
         "value": 2
       }
     ],
@@ -159,11 +159,11 @@
         "value": 6000
       },
       {
-        "name": "Cadence Bud",
+        "name": "Waveworn Residue 226",
         "value": 3
       },
       {
-        "name": "MF Polygon Core",
+        "name": "MF Howler Core",
         "value": 3
       }
     ],
@@ -173,11 +173,11 @@
         "value": 16000
       },
       {
-        "name": "Cadence Leaf",
+        "name": "Waveworn Residue 235",
         "value": 3
       },
       {
-        "name": "HF Polygon Core",
+        "name": "HF Howler Core",
         "value": 2
       }
     ],
@@ -187,11 +187,11 @@
         "value": 30000
       },
       {
-        "name": "Cadence Leaf",
+        "name": "Waveworn Residue 235",
         "value": 5
       },
       {
-        "name": "HF Polygon Core",
+        "name": "HF Howler Core",
         "value": 3
       },
       {
@@ -205,11 +205,11 @@
         "value": 50000
       },
       {
-        "name": "Cadence Blossom",
+        "name": "Waveworn Residue 239",
         "value": 2
       },
       {
-        "name": "FF Polygon Core",
+        "name": "FF Howler Core",
         "value": 2
       },
       {
@@ -223,11 +223,11 @@
         "value": 70000
       },
       {
-        "name": "Cadence Blossom",
+        "name": "Waveworn Residue 239",
         "value": 3
       },
       {
-        "name": "FF Polygon Core",
+        "name": "FF Howler Core",
         "value": 3
       },
       {
@@ -241,11 +241,11 @@
         "value": 100000
       },
       {
-        "name": "Cadence Blossom",
+        "name": "Waveworn Residue 239",
         "value": 6
       },
       {
-        "name": "FF Polygon Core",
+        "name": "FF Howler Core",
         "value": 4
       },
       {
@@ -261,11 +261,11 @@
         "value": 50000
       },
       {
-        "name": "HF Polygon Core",
+        "name": "HF Howler Core",
         "value": 3
       },
       {
-        "name": "Cadence Leaf",
+        "name": "Waveworn Residue 235",
         "value": 3
       }
     ],
@@ -275,11 +275,11 @@
         "value": 100000
       },
       {
-        "name": "FF Polygon Core",
+        "name": "FF Howler Core",
         "value": 3
       },
       {
-        "name": "Cadence Blossom",
+        "name": "Waveworn Residue 239",
         "value": 3
       },
       {
@@ -295,11 +295,11 @@
         "value": 10000
       },
       {
-        "name": "MF Polygon Core",
+        "name": "MF Howler Core",
         "value": 3
       },
       {
-        "name": "Cadence Bud",
+        "name": "Waveworn Residue 226",
         "value": 3
       },
       {
@@ -313,11 +313,11 @@
         "value": 20000
       },
       {
-        "name": "HF Polygon Core",
+        "name": "HF Howler Core",
         "value": 3
       },
       {
-        "name": "Cadence Leaf",
+        "name": "Waveworn Residue 235",
         "value": 3
       },
       {
