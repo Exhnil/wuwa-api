@@ -1,6 +1,7 @@
 {
     "name": "FF Howler Core",
     "id": "ff-howler-core",
+    "type": "Weapon and Skill Material",
     "rarity": 5,
     "source": "enemies"
 }

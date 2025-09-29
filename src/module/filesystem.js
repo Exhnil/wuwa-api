@@ -8,8 +8,8 @@ const cache = new keyv();
 const dataDir = path.join(process.cwd(), "/assets/data");
 const imageDir = path.join(process.cwd(), "/assets/images");
 
-export async function containsFolders(path) {
-  const folder = await fs.readdir(path.join(dataDir, path), {
+export async function containsFolders(p) {
+  const folder = await fs.readdir(path.join(dataDir, p), {
     withFileTypes: true,
   });
   return folder.some((f) => f.isDirectory());

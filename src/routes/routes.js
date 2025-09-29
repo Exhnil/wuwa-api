@@ -69,7 +69,7 @@ router.get("/:type{/:id}", async (req, res) => {
       res.status(404).json({ error: "Not found" });
     }
   } catch (e) {
-    console.error(`Error fetching entity for ${fullPath}:`, e);
+    console.error(`Error fetching entity for`, e);
     res.status(500).json({ error: "Internal server error" });
   }
 });
