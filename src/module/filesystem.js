@@ -20,6 +20,7 @@ function pathSafety(base, ...parts) {
 
 export async function containsFolders(p) {
   const fullPath = pathSafety(dataDir, p);
+  if (!existsSync(fullPath)) return false;
   const folder = await fs.readdir(fullPath, {
     withFileTypes: true,
   });
@@ -32,11 +33,12 @@ export async function getTypes() {
     return found;
   }
   const types = await fs.readdir(dataDir);
+  const typesLower = types.map((t) => t.toLowerCase());
 
-  await cache.set("types", types);
+  await cache.set("types", typesLower);
   console.log("Cached types");
 
-  return types;
+  return typesLower;
 }
 
 export async function getAvailableEntities(type) {
@@ -48,9 +50,10 @@ export async function getAvailableEntities(type) {
   if (!existsSync(dirPath)) return [];
 
   const entities = await fs.readdir(dirPath);
+  const entitiesLower = entities.map((e) => e.toLowerCase());
 
-  await cache.set(cacheId, entities);
-  return entities;
+  await cache.set(cacheId, entitiesLower);
+  return entitiesLower;
 }
 
 export async function getAvailableImages(type, id) {
@@ -62,8 +65,10 @@ export async function getAvailableImages(type, id) {
   if (!existsSync(filePath)) return [];
 
   const images = await fs.readdir(filePath);
-  await cache.set(cacheId, images);
-  return images;
+  const imagesLower = images.map((f) => f.toLowerCase());
+
+  await cache.set(cacheId, imagesLower);
+  return imagesLower;
 }
 
 export async function getImage(type, id, image) {
