@@ -97,7 +97,23 @@ export async function getEntity(type, id) {
   const found = await cache.get(cacheId);
   if (found) return found;
 
-  const filePath = pathSafety(dataDir, type, id, id + ".json");
+  const typeDir = pathSafety(dataDir, type);
+  if (!existsSync(typeDir)) return null;
+
+  const folders = await fs.readdir(typeDir);
+  const actualFolder = folders.find(
+    (f) => f.toLowerCase() === id.toLowerCase()
+  );
+  if (!actualFolder) return null;
+
+  const filePath = pathSafety(
+    dataDir,
+    type,
+    actualFolder,
+    actualFolder + ".json"
+  );
+
+  //const filePath = pathSafety(dataDir, type, id, id + ".json");
 
   if (!existsSync(filePath)) {
     return null;
