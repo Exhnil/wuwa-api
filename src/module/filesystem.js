@@ -20,7 +20,6 @@ function pathSafety(base, ...parts) {
 
 export async function containsFolders(p) {
   const fullPath = pathSafety(dataDir, p);
-  if (!existsSync(fullPath)) return false;
   const folder = await fs.readdir(fullPath, {
     withFileTypes: true,
   });
@@ -33,12 +32,11 @@ export async function getTypes() {
     return found;
   }
   const types = await fs.readdir(dataDir);
-  const typesLower = types.map((t) => t.toLowerCase());
 
-  await cache.set("types", typesLower);
+  await cache.set("types", types);
   console.log("Cached types");
 
-  return typesLower;
+  return types;
 }
 
 export async function getAvailableEntities(type) {
@@ -50,10 +48,9 @@ export async function getAvailableEntities(type) {
   if (!existsSync(dirPath)) return [];
 
   const entities = await fs.readdir(dirPath);
-  const entitiesLower = entities.map((e) => e.toLowerCase());
 
-  await cache.set(cacheId, entitiesLower);
-  return entitiesLower;
+  await cache.set(cacheId, entities);
+  return entities;
 }
 
 export async function getAvailableImages(type, id) {
@@ -65,10 +62,8 @@ export async function getAvailableImages(type, id) {
   if (!existsSync(filePath)) return [];
 
   const images = await fs.readdir(filePath);
-  const imagesLower = images.map((f) => f.toLowerCase());
-
-  await cache.set(cacheId, imagesLower);
-  return imagesLower;
+  await cache.set(cacheId, images);
+  return images;
 }
 
 export async function getImage(type, id, image) {
@@ -97,23 +92,7 @@ export async function getEntity(type, id) {
   const found = await cache.get(cacheId);
   if (found) return found;
 
-  const typeDir = pathSafety(dataDir, type);
-  if (!existsSync(typeDir)) return null;
-
-  const folders = await fs.readdir(typeDir);
-  const actualFolder = folders.find(
-    (f) => f.toLowerCase() === id.toLowerCase()
-  );
-  if (!actualFolder) return null;
-
-  const filePath = pathSafety(
-    dataDir,
-    type,
-    actualFolder,
-    actualFolder + ".json"
-  );
-
-  //const filePath = pathSafety(dataDir, type, id, id + ".json");
+  const filePath = pathSafety(dataDir, type, id, id + ".json");
 
   if (!existsSync(filePath)) {
     return null;

@@ -1,0 +1,329 @@
+{
+  "id": "lupa",
+  "name": "Lupa",
+  "attribute": "Fusion",
+  "weapon": "Broadblade",
+  "gender": "Female",
+  "nation": "Rinascita",
+  "class": "Non-congenital",
+  "rarity": 5,
+  "release": "2025-07-03",
+  "ascension_materials": {
+    "20": [
+      {
+        "name": "Shell Credit",
+        "value": 5000
+      },
+      {
+        "name": "LF Howler Core",
+        "value": 4
+      }
+    ],
+    "40": [
+      {
+        "name": "Shell Credit",
+        "value": 10000
+      },
+      {
+        "name": "Bloodleaf Viburnum",
+        "value": 4
+      },
+      {
+        "name": "MF Howler Core",
+        "value": 4
+      },
+      {
+        "name": "Unfading Glory",
+        "value": 3
+      }
+    ],
+    "50": [
+      {
+        "name": "Shell Credit",
+        "value": 15000
+      },
+      {
+        "name": "Bloodleaf Viburnum",
+        "value": 8
+      },
+      {
+        "name": "MF Howler Core",
+        "value": 8
+      },
+      {
+        "name": "Unfading Glory",
+        "value": 6
+      }
+    ],
+    "60": [
+      {
+        "name": "Shell Credit",
+        "value": 20000
+      },
+      {
+        "name": "Bloodleaf Viburnum",
+        "value": 12
+      },
+      {
+        "name": "HF Howler Core",
+        "value": 4
+      },
+      {
+        "name": "Unfading Glory",
+        "value": 9
+      }
+    ],
+    "70": [
+      {
+        "name": "Shell Credit",
+        "value": 40000
+      },
+      {
+        "name": "Bloodleaf Viburnum",
+        "value": 16
+      },
+      {
+        "name": "HF Howler Core",
+        "value": 8
+      },
+      {
+        "name": "Unfading Glory",
+        "value": 12
+      }
+    ],
+    "80": [
+      {
+        "name": "Shell Credit",
+        "value": 80000
+      },
+      {
+        "name": "Bloodleaf Viburnum",
+        "value": 20
+      },
+      {
+        "name": "FF Howler Core",
+        "value": 4
+      },
+      {
+        "name": "Unfading Glory",
+        "value": 16
+      }
+    ]
+  },
+  "skill_materials": {
+    "2": [
+      {
+        "name": "Shell Credit",
+        "value": 1500
+      },
+      {
+        "name": "Waveworn Residue 210",
+        "value": 2
+      },
+      {
+        "name": "LF Howler Core",
+        "value": 2
+      }
+    ],
+    "3": [
+      {
+        "name": "Shell Credit",
+        "value": 2000
+      },
+      {
+        "name": "Waveworn Residue 210",
+        "value": 3
+      },
+      {
+        "name": "LF Howler Core",
+        "value": 3
+      }
+    ],
+    "4": [
+      {
+        "name": "Shell Credit",
+        "value": 4500
+      },
+      {
+        "name": "Waveworn Residue 226",
+        "value": 2
+      },
+      {
+        "name": "MF Howler Core",
+        "value": 2
+      }
+    ],
+    "5": [
+      {
+        "name": "Shell Credit",
+        "value": 6000
+      },
+      {
+        "name": "Waveworn Residue 226",
+        "value": 3
+      },
+      {
+        "name": "MF Howler Core",
+        "value": 3
+      }
+    ],
+    "6": [
+      {
+        "name": "Shell Credit",
+        "value": 16000
+      },
+      {
+        "name": "Waveworn Residue 235",
+        "value": 3
+      },
+      {
+        "name": "HF Howler Core",
+        "value": 2
+      }
+    ],
+    "7": [
+      {
+        "name": "Shell Credit",
+        "value": 30000
+      },
+      {
+        "name": "Waveworn Residue 235",
+        "value": 5
+      },
+      {
+        "name": "HF Howler Core",
+        "value": 3
+      },
+      {
+        "name": "The Netherworld's Stare",
+        "value": 1
+      }
+    ],
+    "8": [
+      {
+        "name": "Shell Credit",
+        "value": 50000
+      },
+      {
+        "name": "Waveworn Residue 239",
+        "value": 2
+      },
+      {
+        "name": "FF Howler Core",
+        "value": 2
+      },
+      {
+        "name": "The Netherworld's Stare",
+        "value": 1
+      }
+    ],
+    "9": [
+      {
+        "name": "Shell Credit",
+        "value": 70000
+      },
+      {
+        "name": "Waveworn Residue 239",
+        "value": 3
+      },
+      {
+        "name": "FF Howler Core",
+        "value": 3
+      },
+      {
+        "name": "The Netherworld's Stare",
+        "value": 1
+      }
+    ],
+    "10": [
+      {
+        "name": "Shell Credit",
+        "value": 100000
+      },
+      {
+        "name": "Waveworn Residue 239",
+        "value": 6
+      },
+      {
+        "name": "FF Howler Core",
+        "value": 4
+      },
+      {
+        "name": "The Netherworld's Stare",
+        "value": 1
+      }
+    ]
+  },
+  "stats_bonus_materials": {
+    "rank_1": [
+      {
+        "name": "Shell Credit",
+        "value": 50000
+      },
+      {
+        "name": "HF Howler Core",
+        "value": 3
+      },
+      {
+        "name": "Waveworn Residue 235",
+        "value": 3
+      }
+    ],
+    "rank_2": [
+      {
+        "name": "Shell Credit",
+        "value": 100000
+      },
+      {
+        "name": "FF Howler Core",
+        "value": 3
+      },
+      {
+        "name": "Waveworn Residue 239",
+        "value": 3
+      },
+      {
+        "name": "The Netherworld's Stare",
+        "value": 1
+      }
+    ]
+  },
+  "inherent_skill_materials": {
+    "skill_1": [
+      {
+        "name": "Shell Credit",
+        "value": 10000
+      },
+      {
+        "name": "MF Howler Core",
+        "value": 3
+      },
+      {
+        "name": "Waveworn Residue 226",
+        "value": 3
+      },
+      {
+        "name": "The Netherworld's Stare",
+        "value": 1
+      }
+    ],
+    "skill_2": [
+      {
+        "name": "Shell Credit",
+        "value": 20000
+      },
+      {
+        "name": "HF Howler Core",
+        "value": 3
+      },
+      {
+        "name": "Waveworn Residue 235",
+        "value": 3
+      },
+      {
+        "name": "The Netherworld's Stare",
+        "value": 1
+      }
+    ]
+  }
+}
