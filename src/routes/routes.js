@@ -11,31 +11,29 @@ import mime from "mime-types";
 
 const router = Router();
 
-router.get("/", async (req, res) => {
+router.get("/", async (req, res, next) => {
   try {
     const types = await getTypes();
     res.json({ types });
   } catch (e) {
     console.error("Error getting types:", e);
-    res.status(500).json({ error: "Internal server error" });
+    next(e);
   }
 });
 
-router.get("/:type/:id/list", async (req, res) => {
+router.get("/:type/:id/list", async (req, res, next) => {
   const { type, id } = req.params;
 
   try {
     const images = await getAvailableImages(type, id);
-    if (!images || images.length === 0)
-      return res.status(404).json({ error: "No images found" });
-    res.json(images);
+    res.json(images || []);
   } catch (e) {
     console.error(`Error getting images for ${type}/${id}:`, e);
-    res.status(500).json({ error: "Internal server error" });
+    next(e);
   }
 });
 
-router.get("/:type/all", async (req, res) => {
+router.get("/:type/all", async (req, res, next) => {
   const { type } = req.params;
 
   try {
@@ -48,11 +46,11 @@ router.get("/:type/all", async (req, res) => {
     res.json(entityObjects);
   } catch (e) {
     console.error(`Error getting all entities for type ${type}:`, e);
-    res.status(500).json({ error: "Internal server error" });
+    next(e);
   }
 });
 
-router.get("/:type{/:id}", async (req, res) => {
+router.get("/:type{/:id}", async (req, res, next) => {
   const { type, id } = req.params;
 
   try {
@@ -70,7 +68,7 @@ router.get("/:type{/:id}", async (req, res) => {
     }
   } catch (e) {
     console.error(`Error fetching entity for`, e);
-    res.status(500).json({ error: "Internal server error" });
+    next(e);
   }
 });
 
@@ -81,15 +79,11 @@ router.get("/:type/:id/:imageType", async (req, res) => {
     const image = await getImage(type, id, imageType);
     if (!image) return res.status(404).json({ error: "Image not found" });
 
-    const mimeType = mime.lookup(imageType) || "application/octet-stream";
-    res.writeHead(200, {
-      "Conten-Type": mimeType,
-      "Content-Length": image.image.length,
-    });
-    res.end(image.image);
+    res.set("Content-Type", image.type);
+    res.send(image.image);
   } catch (e) {
     console.error("Error fetching image " + type);
-    res.status(500).json({ error: "Internal server error" });
+    next(e);
   }
 });
 

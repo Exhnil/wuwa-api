@@ -8,8 +8,19 @@ const cache = new keyv();
 const dataDir = path.join(process.cwd(), "/assets/data");
 const imageDir = path.join(process.cwd(), "/assets/images");
 
+function pathSafety(base, ...parts) {
+  const resolveBase = path.resolve(base);
+  const p = path.resolve(resolveBase, ...parts);
+
+  if (p === resolveBase || p.startsWith(resolveBase + path.sep)) {
+    return p;
+  }
+  throw new Error("Path traversal");
+}
+
 export async function containsFolders(p) {
-  const folder = await fs.readdir(path.join(dataDir, p), {
+  const fullPath = pathSafety(dataDir, p);
+  const folder = await fs.readdir(fullPath, {
     withFileTypes: true,
   });
   return folder.some((f) => f.isDirectory());
@@ -33,7 +44,7 @@ export async function getAvailableEntities(type) {
   const found = await cache.get(cacheId);
   if (found) return found;
 
-  const dirPath = path.join(dataDir, type);
+  const dirPath = pathSafety(dataDir, type);
   if (!existsSync(dirPath)) return [];
 
   const entities = await fs.readdir(dirPath);
@@ -47,7 +58,7 @@ export async function getAvailableImages(type, id) {
   const found = await cache.get(cacheId);
   if (found) return found;
 
-  const filePath = path.join(imageDir, type, id).normalize();
+  const filePath = pathSafety(imageDir, type, id);
   if (!existsSync(filePath)) return [];
 
   const images = await fs.readdir(filePath);
@@ -57,7 +68,7 @@ export async function getAvailableImages(type, id) {
 
 export async function getImage(type, id, image) {
   try {
-    const filePath = path.join(imageDir, type, id, image).normalize();
+    const filePath = pathSafety(imageDir, type, id, image);
 
     if (!existsSync(filePath)) {
       return null;
@@ -81,7 +92,7 @@ export async function getEntity(type, id) {
   const found = await cache.get(cacheId);
   if (found) return found;
 
-  const filePath = path.join(dataDir, type, id, id + ".json").normalize();
+  const filePath = pathSafety(dataDir, type, id, id + ".json");
 
   if (!existsSync(filePath)) {
     return null;
