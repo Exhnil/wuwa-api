@@ -4,6 +4,9 @@ import routes from "./routes/routes.js";
 import cors from "cors";
 import morgan from "morgan";
 import helmet from "helmet";
+import rateLimit from "express-rate-limit";
+import fs from "fs";
+import path from "path";
 
 dotenv.config();
 
@@ -19,9 +22,27 @@ if (process.env.NODE_ENV !== "development") {
 
 app.use(helmet());
 
-app.use((err, req, res, next) => {
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 100,
+});
+
+app.use(limiter);
+
+const logFile = Path2D.join(__dirname, "errors.log");
+
+app.use((error, req, res, next) => {
   console.error(err.stack);
-  res.status(500).json({ error: "Internal server error" });
+  const log = `[${new Date().toISOString()}] ${err.stack}\n`;
+  fs.appendFile(logFile, log, (e) => {
+    if (e) console.error("Failed to write log", e);
+  });
+  res.status(500).json({
+    message:
+      process.env.NODE_ENV === "production"
+        ? "Internal Server Error"
+        : error.message,
+  });
 });
 
 app.use(
