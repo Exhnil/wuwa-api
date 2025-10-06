@@ -1,13 +1,13 @@
 {
-    "id": "the shorekeeper",
-    "name": "The Shorekeeper",
-    "attribute": "Spectro",
-    "weapon": "Rectifiers",
-    "gender": "Female",
-    "nation": "The Black Shores",
-    "class": "Unknown",
+    "id": "xiangliyao",
+    "name": "Xiangli Yao",
+    "attribute": "Electro",
+    "weapon": "Gauntlets",
+    "gender": "Male",
+    "nation": "Huanglong",
+    "class": "Mutant",
     "rarity": 5,
-    "release": "2024-09-29",
+    "release": "2024-09-07",
     "ascension_materials": {
         "20": [
             {
@@ -25,7 +25,7 @@
                 "value": 10000
             },
             {
-                "name": "Nova",
+                "name": "Violet Coral",
                 "value": 4
             },
             {
@@ -33,7 +33,7 @@
                 "value": 4
             },
             {
-                "name": "Topological Confinement",
+                "name": "Thundering Tacet Core",
                 "value": 3
             }
         ],
@@ -43,7 +43,7 @@
                 "value": 15000
             },
             {
-                "name": "Nova",
+                "name": "Violet Coral",
                 "value": 8
             },
             {
@@ -51,7 +51,7 @@
                 "value": 8
             },
             {
-                "name": "Topological Confinement",
+                "name": "Thundering Tacet Core",
                 "value": 6
             }
         ],
@@ -61,7 +61,7 @@
                 "value": 20000
             },
             {
-                "name": "Nova",
+                "name": "Violet Coral",
                 "value": 12
             },
             {
@@ -69,7 +69,7 @@
                 "value": 4
             },
             {
-                "name": "Topological Confinement",
+                "name": "Thundering Tacet Core",
                 "value": 9
             }
         ],
@@ -79,7 +79,7 @@
                 "value": 40000
             },
             {
-                "name": "Nova",
+                "name": "Violet Coral",
                 "value": 16
             },
             {
@@ -87,7 +87,7 @@
                 "value": 8
             },
             {
-                "name": "Topological Confinement",
+                "name": "Thundering Tacet Core",
                 "value": 12
             }
         ],
@@ -97,7 +97,7 @@
                 "value": 80000
             },
             {
-                "name": "Nova",
+                "name": "Violet Coral",
                 "value": 20
             },
             {
@@ -105,7 +105,7 @@
                 "value": 4
             },
             {
-                "name": "Topological Confinement",
+                "name": "Thundering Tacet Core",
                 "value": 16
             }
         ]
@@ -117,7 +117,7 @@
                 "value": 1500
             },
             {
-                "name": "Lento Helix",
+                "name": "Cadence Seed",
                 "value": 2
             },
             {
@@ -131,7 +131,7 @@
                 "value": 2000
             },
             {
-                "name": "Lento Helix",
+                "name": "Cadence Seed",
                 "value": 3
             },
             {
@@ -145,7 +145,7 @@
                 "value": 4500
             },
             {
-                "name": "Adagio Helix",
+                "name": "Cadence Bud",
                 "value": 2
             },
             {
@@ -159,7 +159,7 @@
                 "value": 6000
             },
             {
-                "name": "Adagio Helix",
+                "name": "Cadence Bud",
                 "value": 3
             },
             {
@@ -173,7 +173,7 @@
                 "value": 16000
             },
             {
-                "name": "Andante Helix",
+                "name": "Cadence Leaf",
                 "value": 3
             },
             {
@@ -187,7 +187,7 @@
                 "value": 30000
             },
             {
-                "name": "Andante Helix",
+                "name": "Cadence Leaf",
                 "value": 5
             },
             {
@@ -195,7 +195,7 @@
                 "value": 3
             },
             {
-                "name": "Sentinel's Dagger",
+                "name": "Unending Destruction",
                 "value": 1
             }
         ],
@@ -205,7 +205,7 @@
                 "value": 50000
             },
             {
-                "name": "Presto Helix",
+                "name": "Cadence Blossom",
                 "value": 2
             },
             {
@@ -213,7 +213,7 @@
                 "value": 2
             },
             {
-                "name": "Sentinel's Dagger",
+                "name": "Unending Destruction",
                 "value": 1
             }
         ],
@@ -223,7 +223,7 @@
                 "value": 70000
             },
             {
-                "name": "Presto Helix",
+                "name": "Cadence Blossom",
                 "value": 3
             },
             {
@@ -231,7 +231,7 @@
                 "value": 3
             },
             {
-                "name": "Sentinel's Dagger",
+                "name": "Unending Destruction",
                 "value": 1
             }
         ],
@@ -241,7 +241,7 @@
                 "value": 100000
             },
             {
-                "name": "Presto Helix",
+                "name": "Cadence Blossom",
                 "value": 6
             },
             {
@@ -249,7 +249,7 @@
                 "value": 4
             },
             {
-                "name": "Sentinel's Dagger",
+                "name": "Unending Destruction",
                 "value": 1
             }
         ]
@@ -265,7 +265,7 @@
                 "value": 3
             },
             {
-                "name": "Andante Helix",
+                "name": "Cadence Leaf",
                 "value": 3
             }
         ],
@@ -279,11 +279,11 @@
                 "value": 3
             },
             {
-                "name": "Presto Helix",
+                "name": "Cadence Blossom",
                 "value": 3
             },
             {
-                "name": "Sentinel's Dagger",
+                "name": "Unending Destruction",
                 "value": 1
             }
         ]
@@ -299,11 +299,11 @@
                 "value": 3
             },
             {
-                "name": "Adagio Helix",
+                "name": "Cadence Bud",
                 "value": 3
             },
             {
-                "name": "Sentinel's Dagger",
+                "name": "Unending Destruction",
                 "value": 1
             }
         ],
@@ -317,11 +317,11 @@
                 "value": 3
             },
             {
-                "name": "Andante Helix",
+                "name": "Cadence Leaf",
                 "value": 3
             },
             {
-                "name": "Sentinel's Dagger",
+                "name": "Unending Destruction",
                 "value": 1
             }
         ]
