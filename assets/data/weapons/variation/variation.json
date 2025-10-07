@@ -1,0 +1,91 @@
+{
+    "name": "Variation",
+    "id": "variation",
+    "type": "Rectifiers",
+    "rarity": 4,
+    "base_attack": 27,
+    "sub_stat": "Energy Regen",
+    "sub_stat_base": 11.5,
+    "ascension_materials": {
+        "20": [
+            {
+                "name": "Shell Credit",
+                "value": 8000
+            },
+            {
+                "name": "Crude Ring",
+                "value": 5
+            }
+        ],
+        "40": [
+            {
+                "name": "Shell Credit",
+                "value": 16000
+            },
+            {
+                "name": "Basic Ring",
+                "value": 5
+            },
+            {
+                "name": "Lento Helix",
+                "value": 5
+            }
+        ],
+        "50": [
+            {
+                "name": "Shell Credit",
+                "value": 32000
+            },
+            {
+                "name": "Improved Ring",
+                "value": 4
+            },
+            {
+                "name": "Adagio Helix",
+                "value": 7
+            }
+        ],
+        "60": [
+            {
+                "name": "Shell Credit",
+                "value": 48000
+            },
+            {
+                "name": "Improved Ring",
+                "value": 5
+            },
+            {
+                "name": "Andante Helix",
+                "value": 5
+            }
+        ],
+        "70": [
+            {
+                "name": "Shell Credit",
+                "value": 64000
+            },
+            {
+                "name": "Tailored Ring",
+                "value": 4
+            },
+            {
+                "name": "Presto Helix",
+                "value": 7
+            }
+        ],
+        "80": [
+            {
+                "name": "Shell Credit",
+                "value": 96000
+            },
+            {
+                "name": "Tailored Ring",
+                "value": 7
+            },
+            {
+                "name": "Presto Helix",
+                "value": 10
+            }
+        ]
+    }
+}
