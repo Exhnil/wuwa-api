@@ -2,7 +2,7 @@
     "name": "Moongazer's Sigil",
     "id": "moongazer-s-sigil",
     "type": "Gauntlets",
-    "rarity": 4,
+    "rarity": 5,
     "base_attack": 40,
     "sub_stat": "Crit. Rate",
     "sub_stat_base": 8.0,
