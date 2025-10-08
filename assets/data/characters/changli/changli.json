@@ -9,7 +9,7 @@
   "rarity": 5,
   "release": "2024-07-22",
   "ascension_materials": {
-    "20": [
+    "1": [
       {
         "name": "Shell Credit",
         "value": 5000
@@ -19,7 +19,7 @@
         "value": 4
       }
     ],
-    "40": [
+    "2": [
       {
         "name": "Shell Credit",
         "value": 10000
@@ -37,7 +37,7 @@
         "value": 3
       }
     ],
-    "50": [
+    "3": [
       {
         "name": "Shell Credit",
         "value": 15000
@@ -55,7 +55,7 @@
         "value": 6
       }
     ],
-    "60": [
+    "4": [
       {
         "name": "Shell Credit",
         "value": 20000
@@ -73,7 +73,7 @@
         "value": 9
       }
     ],
-    "70": [
+    "5": [
       {
         "name": "Shell Credit",
         "value": 40000
@@ -91,7 +91,7 @@
         "value": 12
       }
     ],
-    "80": [
+    "6": [
       {
         "name": "Shell Credit",
         "value": 80000
