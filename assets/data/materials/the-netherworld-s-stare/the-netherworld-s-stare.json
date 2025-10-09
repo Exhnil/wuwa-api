@@ -3,5 +3,6 @@
   "id": "the-netherworld-s-stare",
   "type": "Skill Upgrade Material",
   "rarity": 4,
-  "source": "weekly"
+  "source": "weekly",
+  "group": "none"
 }

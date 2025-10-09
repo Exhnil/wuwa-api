@@ -1,7 +1,8 @@
 {
-    "name": "FF Polygon Core",
-    "id": "ff-polygon-core",
-    "type": "Weapon and Skill Material",
-    "rarity": 5,
-    "source": "enemies"
+  "name": "FF Polygon Core",
+  "id": "ff-polygon-core",
+  "type": "Weapon and Skill Material",
+  "rarity": 5,
+  "source": "enemies",
+  "group": "polygon-core"
 }

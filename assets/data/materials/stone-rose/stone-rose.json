@@ -1,7 +1,8 @@
 {
-    "name": "Stone Rose",
-    "id": "stone-rose",
-    "type": "Ascension Material",
-    "rarity": 1,
-    "source": "local"
+  "name": "Stone Rose",
+  "id": "stone-rose",
+  "type": "Ascension Material",
+  "rarity": 1,
+  "source": "local",
+  "group": "none"
 }

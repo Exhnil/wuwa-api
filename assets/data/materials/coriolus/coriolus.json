@@ -1,7 +1,8 @@
 {
-    "name": "Coriolus",
-    "id": "coriolus",
-    "type": "Ascension Material",
-    "rarity": 1,
-    "source": "local"
+  "name": "Coriolus",
+  "id": "coriolus",
+  "type": "Ascension Material",
+  "rarity": 1,
+  "source": "local",
+  "group": "none"
 }

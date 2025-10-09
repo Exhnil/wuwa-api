@@ -1,7 +1,8 @@
 {
-    "name": "Unfading Glory",
-    "id": "unfading-glory",
-    "type": "Resonator Ascension Material",
-    "rarity": 4,
-    "source": "boss"
+  "name": "Unfading Glory",
+  "id": "unfading-glory",
+  "type": "Resonator Ascension Material",
+  "rarity": 4,
+  "source": "boss",
+  "group": "none"
 }

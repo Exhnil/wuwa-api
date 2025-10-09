@@ -1,7 +1,8 @@
 {
-    "name": "Luminous Calendula",
-    "id": "luminous-calendula",
-    "type": "Ascension Material",
-    "rarity": 1,
-    "source": "local"
+  "name": "Luminous Calendula",
+  "id": "luminous-calendula",
+  "type": "Ascension Material",
+  "rarity": 1,
+  "source": "local",
+  "group": "none"
 }

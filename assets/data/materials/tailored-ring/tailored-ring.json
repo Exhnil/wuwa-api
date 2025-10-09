@@ -1,7 +1,8 @@
 {
-    "name": "Tailored Ring",
-    "id": "tailored-ring",
-    "type": "Weapon and Skill Material",
-    "rarity": 5,
-    "source": "enemies"
+  "name": "Tailored Ring",
+  "id": "tailored-ring",
+  "type": "Weapon and Skill Material",
+  "rarity": 5,
+  "source": "enemies",
+  "group": "ring"
 }

@@ -1,7 +1,8 @@
 {
-    "name": "Firecracker Jewelweed",
-    "id": "firecracker-jewelweed",
-    "type": "Ascension Material",
-    "rarity": 1,
-    "source": "local"
+  "name": "Firecracker Jewelweed",
+  "id": "firecracker-jewelweed",
+  "type": "Ascension Material",
+  "rarity": 1,
+  "source": "local",
+  "group": "none"
 }

@@ -1,7 +1,8 @@
 {
-    "name": "Reactive Metallic Drip",
-    "id": "reactive-metallic-drip",
-    "type": "Weapon and Skill Material",
-    "rarity": 3,
-    "source": "forgery"
+  "name": "Reactive Metallic Drip",
+  "id": "reactive-metallic-drip",
+  "type": "Weapon and Skill Material",
+  "rarity": 3,
+  "source": "forgery",
+  "group": "metallic-drip"
 }

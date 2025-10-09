@@ -1,7 +1,8 @@
 {
-    "name": "Roaring Rock Fist",
-    "id": "roaring-rock-fist",
-    "type": "Resonator Ascension Material",
-    "rarity": 4,
-    "source": "boss"
+  "name": "Roaring Rock Fist",
+  "id": "roaring-rock-fist",
+  "type": "Resonator Ascension Material",
+  "rarity": 4,
+  "source": "boss",
+  "group": "none"
 }

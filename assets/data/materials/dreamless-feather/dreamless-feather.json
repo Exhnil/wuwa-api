@@ -1,7 +1,8 @@
 {
-    "name": "Dreamless Feather",
-    "id": "dreamless-feather",
-    "type": "Skill Upgrade Material",
-    "rarity": 4,
-    "source": "weekly"
+  "name": "Dreamless Feather",
+  "id": "dreamless-feather",
+  "type": "Skill Upgrade Material",
+  "rarity": 4,
+  "source": "weekly",
+  "group": "none"
 }

@@ -1,7 +1,8 @@
 {
-    "name": "LF Polygon Core",
-    "id": "lf-polygon-core",
-    "type": "Weapon and Skill Material",
-    "rarity": 2,
-    "source": "enemies"
+  "name": "LF Polygon Core",
+  "id": "lf-polygon-core",
+  "type": "Weapon and Skill Material",
+  "rarity": 2,
+  "source": "enemies",
+  "group": "polygon-core"
 }

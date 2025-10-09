@@ -1,7 +1,8 @@
 {
-    "name": "Monument Bell",
-    "id": "monument-bell",
-    "type": "Skill Upgrade Material",
-    "rarity": 4,
-    "source": "weekly"
+  "name": "Monument Bell",
+  "id": "monument-bell",
+  "type": "Skill Upgrade Material",
+  "rarity": 4,
+  "source": "weekly",
+  "group": "none"
 }

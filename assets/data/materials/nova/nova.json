@@ -1,7 +1,8 @@
 {
-    "name": "Nova",
-    "id": "nova",
-    "type": "Ascension Material",
-    "rarity": 1,
-    "source": "local"
+  "name": "Nova",
+  "id": "nova",
+  "type": "Ascension Material",
+  "rarity": 1,
+  "source": "local",
+  "group": "none"
 }

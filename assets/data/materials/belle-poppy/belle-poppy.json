@@ -1,7 +1,8 @@
 {
-    "name": "Belle Poppy",
-    "id": "belle-poppy",
-    "type": "Ascension Material",
-    "rarity": 1,
-    "source": "local"
+  "name": "Belle Poppy",
+  "id": "belle-poppy",
+  "type": "Ascension Material",
+  "rarity": 1,
+  "source": "local",
+  "group": "none"
 }

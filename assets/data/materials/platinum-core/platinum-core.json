@@ -1,7 +1,8 @@
 {
-    "name": "Platinum Core",
-    "id": "platinum-core",
-    "type": "Resonator Ascension Material",
-    "rarity": 4,
-    "source": "boss"
+  "name": "Platinum Core",
+  "id": "platinum-core",
+  "type": "Resonator Ascension Material",
+  "rarity": 4,
+  "source": "boss",
+  "group": "none"
 }

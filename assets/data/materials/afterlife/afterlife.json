@@ -1,7 +1,8 @@
 {
-    "name": "\"Afterlife\"",
-    "id": "afterlife",
-    "type": "Ascension Material",
-    "rarity": 1,
-    "source": "local"
+  "name": "\"Afterlife\"",
+  "id": "afterlife",
+  "type": "Ascension Material",
+  "rarity": 1,
+  "source": "local",
+  "group": "none"
 }

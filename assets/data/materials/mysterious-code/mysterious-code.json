@@ -3,5 +3,6 @@
   "id": "mysterious-code",
   "type": "Resonator Ascension Material",
   "rarity": 5,
-  "source": "boss"
+  "source": "boss",
+  "group": "none"
 }

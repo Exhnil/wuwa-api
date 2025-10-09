@@ -1,7 +1,8 @@
 {
-    "name": "Silverglow Bloom",
-    "id": "silverglow-bloom",
-    "type": "Ascension Material",
-    "rarity": 1,
-    "source": "local"
+  "name": "Silverglow Bloom",
+  "id": "silverglow-bloom",
+  "type": "Ascension Material",
+  "rarity": 1,
+  "source": "local",
+  "group": "none"
 }

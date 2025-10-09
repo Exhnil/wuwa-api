@@ -1,7 +1,8 @@
 {
-    "name": "Cleansing Conch",
-    "id": "cleansing-conch",
-    "type": "Resonator Ascension Material",
-    "rarity": 4,
-    "source": "boss"
+  "name": "Cleansing Conch",
+  "id": "cleansing-conch",
+  "type": "Resonator Ascension Material",
+  "rarity": 4,
+  "source": "boss",
+  "group": "none"
 }

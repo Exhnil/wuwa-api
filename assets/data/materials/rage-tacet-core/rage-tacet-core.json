@@ -1,7 +1,8 @@
 {
-    "name": "Rage Tacet Core",
-    "id": "rage-tacet-core",
-    "type": "Resonator Ascension Material",
-    "rarity": 4,
-    "source": "boss"
+  "name": "Rage Tacet Core",
+  "id": "rage-tacet-core",
+  "type": "Resonator Ascension Material",
+  "rarity": 4,
+  "source": "boss",
+  "group": "none"
 }

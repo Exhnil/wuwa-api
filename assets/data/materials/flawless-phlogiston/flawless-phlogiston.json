@@ -1,7 +1,8 @@
 {
-    "name": "Flawless Phlogiston",
-    "id": "flawless-phlogiston",
-    "type": "Weapon and Skill Material",
-    "rarity": 5,
-    "source": "forgery"
+  "name": "Flawless Phlogiston",
+  "id": "flawless-phlogiston",
+  "type": "Weapon and Skill Material",
+  "rarity": 5,
+  "source": "forgery",
+  "group": "phlogiston"
 }

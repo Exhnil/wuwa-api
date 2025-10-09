@@ -1,7 +1,8 @@
 {
-    "name": "Cadence Leaf",
-    "id": "cadence-leaf",
-    "type": "Weapon and Skill Material",
-    "rarity": 4,
-    "source": "forgery"
+  "name": "Cadence Leaf",
+  "id": "cadence-leaf",
+  "type": "Weapon and Skill Material",
+  "rarity": 4,
+  "source": "forgery",
+  "group": "cadence"
 }

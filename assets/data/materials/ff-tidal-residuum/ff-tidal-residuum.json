@@ -1,7 +1,8 @@
 {
-    "name": "FF Tidal Residuum",
-    "id": "ff-tidal-residuum",
-    "type": "Weapon and Skill Material",
-    "rarity": 5,
-    "source": "enemies"
+  "name": "FF Tidal Residuum",
+  "id": "ff-tidal-residuum",
+  "type": "Weapon and Skill Material",
+  "rarity": 5,
+  "source": "enemies",
+  "group": "tidal-residuum"
 }

@@ -1,7 +1,8 @@
 {
-    "name": "Wintry Bell",
-    "id": "wintry-bell",
-    "type": "Ascension Material",
-    "rarity": 1,
-    "source": "local"
+  "name": "Wintry Bell",
+  "id": "wintry-bell",
+  "type": "Ascension Material",
+  "rarity": 1,
+  "source": "local",
+  "group": "none"
 }

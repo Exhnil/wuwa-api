@@ -1,7 +1,8 @@
 {
-    "name": "Presto Helix",
-    "id": "presto-helix",
-    "type": "Weapon and Skill Material",
-    "rarity": 5,
-    "source": "forgery"
+  "name": "Presto Helix",
+  "id": "presto-helix",
+  "type": "Weapon and Skill Material",
+  "rarity": 5,
+  "source": "forgery",
+  "group": "helix"
 }

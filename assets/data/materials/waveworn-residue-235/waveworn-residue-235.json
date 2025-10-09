@@ -1,7 +1,8 @@
 {
-    "name": "Waveworn Residue 235",
-    "id": "waveworn-residue-235",
-    "type": "Weapon and Skill Material",
-    "rarity": 4,
-    "source": "forgery"
+  "name": "Waveworn Residue 235",
+  "id": "waveworn-residue-235",
+  "type": "Weapon and Skill Material",
+  "rarity": 4,
+  "source": "forgery",
+  "group": "waveworn-residue"
 }

@@ -1,7 +1,8 @@
 {
-    "name": "Sword Acorus",
-    "id": "sword-acorus",
-    "type": "Ascension Material",
-    "rarity": 1,
-    "source": "local"
+  "name": "Sword Acorus",
+  "id": "sword-acorus",
+  "type": "Ascension Material",
+  "rarity": 1,
+  "source": "local",
+  "group": "none"
 }

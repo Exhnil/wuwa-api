@@ -1,7 +1,8 @@
 {
-    "name": "Pecok Flower",
-    "id": "pecok-flower",
-    "type": "Ascension Material",
-    "rarity": 1,
-    "source": "local"
+  "name": "Pecok Flower",
+  "id": "pecok-flower",
+  "type": "Ascension Material",
+  "rarity": 1,
+  "source": "local",
+  "group": "none"
 }

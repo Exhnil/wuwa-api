@@ -1,7 +1,8 @@
 {
-    "name": "Bloodleaf Viburnum",
-    "id": "bloodleaf-viburnum",
-    "type": "Ascension Material",
-    "rarity": 1,
-    "source": "local"
+  "name": "Bloodleaf Viburnum",
+  "id": "bloodleaf-viburnum",
+  "type": "Ascension Material",
+  "rarity": 1,
+  "source": "local",
+  "group": "none"
 }

@@ -1,7 +1,8 @@
 {
-    "name": "Lento Helix",
-    "id": "lento-helix",
-    "type": "Weapon and Skill Material",
-    "rarity": 2,
-    "source": "forgery"
+  "name": "Lento Helix",
+  "id": "lento-helix",
+  "type": "Weapon and Skill Material",
+  "rarity": 2,
+  "source": "forgery",
+  "group": "helix"
 }

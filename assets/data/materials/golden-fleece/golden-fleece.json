@@ -1,7 +1,8 @@
 {
-    "name": "Golden Fleece",
-    "id": "golden-fleece",
-    "type": "Ascension Material",
-    "rarity": 1,
-    "source": "local"
+  "name": "Golden Fleece",
+  "id": "golden-fleece",
+  "type": "Ascension Material",
+  "rarity": 1,
+  "source": "local",
+  "group": "none"
 }

@@ -1,7 +1,8 @@
 {
-    "name": "Iris",
-    "id": "iris",
-    "type": "Ascension Material",
-    "rarity": 1,
-    "source": "local"
+  "name": "Iris",
+  "id": "iris",
+  "type": "Ascension Material",
+  "rarity": 1,
+  "source": "local",
+  "group": "none"
 }

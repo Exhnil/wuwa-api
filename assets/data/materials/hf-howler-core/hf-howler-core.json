@@ -1,7 +1,8 @@
 {
-    "name": "HF Howler Core",
-    "id": "hf-howler-core",
-    "type": "Weapon and Skill Material",
-    "rarity": 4,
-    "source": "enemies"
+  "name": "HF Howler Core",
+  "id": "hf-howler-core",
+  "type": "Weapon and Skill Material",
+  "rarity": 4,
+  "source": "enemies",
+  "group": "howler-core"
 }

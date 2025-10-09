@@ -1,7 +1,8 @@
 {
-    "name": "MF Polygon Core",
-    "id": "mf-polygon-core",
-    "type": "Weapon and Skill Material",
-    "rarity": 3,
-    "source": "enemies"
+  "name": "MF Polygon Core",
+  "id": "mf-polygon-core",
+  "type": "Weapon and Skill Material",
+  "rarity": 3,
+  "source": "enemies",
+  "group": "polygon-core"
 }

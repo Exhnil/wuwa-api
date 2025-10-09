@@ -1,7 +1,8 @@
 {
-    "name": "Bamboo Iris",
-    "id": "bamboo-iris",
-    "type": "Ascension Material",
-    "rarity": 1,
-    "source": "local"
+  "name": "Bamboo Iris",
+  "id": "bamboo-iris",
+  "type": "Ascension Material",
+  "rarity": 1,
+  "source": "local",
+  "group": "none"
 }

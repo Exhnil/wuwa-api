@@ -1,7 +1,8 @@
 {
-    "name": "Inert Metallic Drip",
-    "id": "inert-metallic-drip",
-    "type": "Weapon and Skill Material",
-    "rarity": 2,
-    "source": "forgery"
+  "name": "Inert Metallic Drip",
+  "id": "inert-metallic-drip",
+  "type": "Weapon and Skill Material",
+  "rarity": 2,
+  "source": "forgery",
+  "group": "metallic-drip"
 }

@@ -1,7 +1,8 @@
 {
-    "name": "Pavo Plum",
-    "id": "pavo-plum",
-    "type": "Ascension Material",
-    "rarity": 1,
-    "source": "local"
+  "name": "Pavo Plum",
+  "id": "pavo-plum",
+  "type": "Ascension Material",
+  "rarity": 1,
+  "source": "local",
+  "group": "none"
 }
