@@ -1,0 +1,91 @@
+{
+    "name": "Wildfire Mark",
+    "id": "wildfire-mark",
+    "type": "Broadblades",
+    "rarity": 5,
+    "base_attack": 47,
+    "sub_stat": "Crit. DMG",
+    "sub_stat_base": 10.8,
+    "ascension_materials": {
+        "1": [
+            {
+                "name": "Shell Credit",
+                "value": 10000
+            },
+            {
+                "name": "LF Whisperin Core",
+                "value": 6
+            }
+        ],
+        "2": [
+            {
+                "name": "Shell Credit",
+                "value": 20000
+            },
+            {
+                "name": "MF Whisperin Core",
+                "value": 6
+            },
+            {
+                "name": "Waveworn Residue 210",
+                "value": 6
+            }
+        ],
+        "3": [
+            {
+                "name": "Shell Credit",
+                "value": 40000
+            },
+            {
+                "name": "HF Whisperin Core",
+                "value": 4
+            },
+            {
+                "name": "Waveworn Residue 226",
+                "value": 8
+            }
+        ],
+        "4": [
+            {
+                "name": "Shell Credit",
+                "value": 60000
+            },
+            {
+                "name": "HF Whisperin Core",
+                "value": 6
+            },
+            {
+                "name": "Waveworn Residue 235",
+                "value": 6
+            }
+        ],
+        "5": [
+            {
+                "name": "Shell Credit",
+                "value": 80000
+            },
+            {
+                "name": "FF Whisperin Core",
+                "value": 4
+            },
+            {
+                "name": "Waveworn Residue 239",
+                "value": 8
+            }
+        ],
+        "6": [
+            {
+                "name": "Shell Credit",
+                "value": 12000
+            },
+            {
+                "name": "FF Whisperin Core",
+                "value": 8
+            },
+            {
+                "name": "Waveworn Residue 239",
+                "value": 12
+            }
+        ]
+    }
+}

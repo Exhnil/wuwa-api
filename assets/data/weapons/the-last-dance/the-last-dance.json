@@ -1,0 +1,91 @@
+{
+    "name": "The Last Dance",
+    "id": "the-last-dance",
+    "type": "Pistols",
+    "rarity": 5,
+    "base_attack": 40,
+    "sub_stat": "Crit. DMG",
+    "sub_stat_base": 2.7,
+    "ascension_materials": {
+        "1": [
+            {
+                "name": "Shell Credit",
+                "value": 10000
+            },
+            {
+                "name": "Crude Ring",
+                "value": 6
+            }
+        ],
+        "2": [
+            {
+                "name": "Shell Credit",
+                "value": 20000
+            },
+            {
+                "name": "Basic Ring",
+                "value": 6
+            },
+            {
+                "name": "Impure Phlogiston",
+                "value": 6
+            }
+        ],
+        "3": [
+            {
+                "name": "Shell Credit",
+                "value": 40000
+            },
+            {
+                "name": "Improved Ring",
+                "value": 4
+            },
+            {
+                "name": "Extracted Phlogiston",
+                "value": 8
+            }
+        ],
+        "4": [
+            {
+                "name": "Shell Credit",
+                "value": 60000
+            },
+            {
+                "name": "Improved Ring",
+                "value": 6
+            },
+            {
+                "name": "Refined Phlogiston",
+                "value": 6
+            }
+        ],
+        "5": [
+            {
+                "name": "Shell Credit",
+                "value": 80000
+            },
+            {
+                "name": "Tailored Ring",
+                "value": 4
+            },
+            {
+                "name": "Flawless Phlogiston",
+                "value": 8
+            }
+        ],
+        "6": [
+            {
+                "name": "Shell Credit",
+                "value": 12000
+            },
+            {
+                "name": "Tailored Ring",
+                "value": 8
+            },
+            {
+                "name": "Flawless Phlogiston",
+                "value": 12
+            }
+        ]
+    }
+}

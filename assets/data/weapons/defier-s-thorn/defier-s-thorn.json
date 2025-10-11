@@ -1,0 +1,91 @@
+{
+    "name": "Defier's Thorn",
+    "id": "defier-s-thorn",
+    "type": "Swords",
+    "rarity": 5,
+    "base_attack": 33,
+    "sub_stat": "HP",
+    "sub_stat_base": 16.0,
+    "ascension_materials": {
+        "1": [
+            {
+                "name": "Shell Credit",
+                "value": 10000
+            },
+            {
+                "name": "LF Howler Core",
+                "value": 6
+            }
+        ],
+        "2": [
+            {
+                "name": "Shell Credit",
+                "value": 20000
+            },
+            {
+                "name": "MF Howler Core",
+                "value": 6
+            },
+            {
+                "name": "Inert Metallic Drip",
+                "value": 6
+            }
+        ],
+        "3": [
+            {
+                "name": "Shell Credit",
+                "value": 40000
+            },
+            {
+                "name": "HF Howler Core",
+                "value": 4
+            },
+            {
+                "name": "Reactive Metallic Drip",
+                "value": 8
+            }
+        ],
+        "4": [
+            {
+                "name": "Shell Credit",
+                "value": 60000
+            },
+            {
+                "name": "HF Howler Core",
+                "value": 6
+            },
+            {
+                "name": "Polarized Metallic Drip",
+                "value": 6
+            }
+        ],
+        "5": [
+            {
+                "name": "Shell Credit",
+                "value": 80000
+            },
+            {
+                "name": "FF Howler Core",
+                "value": 4
+            },
+            {
+                "name": "Heterized Metallic Drip",
+                "value": 8
+            }
+        ],
+        "6": [
+            {
+                "name": "Shell Credit",
+                "value": 12000
+            },
+            {
+                "name": "FF Howler Core",
+                "value": 8
+            },
+            {
+                "name": "Heterized Metallic Drip",
+                "value": 12
+            }
+        ]
+    }
+}
