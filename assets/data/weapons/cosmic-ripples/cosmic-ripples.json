@@ -27,7 +27,7 @@
                 "value": 6
             },
             {
-                "name": "Inert Metallic Drip",
+                "name": "Lento Helix",
                 "value": 6
             }
         ],
@@ -41,7 +41,7 @@
                 "value": 4
             },
             {
-                "name": "Reactive Metallic Drip",
+                "name": "Adagio Helix",
                 "value": 8
             }
         ],
@@ -55,7 +55,7 @@
                 "value": 6
             },
             {
-                "name": "Polarized Metallic Drip",
+                "name": "Andante Helix",
                 "value": 6
             }
         ],
@@ -69,7 +69,7 @@
                 "value": 4
             },
             {
-                "name": "Heterized Metallic Drip",
+                "name": "Presto Helix",
                 "value": 8
             }
         ],
@@ -83,7 +83,7 @@
                 "value": 8
             },
             {
-                "name": "Heterized Metallic Drip",
+                "name": "Presto Helix",
                 "value": 12
             }
         ]
