@@ -1,0 +1,13 @@
+{
+    "name": "Fallacy of No Return",
+    "id": "fallacy-of-no-return",
+    "type": "Overlord Class",
+    "cost": 60,
+    "materials": [
+        {
+            "name": "Topological Confinement",
+            "id": "topological-confinement",
+            "value": 4.1
+        }
+    ]
+}

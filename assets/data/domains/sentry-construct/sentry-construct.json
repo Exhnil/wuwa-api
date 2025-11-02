@@ -1,0 +1,13 @@
+{
+    "name": "Sentry Construct",
+    "id": "sentry-construct",
+    "type": "Overlord Class",
+    "cost": 60,
+    "materials": [
+        {
+            "name": "Platinum Core",
+            "id": "platinum-core",
+            "value": 4.1
+        }
+    ]
+}

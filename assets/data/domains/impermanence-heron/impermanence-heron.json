@@ -1,0 +1,13 @@
+{
+    "name": "Impermanence Heron",
+    "id": "impermanence-heron",
+    "type": "Overlord Class",
+    "cost": 60,
+    "materials": [
+        {
+            "name": "Gold-Dissolving Feather",
+            "id": "gold-dissolving-feather",
+            "value": 4.1
+        }
+    ]
+}

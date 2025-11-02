@@ -1,0 +1,13 @@
+{
+    "name": "Mech Abomination",
+    "id": "mech-abomination",
+    "type": "Overlord Class",
+    "cost": 60,
+    "materials": [
+        {
+            "name": "Group Abomination Tacet Core",
+            "id": "group-abomination-tacet-core",
+            "value": 4.1
+        }
+    ]
+}

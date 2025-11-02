@@ -1,0 +1,13 @@
+{
+    "name": "Lorelei",
+    "id": "lorelei",
+    "type": "Overlord Class",
+    "cost": 60,
+    "materials": [
+        {
+            "name": "Cleansing Conch",
+            "id": "cleansing-conch",
+            "value": 4.1
+        }
+    ]
+}

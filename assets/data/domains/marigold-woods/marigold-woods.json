@@ -1,0 +1,28 @@
+{
+    "name": "Marigold Woods",
+    "id": "marigold-woods",
+    "type": "Forgery Challenge",
+    "cost": 40,
+    "materials": [
+        {
+            "name": "Impure Phlogiston",
+            "id": "impure-phlogiston",
+            "value": 6.4
+        },
+        {
+            "name": "Extracted Phlogiston",
+            "id": "extracted-phlogiston",
+            "value": 8
+        },
+        {
+            "name": "Refined Phlogiston",
+            "id": "refined-phlogiston",
+            "value": 1.682
+        },
+        {
+            "name": "Flawless Phlogiston",
+            "id": "flawless-phlogiston",
+            "value": 0.206
+        }
+    ]
+}

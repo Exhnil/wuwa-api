@@ -1,0 +1,13 @@
+{
+    "name": "Inferno Rider",
+    "id": "inferno-rider",
+    "type": "Overlord Class",
+    "cost": 60,
+    "materials": [
+        {
+            "name": "Rage Tacet Core",
+            "id": "rage-tacet-core",
+            "value": 4.1
+        }
+    ]
+}

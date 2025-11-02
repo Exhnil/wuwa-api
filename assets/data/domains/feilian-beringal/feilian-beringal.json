@@ -1,0 +1,13 @@
+{
+    "name": "Feilian Beringal",
+    "id": "feilian-beringal",
+    "type": "Overlord Class",
+    "cost": 60,
+    "materials": [
+        {
+            "name": "Roaring Rock Fist",
+            "id": "roaring-rock-fist",
+            "value": 4.1
+        }
+    ]
+}

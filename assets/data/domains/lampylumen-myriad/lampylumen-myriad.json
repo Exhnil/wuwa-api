@@ -1,0 +1,13 @@
+{
+    "name": "Lampylumen Myriad",
+    "id": "lampylumen-myriad",
+    "type": "Overlord Class",
+    "cost": 60,
+    "materials": [
+        {
+            "name": "Sound-Keeping Tacet Core",
+            "id": "sound-keeping-tacet-core",
+            "value": 4.1
+        }
+    ]
+}

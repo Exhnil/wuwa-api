@@ -1,0 +1,13 @@
+{
+    "name": "Thundering Menphis",
+    "id": "thundering-menphis",
+    "type": "Overlord Class",
+    "cost": 60,
+    "materials": [
+        {
+            "name": "Thundering Tacet Core",
+            "id": "thundering-tacet-core",
+            "value": 4.1
+        }
+    ]
+}

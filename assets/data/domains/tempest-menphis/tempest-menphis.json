@@ -1,0 +1,13 @@
+{
+    "name": "Tempest Menphis",
+    "id": "tempest-menphis",
+    "type": "Overlord Class",
+    "cost": 60,
+    "materials": [
+        {
+            "name": "Hidden Thunder Tacet Core",
+            "id": "hidden-thunder-tacet-core",
+            "value": 4.1
+        }
+    ]
+}

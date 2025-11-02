@@ -1,0 +1,13 @@
+{
+    "name": "Fenrico",
+    "id": "fenrico",
+    "type": "Overlord Class",
+    "cost": 60,
+    "materials": [
+        {
+            "name": "Truth in Lies",
+            "id": "truth-in-lies",
+            "value": 4.1
+        }
+    ]
+}

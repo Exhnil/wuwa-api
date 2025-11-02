@@ -1,0 +1,13 @@
+{
+    "name": "The False Sovereign",
+    "id": "the-false-sovereign",
+    "type": "Overlord Class",
+    "cost": 60,
+    "materials": [
+        {
+            "name": "Blighted Crown of Puppet King",
+            "id": "blighted-crown-of-puppet-king",
+            "value": 4.1
+        }
+    ]
+}

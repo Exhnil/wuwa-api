@@ -1,0 +1,13 @@
+{
+    "name": "Mourning Aix",
+    "id": "mourning-aix",
+    "type": "Overlord Class",
+    "cost": 60,
+    "materials": [
+        {
+            "name": "Elegy Tacet Core",
+            "id": "elegy-tacet-core",
+            "value": 4.1
+        }
+    ]
+}

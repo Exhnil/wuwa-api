@@ -1,0 +1,13 @@
+{
+    "name": "Lioness of Glory",
+    "id": "lioness-of-glory",
+    "type": "Overlord Class",
+    "cost": 60,
+    "materials": [
+        {
+            "name": "Unfading Glory",
+            "id": "unfading-glory",
+            "value": 4.1
+        }
+    ]
+}

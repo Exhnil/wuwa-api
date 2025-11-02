@@ -1,0 +1,13 @@
+{
+    "name": "Crownless",
+    "id": "crownless",
+    "type": "Overlord Class",
+    "cost": 60,
+    "materials": [
+        {
+            "name": "Strife Tacet Core",
+            "id": "strife-tacet-core",
+            "value": 4.1
+        }
+    ]
+}

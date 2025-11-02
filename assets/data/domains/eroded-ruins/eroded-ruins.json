@@ -1,0 +1,24 @@
+{
+    "name": "Eroded Ruins",
+    "id": "eroded-ruins",
+    "type": "Forgery Challenge",
+    "cost": 60,
+    "materials": [
+        {
+            "name": "Waveworn Residue 210",
+            "id": "waveworn-residue-210"
+        },
+        {
+            "name": "Waveworn Residue 226",
+            "id": "waveworn-residue-226"
+        },
+        {
+            "name": "Waveworn Residue 235",
+            "id": "waveworn-residue-235"
+        },
+        {
+            "name": "Waveworn Residue 239",
+            "id": "waveworn-residue-239"
+        }
+    ]
+}

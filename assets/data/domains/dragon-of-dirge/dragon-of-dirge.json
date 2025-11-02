@@ -1,0 +1,13 @@
+{
+    "name": "Dragon of Dirge",
+    "id": "dragon-of-dirge",
+    "type": "Overlord Class",
+    "cost": 60,
+    "materials": [
+        {
+            "name": "Blazing Bone",
+            "id": "blazing-bone",
+            "value": 4.1
+        }
+    ]
+}
