@@ -1,0 +1,7 @@
+{
+  "name": "The Fated Confrontation",
+  "id": "the-fated-confrontation",
+  "type": "Weekly Challenge",
+  "cost": 60,
+  "materials": [{ "name": "Sentinel's Dagger", "id": "sentinel-s-dagger", "value": 3 }]
+}

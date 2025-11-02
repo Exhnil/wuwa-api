@@ -1,0 +1,7 @@
+{
+  "name": "The Wheel of Broken Fate",
+  "id": "the-wheel-of-broken-fate",
+  "type": "Weekly Challenge",
+  "cost": 60,
+  "materials": [{ "name": "When Irises Bloom", "id": "when-irises-bloom", "value": 3 }]
+}

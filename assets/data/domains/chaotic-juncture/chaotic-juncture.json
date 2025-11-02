@@ -1,0 +1,7 @@
+{
+  "name": "Chaotic Juncture",
+  "id": "chaotic-juncture",
+  "type": "Weekly Challenge",
+  "cost": 60,
+  "materials": [{ "name": "Unending Destruction", "id": "unending-destruction", "value": 3 }]
+}

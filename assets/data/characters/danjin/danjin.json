@@ -11,101 +11,101 @@
   "ascension_materials": {
     "1": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 5000
       },
       {
-        "name": "Crude Ring",
+        "id": "crude-ring",
         "value": 4
       }
     ],
     "2": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 10000
       },
       {
-        "name": "Belle Poppy",
+        "id": "belle-poppy",
         "value": 4
       },
       {
-        "name": "Basic Ring",
+        "id": "basic-ring",
         "value": 4
       },
       {
-        "name": "Strife Tacet Core",
+        "id": "strife-tacet-core",
         "value": 3
       }
     ],
     "3": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 15000
       },
       {
-        "name": "Belle Poppy",
+        "id": "belle-poppy",
         "value": 8
       },
       {
-        "name": "Basic Ring",
+        "id": "basic-ring",
         "value": 8
       },
       {
-        "name": "Strife Tacet Core",
+        "id": "strife-tacet-core",
         "value": 6
       }
     ],
     "4": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 20000
       },
       {
-        "name": "Belle Poppy",
+        "id": "belle-poppy",
         "value": 12
       },
       {
-        "name": "Improved Ring",
+        "id": "improved-ring",
         "value": 4
       },
       {
-        "name": "Strife Tacet Core",
+        "id": "strife-tacet-core",
         "value": 9
       }
     ],
     "5": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 40000
       },
       {
-        "name": "Belle Poppy",
+        "id": "belle-poppy",
         "value": 16
       },
       {
-        "name": "Improved Ring",
+        "id": "improved-ring",
         "value": 8
       },
       {
-        "name": "Strife Tacet Core",
+        "id": "strife-tacet-core",
         "value": 12
       }
     ],
     "6": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 80000
       },
       {
-        "name": "Belle Poppy",
+        "id": "belle-poppy",
         "value": 20
       },
       {
-        "name": "Tailored Ring",
+        "id": "tailored-ring",
         "value": 4
       },
       {
-        "name": "Strife Tacet Core",
+        "id": "strife-tacet-core",
         "value": 16
       }
     ]
@@ -113,143 +113,143 @@
   "skill_materials": {
     "2": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 1500
       },
       {
-        "name": "Inert Metallic Drip",
+        "id": "inert-metallic-drip",
         "value": 2
       },
       {
-        "name": "Crude Ring",
+        "id": "crude-ring",
         "value": 2
       }
     ],
     "3": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 2000
       },
       {
-        "name": "Inert Metallic Drip",
+        "id": "inert-metallic-drip",
         "value": 3
       },
       {
-        "name": "Crude Ring",
+        "id": "crude-ring",
         "value": 3
       }
     ],
     "4": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 4500
       },
       {
-        "name": "Reactive Metallic Drip",
+        "id": "reactive-metallic-drip",
         "value": 2
       },
       {
-        "name": "Basic Ring",
+        "id": "basic-ring",
         "value": 2
       }
     ],
     "5": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 6000
       },
       {
-        "name": "Reactive Metallic Drip",
+        "id": "reactive-metallic-drip",
         "value": 3
       },
       {
-        "name": "Basic Ring",
+        "id": "basic-ring",
         "value": 3
       }
     ],
     "6": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 16000
       },
       {
-        "name": "Polarized Metallic Drip",
+        "id": "polarized-metallic-drip",
         "value": 3
       },
       {
-        "name": "Improved Ring",
+        "id": "improved-ring",
         "value": 2
       }
     ],
     "7": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 30000
       },
       {
-        "name": "Polarized Metallic Drip",
+        "id": "polarized-metallic-drip",
         "value": 5
       },
       {
-        "name": "Improved Ring",
+        "id": "improved-ring",
         "value": 3
       },
       {
-        "name": "Dreamless Feather",
+        "id": "dreamless-feather",
         "value": 1
       }
     ],
     "8": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 50000
       },
       {
-        "name": "Heterized Metallic Drip",
+        "id": "heterized-metallic-drip",
         "value": 2
       },
       {
-        "name": "Tailored Ring",
+        "id": "tailored-ring",
         "value": 2
       },
       {
-        "name": "Dreamless Feather",
+        "id": "dreamless-feather",
         "value": 1
       }
     ],
     "9": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 70000
       },
       {
-        "name": "Heterized Metallic Drip",
+        "id": "heterized-metallic-drip",
         "value": 3
       },
       {
-        "name": "Tailored Ring",
+        "id": "tailored-ring",
         "value": 3
       },
       {
-        "name": "Dreamless Feather",
+        "id": "dreamless-feather",
         "value": 1
       }
     ],
     "10": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 100000
       },
       {
-        "name": "Heterized Metallic Drip",
+        "id": "heterized-metallic-drip",
         "value": 6
       },
       {
-        "name": "Tailored Ring",
+        "id": "tailored-ring",
         "value": 4
       },
       {
-        "name": "Dreamless Feather",
+        "id": "dreamless-feather",
         "value": 1
       }
     ]
@@ -257,33 +257,33 @@
   "stats_bonus_materials": {
     "rank_1": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 50000
       },
       {
-        "name": "Improved Ring",
+        "id": "improved-ring",
         "value": 3
       },
       {
-        "name": "Polarized Metallic Drip",
+        "id": "polarized-metallic-drip",
         "value": 3
       }
     ],
     "rank_2": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 100000
       },
       {
-        "name": "Tailored Ring",
+        "id": "tailored-ring",
         "value": 3
       },
       {
-        "name": "Heterized Metallic Drip",
+        "id": "heterized-metallic-drip",
         "value": 3
       },
       {
-        "name": "Dreamless Feather",
+        "id": "dreamless-feather",
         "value": 1
       }
     ]
@@ -291,37 +291,37 @@
   "inherent_skill_materials": {
     "skill_1": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 10000
       },
       {
-        "name": "Basic Ring",
+        "id": "basic-ring",
         "value": 3
       },
       {
-        "name": "Reactive Metallic Drip",
+        "id": "reactive-metallic-drip",
         "value": 3
       },
       {
-        "name": "Dreamless Feather",
+        "id": "dreamless-feather",
         "value": 1
       }
     ],
     "skill_2": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 20000
       },
       {
-        "name": "Improved Ring",
+        "id": "improved-ring",
         "value": 3
       },
       {
-        "name": "Polarized Metallic Drip",
+        "id": "polarized-metallic-drip",
         "value": 3
       },
       {
-        "name": "Dreamless Feather",
+        "id": "dreamless-feather",
         "value": 1
       }
     ]

@@ -1,0 +1,7 @@
+{
+  "name": "Cindernite Apocalypse",
+  "id": "cindernite-apocalypse",
+  "type": "Weekly Challenge",
+  "cost": 60,
+  "materials": [{ "name": "Curse of the Abyss", "id": "curse-of-the-abyss", "value": 3 }]
+}

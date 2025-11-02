@@ -1,329 +1,329 @@
 {
-    "id": "rover(aero)",
-    "name": "Rover (aero)",
-    "attribute": "Aero",
-    "weapon": "Swords",
-    "gender": "Female",
-    "nation": "The Black Shores",
-    "class": "Arbiters",
-    "rarity": 5,
-    "release": "2024-05-23",
-    "ascension_materials": {
-        "1": [
-            {
-                "name": "Shell Credit",
-                "value": 5000
-            },
-            {
-                "name": "LF Tidal Residuum",
-                "value": 4
-            }
-        ],
-        "2": [
-            {
-                "name": "Shell Credit",
-                "value": 10000
-            },
-            {
-                "name": "Pecok Flower",
-                "value": 4
-            },
-            {
-                "name": "MF Tidal Residuum",
-                "value": 4
-            },
-            {
-                "name": "Mysterious Code",
-                "value": 3
-            }
-        ],
-        "3": [
-            {
-                "name": "Shell Credit",
-                "value": 15000
-            },
-            {
-                "name": "Pecok Flower",
-                "value": 8
-            },
-            {
-                "name": "MF Tidal Residuum",
-                "value": 8
-            },
-            {
-                "name": "Mysterious Code",
-                "value": 6
-            }
-        ],
-        "4": [
-            {
-                "name": "Shell Credit",
-                "value": 20000
-            },
-            {
-                "name": "Pecok Flower",
-                "value": 12
-            },
-            {
-                "name": "HF Tidal Residuum",
-                "value": 4
-            },
-            {
-                "name": "Mysterious Code",
-                "value": 9
-            }
-        ],
-        "5": [
-            {
-                "name": "Shell Credit",
-                "value": 40000
-            },
-            {
-                "name": "Pecok Flower",
-                "value": 16
-            },
-            {
-                "name": "HF Tidal Residuum",
-                "value": 8
-            },
-            {
-                "name": "Mysterious Code",
-                "value": 12
-            }
-        ],
-        "6": [
-            {
-                "name": "Shell Credit",
-                "value": 80000
-            },
-            {
-                "name": "Pecok Flower",
-                "value": 20
-            },
-            {
-                "name": "FF Tidal Residuum",
-                "value": 4
-            },
-            {
-                "name": "Mysterious Code",
-                "value": 16
-            }
-        ]
-    },
-    "skill_materials": {
-        "2": [
-            {
-                "name": "Shell Credit",
-                "value": 1500
-            },
-            {
-                "name": "Inert Metallic Drip",
-                "value": 2
-            },
-            {
-                "name": "LF Tidal Residuum",
-                "value": 2
-            }
-        ],
-        "3": [
-            {
-                "name": "Shell Credit",
-                "value": 2000
-            },
-            {
-                "name": "Inert Metallic Drip",
-                "value": 3
-            },
-            {
-                "name": "LF Tidal Residuum",
-                "value": 3
-            }
-        ],
-        "4": [
-            {
-                "name": "Shell Credit",
-                "value": 4500
-            },
-            {
-                "name": "Reactive Metallic Drip",
-                "value": 2
-            },
-            {
-                "name": "MF Tidal Residuum",
-                "value": 2
-            }
-        ],
-        "5": [
-            {
-                "name": "Shell Credit",
-                "value": 6000
-            },
-            {
-                "name": "Reactive Metallic Drip",
-                "value": 3
-            },
-            {
-                "name": "MF Tidal Residuum",
-                "value": 3
-            }
-        ],
-        "6": [
-            {
-                "name": "Shell Credit",
-                "value": 16000
-            },
-            {
-                "name": "Polarized Metallic Drip",
-                "value": 3
-            },
-            {
-                "name": "HF Tidal Residuum",
-                "value": 2
-            }
-        ],
-        "7": [
-            {
-                "name": "Shell Credit",
-                "value": 30000
-            },
-            {
-                "name": "Polarized Metallic Drip",
-                "value": 5
-            },
-            {
-                "name": "HF Tidal Residuum",
-                "value": 3
-            },
-            {
-                "name": "When Irises Bloom",
-                "value": 1
-            }
-        ],
-        "8": [
-            {
-                "name": "Shell Credit",
-                "value": 50000
-            },
-            {
-                "name": "Heterized Metallic Drip",
-                "value": 2
-            },
-            {
-                "name": "FF Tidal Residuum",
-                "value": 2
-            },
-            {
-                "name": "When Irises Bloom",
-                "value": 1
-            }
-        ],
-        "9": [
-            {
-                "name": "Shell Credit",
-                "value": 70000
-            },
-            {
-                "name": "Heterized Metallic Drip",
-                "value": 3
-            },
-            {
-                "name": "FF Tidal Residuum",
-                "value": 3
-            },
-            {
-                "name": "When Irises Bloom",
-                "value": 1
-            }
-        ],
-        "10": [
-            {
-                "name": "Shell Credit",
-                "value": 100000
-            },
-            {
-                "name": "Heterized Metallic Drip",
-                "value": 6
-            },
-            {
-                "name": "FF Tidal Residuum",
-                "value": 4
-            },
-            {
-                "name": "When Irises Bloom",
-                "value": 1
-            }
-        ]
-    },
-    "stats_bonus_materials": {
-        "rank_1": [
-            {
-                "name": "Shell Credit",
-                "value": 50000
-            },
-            {
-                "name": "HF Tidal Residuum",
-                "value": 3
-            },
-            {
-                "name": "Polarized Metallic Drip",
-                "value": 3
-            }
-        ],
-        "rank_2": [
-            {
-                "name": "Shell Credit",
-                "value": 100000
-            },
-            {
-                "name": "FF Tidal Residuum",
-                "value": 3
-            },
-            {
-                "name": "Heterized Metallic Drip",
-                "value": 3
-            },
-            {
-                "name": "When Irises Bloom",
-                "value": 1
-            }
-        ]
-    },
-    "inherent_skill_materials": {
-        "skill_1": [
-            {
-                "name": "Shell Credit",
-                "value": 10000
-            },
-            {
-                "name": "MF Tidal Residuum",
-                "value": 3
-            },
-            {
-                "name": "Reactive Metallic Drip",
-                "value": 3
-            },
-            {
-                "name": "When Irises Bloom",
-                "value": 1
-            }
-        ],
-        "skill_2": [
-            {
-                "name": "Shell Credit",
-                "value": 20000
-            },
-            {
-                "name": "HF Tidal Residuum",
-                "value": 3
-            },
-            {
-                "name": "Polarized Metallic Drip",
-                "value": 3
-            },
-            {
-                "name": "When Irises Bloom",
-                "value": 1
-            }
-        ]
-    }
+  "id": "rover(aero)",
+  "name": "Rover (aero)",
+  "attribute": "Aero",
+  "weapon": "Swords",
+  "gender": "Female",
+  "nation": "The Black Shores",
+  "class": "Arbiters",
+  "rarity": 5,
+  "release": "2024-05-23",
+  "ascension_materials": {
+    "1": [
+      {
+        "id": "shell-credit",
+        "value": 5000
+      },
+      {
+        "id": "lf-tidal-residuum",
+        "value": 4
+      }
+    ],
+    "2": [
+      {
+        "id": "shell-credit",
+        "value": 10000
+      },
+      {
+        "id": "pecok-flower",
+        "value": 4
+      },
+      {
+        "id": "mf-tidal-residuum",
+        "value": 4
+      },
+      {
+        "id": "mysterious-code",
+        "value": 3
+      }
+    ],
+    "3": [
+      {
+        "id": "shell-credit",
+        "value": 15000
+      },
+      {
+        "id": "pecok-flower",
+        "value": 8
+      },
+      {
+        "id": "mf-tidal-residuum",
+        "value": 8
+      },
+      {
+        "id": "mysterious-code",
+        "value": 6
+      }
+    ],
+    "4": [
+      {
+        "id": "shell-credit",
+        "value": 20000
+      },
+      {
+        "id": "pecok-flower",
+        "value": 12
+      },
+      {
+        "id": "hf-tidal-residuum",
+        "value": 4
+      },
+      {
+        "id": "mysterious-code",
+        "value": 9
+      }
+    ],
+    "5": [
+      {
+        "id": "shell-credit",
+        "value": 40000
+      },
+      {
+        "id": "pecok-flower",
+        "value": 16
+      },
+      {
+        "id": "hf-tidal-residuum",
+        "value": 8
+      },
+      {
+        "id": "mysterious-code",
+        "value": 12
+      }
+    ],
+    "6": [
+      {
+        "id": "shell-credit",
+        "value": 80000
+      },
+      {
+        "id": "pecok-flower",
+        "value": 20
+      },
+      {
+        "id": "ff-tidal-residuum",
+        "value": 4
+      },
+      {
+        "id": "mysterious-code",
+        "value": 16
+      }
+    ]
+  },
+  "skill_materials": {
+    "2": [
+      {
+        "id": "shell-credit",
+        "value": 1500
+      },
+      {
+        "id": "inert-metallic-drip",
+        "value": 2
+      },
+      {
+        "id": "lf-tidal-residuum",
+        "value": 2
+      }
+    ],
+    "3": [
+      {
+        "id": "shell-credit",
+        "value": 2000
+      },
+      {
+        "id": "inert-metallic-drip",
+        "value": 3
+      },
+      {
+        "id": "lf-tidal-residuum",
+        "value": 3
+      }
+    ],
+    "4": [
+      {
+        "id": "shell-credit",
+        "value": 4500
+      },
+      {
+        "id": "reactive-metallic-drip",
+        "value": 2
+      },
+      {
+        "id": "mf-tidal-residuum",
+        "value": 2
+      }
+    ],
+    "5": [
+      {
+        "id": "shell-credit",
+        "value": 6000
+      },
+      {
+        "id": "reactive-metallic-drip",
+        "value": 3
+      },
+      {
+        "id": "mf-tidal-residuum",
+        "value": 3
+      }
+    ],
+    "6": [
+      {
+        "id": "shell-credit",
+        "value": 16000
+      },
+      {
+        "id": "polarized-metallic-drip",
+        "value": 3
+      },
+      {
+        "id": "hf-tidal-residuum",
+        "value": 2
+      }
+    ],
+    "7": [
+      {
+        "id": "shell-credit",
+        "value": 30000
+      },
+      {
+        "id": "polarized-metallic-drip",
+        "value": 5
+      },
+      {
+        "id": "hf-tidal-residuum",
+        "value": 3
+      },
+      {
+        "id": "when-irises-bloom",
+        "value": 1
+      }
+    ],
+    "8": [
+      {
+        "id": "shell-credit",
+        "value": 50000
+      },
+      {
+        "id": "heterized-metallic-drip",
+        "value": 2
+      },
+      {
+        "id": "ff-tidal-residuum",
+        "value": 2
+      },
+      {
+        "id": "when-irises-bloom",
+        "value": 1
+      }
+    ],
+    "9": [
+      {
+        "id": "shell-credit",
+        "value": 70000
+      },
+      {
+        "id": "heterized-metallic-drip",
+        "value": 3
+      },
+      {
+        "id": "ff-tidal-residuum",
+        "value": 3
+      },
+      {
+        "id": "when-irises-bloom",
+        "value": 1
+      }
+    ],
+    "10": [
+      {
+        "id": "shell-credit",
+        "value": 100000
+      },
+      {
+        "id": "heterized-metallic-drip",
+        "value": 6
+      },
+      {
+        "id": "ff-tidal-residuum",
+        "value": 4
+      },
+      {
+        "id": "when-irises-bloom",
+        "value": 1
+      }
+    ]
+  },
+  "stats_bonus_materials": {
+    "rank_1": [
+      {
+        "id": "shell-credit",
+        "value": 50000
+      },
+      {
+        "id": "hf-tidal-residuum",
+        "value": 3
+      },
+      {
+        "id": "polarized-metallic-drip",
+        "value": 3
+      }
+    ],
+    "rank_2": [
+      {
+        "id": "shell-credit",
+        "value": 100000
+      },
+      {
+        "id": "ff-tidal-residuum",
+        "value": 3
+      },
+      {
+        "id": "heterized-metallic-drip",
+        "value": 3
+      },
+      {
+        "id": "when-irises-bloom",
+        "value": 1
+      }
+    ]
+  },
+  "inherent_skill_materials": {
+    "skill_1": [
+      {
+        "id": "shell-credit",
+        "value": 10000
+      },
+      {
+        "id": "mf-tidal-residuum",
+        "value": 3
+      },
+      {
+        "id": "reactive-metallic-drip",
+        "value": 3
+      },
+      {
+        "id": "when-irises-bloom",
+        "value": 1
+      }
+    ],
+    "skill_2": [
+      {
+        "id": "shell-credit",
+        "value": 20000
+      },
+      {
+        "id": "hf-tidal-residuum",
+        "value": 3
+      },
+      {
+        "id": "polarized-metallic-drip",
+        "value": 3
+      },
+      {
+        "id": "when-irises-bloom",
+        "value": 1
+      }
+    ]
+  }
 }

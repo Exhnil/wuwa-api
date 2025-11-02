@@ -1,0 +1,12 @@
+{
+  "name": "Moonlit Groves",
+  "id": "moonlit-groves",
+  "type": "Forgery Challenge",
+  "cost": 60,
+  "materials": [
+    { "name": "Cadence Seed", "id": "cadence-seed", "value": 6.4 },
+    { "name": "Cadence Bud", "id": "cadence-bud", "value": 8 },
+    { "name": "Cadence Leaf", "id": "cadence-leaf", "value": 1.682 },
+    { "name": "Cadence Blossom", "id": "cadence-blossom", "value": 0.206 }
+  ]
+}

@@ -11,101 +11,101 @@
   "ascension_materials": {
     "1": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 5000
       },
       {
-        "name": "LF Polygon Core",
+        "id": "lf-polygon-core",
         "value": 4
       }
     ],
     "2": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 10000
       },
       {
-        "name": "Sword Acorus",
+        "id": "sword-acorus",
         "value": 4
       },
       {
-        "name": "MF Polygon Core",
+        "id": "mf-polygon-core",
         "value": 4
       },
       {
-        "name": "Platinum Core",
+        "id": "platinum-core",
         "value": 3
       }
     ],
     "3": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 15000
       },
       {
-        "name": "Sword Acorus",
+        "id": "sword-acorus",
         "value": 8
       },
       {
-        "name": "MF Polygon Core",
+        "id": "mf-polygon-core",
         "value": 8
       },
       {
-        "name": "Platinum Core",
+        "id": "platinum-core",
         "value": 6
       }
     ],
     "4": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 20000
       },
       {
-        "name": "Sword Acorus",
+        "id": "sword-acorus",
         "value": 12
       },
       {
-        "name": "HF Polygon Core",
+        "id": "hf-polygon-core",
         "value": 4
       },
       {
-        "name": "Platinum Core",
+        "id": "platinum-core",
         "value": 9
       }
     ],
     "5": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 40000
       },
       {
-        "name": "Sword Acorus",
+        "id": "sword-acorus",
         "value": 16
       },
       {
-        "name": "HF Polygon Core",
+        "id": "hf-polygon-core",
         "value": 8
       },
       {
-        "name": "Platinum Core",
+        "id": "platinum-core",
         "value": 12
       }
     ],
     "6": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 80000
       },
       {
-        "name": "Sword Acorus",
+        "id": "sword-acorus",
         "value": 20
       },
       {
-        "name": "FF Polygon Core",
+        "id": "ff-polygon-core",
         "value": 4
       },
       {
-        "name": "Platinum Core",
+        "id": "platinum-core",
         "value": 16
       }
     ]
@@ -113,143 +113,143 @@
   "skill_materials": {
     "2": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 1500
       },
       {
-        "name": "Impure Phlogiston",
+        "id": "impure-phlogiston",
         "value": 2
       },
       {
-        "name": "LF Polygon Core",
+        "id": "lf-polygon-core",
         "value": 2
       }
     ],
     "3": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 2000
       },
       {
-        "name": "Impure Phlogiston",
+        "id": "impure-phlogiston",
         "value": 3
       },
       {
-        "name": "LF Polygon Core",
+        "id": "lf-polygon-core",
         "value": 3
       }
     ],
     "4": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 4500
       },
       {
-        "name": "Extracted Phlogiston",
+        "id": "extracted-phlogiston",
         "value": 2
       },
       {
-        "name": "MF Polygon Core",
+        "id": "mf-polygon-core",
         "value": 2
       }
     ],
     "5": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 6000
       },
       {
-        "name": "Extracted Phlogiston",
+        "id": "extracted-phlogiston",
         "value": 3
       },
       {
-        "name": "MF Polygon Core",
+        "id": "mf-polygon-core",
         "value": 3
       }
     ],
     "6": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 16000
       },
       {
-        "name": "Refined Phlogiston",
+        "id": "refined-phlogiston",
         "value": 3
       },
       {
-        "name": "HF Polygon Core",
+        "id": "hf-polygon-core",
         "value": 2
       }
     ],
     "7": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 30000
       },
       {
-        "name": "Refined Phlogiston",
+        "id": "refined-phlogiston",
         "value": 5
       },
       {
-        "name": "HF Polygon Core",
+        "id": "hf-polygon-core",
         "value": 3
       },
       {
-        "name": "The Netherworld's Stare",
+        "id": "the-netherworld-s-stare",
         "value": 1
       }
     ],
     "8": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 50000
       },
       {
-        "name": "Flawless Phlogiston",
+        "id": "flawless-phlogiston",
         "value": 2
       },
       {
-        "name": "FF Polygon Core",
+        "id": "ff-polygon-core",
         "value": 2
       },
       {
-        "name": "The Netherworld's Stare",
+        "id": "the-netherworld-s-stare",
         "value": 1
       }
     ],
     "9": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 70000
       },
       {
-        "name": "Flawless Phlogiston",
+        "id": "flawless-phlogiston",
         "value": 3
       },
       {
-        "name": "FF Polygon Core",
+        "id": "ff-polygon-core",
         "value": 3
       },
       {
-        "name": "The Netherworld's Stare",
+        "id": "the-netherworld-s-stare",
         "value": 1
       }
     ],
     "10": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 100000
       },
       {
-        "name": "Flawless Phlogiston",
+        "id": "flawless-phlogiston",
         "value": 6
       },
       {
-        "name": "FF Polygon Core",
+        "id": "ff-polygon-core",
         "value": 4
       },
       {
-        "name": "The Netherworld's Stare",
+        "id": "the-netherworld-s-stare",
         "value": 1
       }
     ]
@@ -257,33 +257,33 @@
   "stats_bonus_materials": {
     "rank_1": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 50000
       },
       {
-        "name": "HF Polygon Core",
+        "id": "hf-polygon-core",
         "value": 3
       },
       {
-        "name": "Refined Phlogiston",
+        "id": "refined-phlogiston",
         "value": 3
       }
     ],
     "rank_2": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 100000
       },
       {
-        "name": "FF Polygon Core",
+        "id": "ff-polygon-core",
         "value": 3
       },
       {
-        "name": "Flawless Phlogiston",
+        "id": "flawless-phlogiston",
         "value": 3
       },
       {
-        "name": "The Netherworld's Stare",
+        "id": "the-netherworld-s-stare",
         "value": 1
       }
     ]
@@ -291,37 +291,37 @@
   "inherent_skill_materials": {
     "skill_1": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 10000
       },
       {
-        "name": "MF Polygon Core",
+        "id": "mf-polygon-core",
         "value": 3
       },
       {
-        "name": "Extracted Phlogiston",
+        "id": "extracted-phlogiston",
         "value": 3
       },
       {
-        "name": "The Netherworld's Stare",
+        "id": "the-netherworld-s-stare",
         "value": 1
       }
     ],
     "skill_2": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 20000
       },
       {
-        "name": "HF Polygon Core",
+        "id": "hf-polygon-core",
         "value": 3
       },
       {
-        "name": "Refined Phlogiston",
+        "id": "refined-phlogiston",
         "value": 3
       },
       {
-        "name": "The Netherworld's Stare",
+        "id": "the-netherworld-s-stare",
         "value": 1
       }
     ]

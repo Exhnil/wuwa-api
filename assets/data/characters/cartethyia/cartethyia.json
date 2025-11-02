@@ -11,101 +11,101 @@
   "ascension_materials": {
     "1": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 5000
       },
       {
-        "name": "LF Tidal Residuum",
+        "id": "lf-tidal-residuum",
         "value": 4
       }
     ],
     "2": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 10000
       },
       {
-        "name": "Bamboo Iris",
+        "id": "bamboo-iris",
         "value": 4
       },
       {
-        "name": "MF Tidal Residuum",
+        "id": "mf-tidal-residuum",
         "value": 4
       },
       {
-        "name": "Unfading Glory",
+        "id": "unfading-glory",
         "value": 3
       }
     ],
     "3": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 15000
       },
       {
-        "name": "Bamboo Iris",
+        "id": "bamboo-iris",
         "value": 8
       },
       {
-        "name": "MF Tidal Residuum",
+        "id": "mf-tidal-residuum",
         "value": 8
       },
       {
-        "name": "Unfading Glory",
+        "id": "unfading-glory",
         "value": 6
       }
     ],
     "4": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 20000
       },
       {
-        "name": "Bamboo Iris",
+        "id": "bamboo-iris",
         "value": 12
       },
       {
-        "name": "HF Tidal Residuum",
+        "id": "hf-tidal-residuum",
         "value": 4
       },
       {
-        "name": "Unfading Glory",
+        "id": "unfading-glory",
         "value": 9
       }
     ],
     "5": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 40000
       },
       {
-        "name": "Bamboo Iris",
+        "id": "bamboo-iris",
         "value": 16
       },
       {
-        "name": "HF Tidal Residuum",
+        "id": "hf-tidal-residuum",
         "value": 8
       },
       {
-        "name": "Unfading Glory",
+        "id": "unfading-glory",
         "value": 12
       }
     ],
     "6": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 80000
       },
       {
-        "name": "Bamboo Iris",
+        "id": "bamboo-iris",
         "value": 20
       },
       {
-        "name": "FF Tidal Residuum",
+        "id": "ff-tidal-residuum",
         "value": 4
       },
       {
-        "name": "Unfading Glory",
+        "id": "unfading-glory",
         "value": 16
       }
     ]
@@ -113,143 +113,143 @@
   "skill_materials": {
     "2": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 1500
       },
       {
-        "name": "Inert Metallic Drip",
+        "id": "inert-metallic-drip",
         "value": 2
       },
       {
-        "name": "LF Tidal Residuum",
+        "id": "lf-tidal-residuum",
         "value": 2
       }
     ],
     "3": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 2000
       },
       {
-        "name": "Inert Metallic Drip",
+        "id": "inert-metallic-drip",
         "value": 3
       },
       {
-        "name": "LF Tidal Residuum",
+        "id": "lf-tidal-residuum",
         "value": 3
       }
     ],
     "4": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 4500
       },
       {
-        "name": "Reactive Metallic Drip",
+        "id": "reactive-metallic-drip",
         "value": 2
       },
       {
-        "name": "MF Tidal Residuum",
+        "id": "mf-tidal-residuum",
         "value": 2
       }
     ],
     "5": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 6000
       },
       {
-        "name": "Reactive Metallic Drip",
+        "id": "reactive-metallic-drip",
         "value": 3
       },
       {
-        "name": "MF Tidal Residuum",
+        "id": "mf-tidal-residuum",
         "value": 3
       }
     ],
     "6": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 16000
       },
       {
-        "name": "Polarized Metallic Drip",
+        "id": "polarized-metallic-drip",
         "value": 3
       },
       {
-        "name": "HF Tidal Residuum",
+        "id": "hf-tidal-residuum",
         "value": 2
       }
     ],
     "7": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 30000
       },
       {
-        "name": "Polarized Metallic Drip",
+        "id": "polarized-metallic-drip",
         "value": 5
       },
       {
-        "name": "HF Tidal Residuum",
+        "id": "hf-tidal-residuum",
         "value": 3
       },
       {
-        "name": "When Irises Bloom",
+        "id": "when-irises-bloom",
         "value": 1
       }
     ],
     "8": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 50000
       },
       {
-        "name": "Heterized Metallic Drip",
+        "id": "heterized-metallic-drip",
         "value": 2
       },
       {
-        "name": "FF Tidal Residuum",
+        "id": "ff-tidal-residuum",
         "value": 2
       },
       {
-        "name": "When Irises Bloom",
+        "id": "when-irises-bloom",
         "value": 1
       }
     ],
     "9": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 70000
       },
       {
-        "name": "Heterized Metallic Drip",
+        "id": "heterized-metallic-drip",
         "value": 3
       },
       {
-        "name": "FF Tidal Residuum",
+        "id": "ff-tidal-residuum",
         "value": 3
       },
       {
-        "name": "When Irises Bloom",
+        "id": "when-irises-bloom",
         "value": 1
       }
     ],
     "10": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 100000
       },
       {
-        "name": "Heterized Metallic Drip",
+        "id": "heterized-metallic-drip",
         "value": 6
       },
       {
-        "name": "FF Tidal Residuum",
+        "id": "ff-tidal-residuum",
         "value": 4
       },
       {
-        "name": "When Irises Bloom",
+        "id": "when-irises-bloom",
         "value": 1
       }
     ]
@@ -257,33 +257,33 @@
   "stats_bonus_materials": {
     "rank_1": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 50000
       },
       {
-        "name": "HF Tidal Residuum",
+        "id": "hf-tidal-residuum",
         "value": 3
       },
       {
-        "name": "Polarized Metallic Drip",
+        "id": "polarized-metallic-drip",
         "value": 3
       }
     ],
     "rank_2": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 100000
       },
       {
-        "name": "FF Tidal Residuum",
+        "id": "ff-tidal-residuum",
         "value": 3
       },
       {
-        "name": "Heterized Metallic Drip",
+        "id": "heterized-metallic-drip",
         "value": 3
       },
       {
-        "name": "When Irises Bloom",
+        "id": "when-irises-bloom",
         "value": 1
       }
     ]
@@ -291,37 +291,37 @@
   "inherent_skill_materials": {
     "skill_1": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 10000
       },
       {
-        "name": "MF Tidal Residuum",
+        "id": "mf-tidal-residuum",
         "value": 3
       },
       {
-        "name": "Reactive Metallic Drip",
+        "id": "reactive-metallic-drip",
         "value": 3
       },
       {
-        "name": "When Irises Bloom",
+        "id": "when-irises-bloom",
         "value": 1
       }
     ],
     "skill_2": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 20000
       },
       {
-        "name": "HF Tidal Residuum",
+        "id": "hf-tidal-residuum",
         "value": 3
       },
       {
-        "name": "Polarized Metallic Drip",
+        "id": "polarized-metallic-drip",
         "value": 3
       },
       {
-        "name": "When Irises Bloom",
+        "id": "when-irises-bloom",
         "value": 1
       }
     ]

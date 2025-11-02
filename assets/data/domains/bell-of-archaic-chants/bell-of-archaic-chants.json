@@ -1,0 +1,7 @@
+{
+  "name": "Bell of Archaic Chants",
+  "id": "bell-of-archaic-chants",
+  "type": "Weekly Challenge",
+  "cost": 60,
+  "materials": [{ "name": "Monument Bell", "id": "monument-bell", "value": 3 }]
+}

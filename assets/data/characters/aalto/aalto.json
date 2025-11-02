@@ -11,101 +11,101 @@
   "ascension_materials": {
     "1": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 5000
       },
       {
-        "name": "LF Howler Core",
+        "id": "lf-howler-core",
         "value": 4
       }
     ],
     "2": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 10000
       },
       {
-        "name": "Wintry Bell",
+        "id": "wintry-bell",
         "value": 4
       },
       {
-        "name": "MF Howler Core",
+        "id": "mf-howler-core",
         "value": 4
       },
       {
-        "name": "Roaring Rock Fist",
+        "id": "roaring-rock-fist",
         "value": 3
       }
     ],
     "3": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 15000
       },
       {
-        "name": "Wintry Bell",
+        "id": "wintry-bell",
         "value": 8
       },
       {
-        "name": "MF Howler Core",
+        "id": "mf-howler-core",
         "value": 8
       },
       {
-        "name": "Roaring Rock Fist",
+        "id": "roaring-rock-fist",
         "value": 6
       }
     ],
     "4": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 20000
       },
       {
-        "name": "Wintry Bell",
+        "id": "wintry-bell",
         "value": 12
       },
       {
-        "name": "HF Howler Core",
+        "id": "hf-howler-core",
         "value": 4
       },
       {
-        "name": "Roaring Rock Fist",
+        "id": "roaring-rock-fist",
         "value": 9
       }
     ],
     "5": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 40000
       },
       {
-        "name": "Wintry Bell",
+        "id": "wintry-bell",
         "value": 16
       },
       {
-        "name": "HF Howler Core",
+        "id": "hf-howler-core",
         "value": 8
       },
       {
-        "name": "Roaring Rock Fist",
+        "id": "roaring-rock-fist",
         "value": 12
       }
     ],
     "6": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 80000
       },
       {
-        "name": "Wintry Bell",
+        "id": "wintry-bell",
         "value": 20
       },
       {
-        "name": "FF Howler Core",
+        "id": "ff-howler-core",
         "value": 4
       },
       {
-        "name": "Roaring Rock Fist",
+        "id": "roaring-rock-fist",
         "value": 16
       }
     ]
@@ -113,143 +113,143 @@
   "skill_materials": {
     "2": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 1500
       },
       {
-        "name": "Impure Phlogiston",
+        "id": "impure-phlogiston",
         "value": 2
       },
       {
-        "name": "LF Howler Core",
+        "id": "lf-howler-core",
         "value": 2
       }
     ],
     "3": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 2000
       },
       {
-        "name": "Impure Phlogiston",
+        "id": "impure-phlogiston",
         "value": 3
       },
       {
-        "name": "LF Howler Core",
+        "id": "lf-howler-core",
         "value": 3
       }
     ],
     "4": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 4500
       },
       {
-        "name": "Extracted Phlogiston",
+        "id": "extracted-phlogiston",
         "value": 2
       },
       {
-        "name": "MF Howler Core",
+        "id": "mf-howler-core",
         "value": 2
       }
     ],
     "5": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 6000
       },
       {
-        "name": "Extracted Phlogiston",
+        "id": "extracted-phlogiston",
         "value": 3
       },
       {
-        "name": "MF Howler Core",
+        "id": "mf-howler-core",
         "value": 3
       }
     ],
     "6": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 16000
       },
       {
-        "name": "Refined Phlogiston",
+        "id": "refined-phlogiston",
         "value": 3
       },
       {
-        "name": "HF Howler Core",
+        "id": "hf-howler-core",
         "value": 2
       }
     ],
     "7": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 30000
       },
       {
-        "name": "Refined Phlogiston",
+        "id": "refined-phlogiston",
         "value": 5
       },
       {
-        "name": "HF Howler Core",
+        "id": "hf-howler-core",
         "value": 3
       },
       {
-        "name": "Monument Bell",
+        "id": "monument-bell",
         "value": 1
       }
     ],
     "8": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 50000
       },
       {
-        "name": "Flawless Phlogiston",
+        "id": "flawless-phlogiston",
         "value": 2
       },
       {
-        "name": "FF Howler Core",
+        "id": "ff-howler-core",
         "value": 2
       },
       {
-        "name": "Monument Bell",
+        "id": "monument-bell",
         "value": 1
       }
     ],
     "9": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 70000
       },
       {
-        "name": "Flawless Phlogiston",
+        "id": "flawless-phlogiston",
         "value": 3
       },
       {
-        "name": "FF Howler Core",
+        "id": "ff-howler-core",
         "value": 3
       },
       {
-        "name": "Monument Bell",
+        "id": "monument-bell",
         "value": 1
       }
     ],
     "10": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 100000
       },
       {
-        "name": "Flawless Phlogiston",
+        "id": "flawless-phlogiston",
         "value": 6
       },
       {
-        "name": "FF Howler Core",
+        "id": "ff-howler-core",
         "value": 4
       },
       {
-        "name": "Monument Bell",
+        "id": "monument-bell",
         "value": 1
       }
     ]
@@ -257,33 +257,33 @@
   "stats_bonus_materials": {
     "rank_1": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 50000
       },
       {
-        "name": "HF Howler Core",
+        "id": "hf-howler-core",
         "value": 3
       },
       {
-        "name": "Refined Phlogiston",
+        "id": "refined-phlogiston",
         "value": 3
       }
     ],
     "rank_2": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 100000
       },
       {
-        "name": "FF Howler Core",
+        "id": "ff-howler-core",
         "value": 3
       },
       {
-        "name": "Flawless Phlogiston",
+        "id": "flawless-phlogiston",
         "value": 3
       },
       {
-        "name": "Monument Bell",
+        "id": "monument-bell",
         "value": 1
       }
     ]
@@ -291,37 +291,37 @@
   "inherent_skill_materials": {
     "skill_1": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 10000
       },
       {
-        "name": "MF Howler Core",
+        "id": "mf-howler-core",
         "value": 3
       },
       {
-        "name": "Extracted Phlogiston",
+        "id": "extracted-phlogiston",
         "value": 3
       },
       {
-        "name": "Monument Bell",
+        "id": "monument-bell",
         "value": 1
       }
     ],
     "skill_2": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 20000
       },
       {
-        "name": "HF Howler Core",
+        "id": "hf-howler-core",
         "value": 3
       },
       {
-        "name": "Refined Phlogiston",
+        "id": "refined-phlogiston",
         "value": 3
       },
       {
-        "name": "Monument Bell",
+        "id": "monument-bell",
         "value": 1
       }
     ]

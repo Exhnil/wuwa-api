@@ -1,0 +1,7 @@
+{
+  "name": "Statue of The Crownless",
+  "id": "statue-of-the-crownless",
+  "type": "Weekly Challenge",
+  "cost": 60,
+  "materials": [{ "name": "Dreamless Feather", "id": "dreamless-feather", "value": 3 }]
+}

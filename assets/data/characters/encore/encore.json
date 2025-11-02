@@ -11,101 +11,101 @@
   "ascension_materials": {
     "1": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 5000
       },
       {
-        "name": "LF Whisperin Core",
+        "id": "lf-whisperin-core",
         "value": 4
       }
     ],
     "2": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 10000
       },
       {
-        "name": "Pecok Flower",
+        "id": "pecok-flower",
         "value": 4
       },
       {
-        "name": "MF Whisperin Core",
+        "id": "mf-whisperin-core",
         "value": 4
       },
       {
-        "name": "Rage Tacet Core",
+        "id": "rage-tacet-core",
         "value": 3
       }
     ],
     "3": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 15000
       },
       {
-        "name": "Pecok Flower",
+        "id": "pecok-flower",
         "value": 8
       },
       {
-        "name": "MF Whisperin Core",
+        "id": "mf-whisperin-core",
         "value": 8
       },
       {
-        "name": "Rage Tacet Core",
+        "id": "rage-tacet-core",
         "value": 6
       }
     ],
     "4": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 20000
       },
       {
-        "name": "Pecok Flower",
+        "id": "pecok-flower",
         "value": 12
       },
       {
-        "name": "HF Whisperin Core",
+        "id": "hf-whisperin-core",
         "value": 4
       },
       {
-        "name": "Rage Tacet Core",
+        "id": "rage-tacet-core",
         "value": 9
       }
     ],
     "5": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 40000
       },
       {
-        "name": "Pecok Flower",
+        "id": "pecok-flower",
         "value": 16
       },
       {
-        "name": "HF Whisperin Core",
+        "id": "hf-whisperin-core",
         "value": 8
       },
       {
-        "name": "Rage Tacet Core",
+        "id": "rage-tacet-core",
         "value": 12
       }
     ],
     "6": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 80000
       },
       {
-        "name": "Pecok Flower",
+        "id": "pecok-flower",
         "value": 20
       },
       {
-        "name": "FF Whisperin Core",
+        "id": "ff-whisperin-core",
         "value": 4
       },
       {
-        "name": "Rage Tacet Core",
+        "id": "rage-tacet-core",
         "value": 16
       }
     ]
@@ -113,143 +113,143 @@
   "skill_materials": {
     "2": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 1500
       },
       {
-        "name": "Lento Helix",
+        "id": "lento-helix",
         "value": 2
       },
       {
-        "name": "LF Whisperin Core",
+        "id": "lf-whisperin-core",
         "value": 2
       }
     ],
     "3": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 2000
       },
       {
-        "name": "Lento Helix",
+        "id": "lento-helix",
         "value": 3
       },
       {
-        "name": "LF Whisperin Core",
+        "id": "lf-whisperin-core",
         "value": 3
       }
     ],
     "4": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 4500
       },
       {
-        "name": "Adagio Helix",
+        "id": "adagio-helix",
         "value": 2
       },
       {
-        "name": "MF Whisperin Core",
+        "id": "mf-whisperin-core",
         "value": 2
       }
     ],
     "5": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 6000
       },
       {
-        "name": "Adagio Helix",
+        "id": "adagio-helix",
         "value": 3
       },
       {
-        "name": "MF Whisperin Core",
+        "id": "mf-whisperin-core",
         "value": 3
       }
     ],
     "6": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 16000
       },
       {
-        "name": "Andante Helix",
+        "id": "andante-helix",
         "value": 3
       },
       {
-        "name": "HF Whisperin Core",
+        "id": "hf-whisperin-core",
         "value": 2
       }
     ],
     "7": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 30000
       },
       {
-        "name": "Andante Helix",
+        "id": "andante-helix",
         "value": 5
       },
       {
-        "name": "HF Whisperin Core",
+        "id": "hf-whisperin-core",
         "value": 3
       },
       {
-        "name": "Unending Destruction",
+        "id": "unending-destruction",
         "value": 1
       }
     ],
     "8": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 50000
       },
       {
-        "name": "Presto Helix",
+        "id": "presto-helix",
         "value": 2
       },
       {
-        "name": "FF Whisperin Core",
+        "id": "ff-whisperin-core",
         "value": 2
       },
       {
-        "name": "Unending Destruction",
+        "id": "unending-destruction",
         "value": 1
       }
     ],
     "9": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 70000
       },
       {
-        "name": "Presto Helix",
+        "id": "presto-helix",
         "value": 3
       },
       {
-        "name": "FF Whisperin Core",
+        "id": "ff-whisperin-core",
         "value": 3
       },
       {
-        "name": "Unending Destruction",
+        "id": "unending-destruction",
         "value": 1
       }
     ],
     "10": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 100000
       },
       {
-        "name": "Presto Helix",
+        "id": "presto-helix",
         "value": 6
       },
       {
-        "name": "FF Whisperin Core",
+        "id": "ff-whisperin-core",
         "value": 4
       },
       {
-        "name": "Unending Destruction",
+        "id": "unending-destruction",
         "value": 1
       }
     ]
@@ -257,33 +257,33 @@
   "stats_bonus_materials": {
     "rank_1": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 50000
       },
       {
-        "name": "HF Whisperin Core",
+        "id": "hf-whisperin-core",
         "value": 3
       },
       {
-        "name": "Andante Helix",
+        "id": "andante-helix",
         "value": 3
       }
     ],
     "rank_2": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 100000
       },
       {
-        "name": "FF Whisperin Core",
+        "id": "ff-whisperin-core",
         "value": 3
       },
       {
-        "name": "Presto Helix",
+        "id": "presto-helix",
         "value": 3
       },
       {
-        "name": "Unending Destruction",
+        "id": "unending-destruction",
         "value": 1
       }
     ]
@@ -291,37 +291,37 @@
   "inherent_skill_materials": {
     "skill_1": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 10000
       },
       {
-        "name": "MF Whisperin Core",
+        "id": "mf-whisperin-core",
         "value": 3
       },
       {
-        "name": "Adagio Helix",
+        "id": "adagio-helix",
         "value": 3
       },
       {
-        "name": "Unending Destruction",
+        "id": "unending-destruction",
         "value": 1
       }
     ],
     "skill_2": [
       {
-        "name": "Shell Credit",
+        "id": "shell-credit",
         "value": 20000
       },
       {
-        "name": "HF Whisperin Core",
+        "id": "hf-whisperin-core",
         "value": 3
       },
       {
-        "name": "Andante Helix",
+        "id": "andante-helix",
         "value": 3
       },
       {
-        "name": "Unending Destruction",
+        "id": "unending-destruction",
         "value": 1
       }
     ]

@@ -1,0 +1,7 @@
+{
+  "name": "Lady of the Sea",
+  "id": "lady-of-the-sea",
+  "type": "Overlord Class",
+  "cost": 60,
+  "materials": [{ "name": "Abyssal Husk", "id": "abyssal-husk", "value": 4.51 }]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Beyond The Crimson Curtain",
+  "id": "beyond-the-crimson-curtain",
+  "type": "Weekly Challenge",
+  "cost": 60,
+  "materials": [{ "name": "The Netherworld's Stare", "id": "the-netherworld-s-stare", "value": 3 }]
+}

@@ -1,329 +1,329 @@
 {
-    "id": "galbrena",
-    "name": "Galbrena",
-    "attribute": "Fusion",
-    "weapon": "Pistols",
-    "gender": "Female",
-    "nation": "Rinascita",
-    "class": "Congenital",
-    "rarity": 5,
-    "release": "2025-10-09",
-    "ascension_materials": {
-        "1": [
-            {
-                "name": "Shell Credit",
-                "value": 5000
-            },
-            {
-                "name": "LF Tidal Residuum",
-                "value": 4
-            }
-        ],
-        "2": [
-            {
-                "name": "Shell Credit",
-                "value": 10000
-            },
-            {
-                "name": "Stone Rose",
-                "value": 4
-            },
-            {
-                "name": "MF Tidal Residuum",
-                "value": 4
-            },
-            {
-                "name": "Blighted Crown of Puppet King",
-                "value": 3
-            }
-        ],
-        "3": [
-            {
-                "name": "Shell Credit",
-                "value": 15000
-            },
-            {
-                "name": "Stone Rose",
-                "value": 8
-            },
-            {
-                "name": "MF Tidal Residuum",
-                "value": 8
-            },
-            {
-                "name": "Blighted Crown of Puppet King",
-                "value": 6
-            }
-        ],
-        "4": [
-            {
-                "name": "Shell Credit",
-                "value": 20000
-            },
-            {
-                "name": "Stone Rose",
-                "value": 12
-            },
-            {
-                "name": "HF Tidal Residuum",
-                "value": 4
-            },
-            {
-                "name": "Blighted Crown of Puppet King",
-                "value": 9
-            }
-        ],
-        "5": [
-            {
-                "name": "Shell Credit",
-                "value": 40000
-            },
-            {
-                "name": "Stone Rose",
-                "value": 16
-            },
-            {
-                "name": "HF Tidal Residuum",
-                "value": 8
-            },
-            {
-                "name": "Blighted Crown of Puppet King",
-                "value": 12
-            }
-        ],
-        "6": [
-            {
-                "name": "Shell Credit",
-                "value": 80000
-            },
-            {
-                "name": "Stone Rose",
-                "value": 20
-            },
-            {
-                "name": "FF Tidal Residuum",
-                "value": 4
-            },
-            {
-                "name": "Blighted Crown of Puppet King",
-                "value": 16
-            }
-        ]
-    },
-    "skill_materials": {
-        "2": [
-            {
-                "name": "Shell Credit",
-                "value": 1500
-            },
-            {
-                "name": "Impure Phlogiston",
-                "value": 2
-            },
-            {
-                "name": "LF Tidal Residuum",
-                "value": 2
-            }
-        ],
-        "3": [
-            {
-                "name": "Shell Credit",
-                "value": 2000
-            },
-            {
-                "name": "Impure Phlogiston",
-                "value": 3
-            },
-            {
-                "name": "LF Tidal Residuum",
-                "value": 3
-            }
-        ],
-        "4": [
-            {
-                "name": "Shell Credit",
-                "value": 4500
-            },
-            {
-                "name": "Extracted Phlogiston",
-                "value": 2
-            },
-            {
-                "name": "MF Tidal Residuum",
-                "value": 2
-            }
-        ],
-        "5": [
-            {
-                "name": "Shell Credit",
-                "value": 6000
-            },
-            {
-                "name": "Extracted Phlogiston",
-                "value": 3
-            },
-            {
-                "name": "MF Tidal Residuum",
-                "value": 3
-            }
-        ],
-        "6": [
-            {
-                "name": "Shell Credit",
-                "value": 16000
-            },
-            {
-                "name": "Refined Phlogiston",
-                "value": 3
-            },
-            {
-                "name": "HF Tidal Residuum",
-                "value": 2
-            }
-        ],
-        "7": [
-            {
-                "name": "Shell Credit",
-                "value": 30000
-            },
-            {
-                "name": "Refined Phlogiston",
-                "value": 5
-            },
-            {
-                "name": "HF Tidal Residuum",
-                "value": 3
-            },
-            {
-                "name": "Curse of the Absyss",
-                "value": 1
-            }
-        ],
-        "8": [
-            {
-                "name": "Shell Credit",
-                "value": 50000
-            },
-            {
-                "name": "Flawless Phlogiston",
-                "value": 2
-            },
-            {
-                "name": "FF Tidal Residuum",
-                "value": 2
-            },
-            {
-                "name": "Curse of the Absyss",
-                "value": 1
-            }
-        ],
-        "9": [
-            {
-                "name": "Shell Credit",
-                "value": 70000
-            },
-            {
-                "name": "Flawless Phlogiston",
-                "value": 3
-            },
-            {
-                "name": "FF Tidal Residuum",
-                "value": 3
-            },
-            {
-                "name": "Curse of the Absyss",
-                "value": 1
-            }
-        ],
-        "10": [
-            {
-                "name": "Shell Credit",
-                "value": 100000
-            },
-            {
-                "name": "Flawless Phlogiston",
-                "value": 6
-            },
-            {
-                "name": "FF Tidal Residuum",
-                "value": 4
-            },
-            {
-                "name": "Curse of the Absyss",
-                "value": 1
-            }
-        ]
-    },
-    "stats_bonus_materials": {
-        "rank_1": [
-            {
-                "name": "Shell Credit",
-                "value": 50000
-            },
-            {
-                "name": "HF Tidal Residuum",
-                "value": 3
-            },
-            {
-                "name": "Refined Phlogiston",
-                "value": 3
-            }
-        ],
-        "rank_2": [
-            {
-                "name": "Shell Credit",
-                "value": 100000
-            },
-            {
-                "name": "FF Tidal Residuum",
-                "value": 3
-            },
-            {
-                "name": "Flawless Phlogiston",
-                "value": 3
-            },
-            {
-                "name": "Curse of the Absyss",
-                "value": 1
-            }
-        ]
-    },
-    "inherent_skill_materials": {
-        "skill_1": [
-            {
-                "name": "Shell Credit",
-                "value": 10000
-            },
-            {
-                "name": "MF Tidal Residuum",
-                "value": 3
-            },
-            {
-                "name": "Extracted Phlogiston",
-                "value": 3
-            },
-            {
-                "name": "Curse of the Absyss",
-                "value": 1
-            }
-        ],
-        "skill_2": [
-            {
-                "name": "Shell Credit",
-                "value": 20000
-            },
-            {
-                "name": "HF Tidal Residuum",
-                "value": 3
-            },
-            {
-                "name": "Refined Phlogiston",
-                "value": 3
-            },
-            {
-                "name": "Curse of the Absyss",
-                "value": 1
-            }
-        ]
-    }
+  "id": "galbrena",
+  "name": "Galbrena",
+  "attribute": "Fusion",
+  "weapon": "Pistols",
+  "gender": "Female",
+  "nation": "Rinascita",
+  "class": "Congenital",
+  "rarity": 5,
+  "release": "2025-10-09",
+  "ascension_materials": {
+    "1": [
+      {
+        "id": "shell-credit",
+        "value": 5000
+      },
+      {
+        "id": "lf-tidal-residuum",
+        "value": 4
+      }
+    ],
+    "2": [
+      {
+        "id": "shell-credit",
+        "value": 10000
+      },
+      {
+        "id": "stone-rose",
+        "value": 4
+      },
+      {
+        "id": "mf-tidal-residuum",
+        "value": 4
+      },
+      {
+        "id": "blighted-crown-of-puppet-king",
+        "value": 3
+      }
+    ],
+    "3": [
+      {
+        "id": "shell-credit",
+        "value": 15000
+      },
+      {
+        "id": "stone-rose",
+        "value": 8
+      },
+      {
+        "id": "mf-tidal-residuum",
+        "value": 8
+      },
+      {
+        "id": "blighted-crown-of-puppet-king",
+        "value": 6
+      }
+    ],
+    "4": [
+      {
+        "id": "shell-credit",
+        "value": 20000
+      },
+      {
+        "id": "stone-rose",
+        "value": 12
+      },
+      {
+        "id": "hf-tidal-residuum",
+        "value": 4
+      },
+      {
+        "id": "blighted-crown-of-puppet-king",
+        "value": 9
+      }
+    ],
+    "5": [
+      {
+        "id": "shell-credit",
+        "value": 40000
+      },
+      {
+        "id": "stone-rose",
+        "value": 16
+      },
+      {
+        "id": "hf-tidal-residuum",
+        "value": 8
+      },
+      {
+        "id": "blighted-crown-of-puppet-king",
+        "value": 12
+      }
+    ],
+    "6": [
+      {
+        "id": "shell-credit",
+        "value": 80000
+      },
+      {
+        "id": "stone-rose",
+        "value": 20
+      },
+      {
+        "id": "ff-tidal-residuum",
+        "value": 4
+      },
+      {
+        "id": "blighted-crown-of-puppet-king",
+        "value": 16
+      }
+    ]
+  },
+  "skill_materials": {
+    "2": [
+      {
+        "id": "shell-credit",
+        "value": 1500
+      },
+      {
+        "id": "impure-phlogiston",
+        "value": 2
+      },
+      {
+        "id": "lf-tidal-residuum",
+        "value": 2
+      }
+    ],
+    "3": [
+      {
+        "id": "shell-credit",
+        "value": 2000
+      },
+      {
+        "id": "impure-phlogiston",
+        "value": 3
+      },
+      {
+        "id": "lf-tidal-residuum",
+        "value": 3
+      }
+    ],
+    "4": [
+      {
+        "id": "shell-credit",
+        "value": 4500
+      },
+      {
+        "id": "extracted-phlogiston",
+        "value": 2
+      },
+      {
+        "id": "mf-tidal-residuum",
+        "value": 2
+      }
+    ],
+    "5": [
+      {
+        "id": "shell-credit",
+        "value": 6000
+      },
+      {
+        "id": "extracted-phlogiston",
+        "value": 3
+      },
+      {
+        "id": "mf-tidal-residuum",
+        "value": 3
+      }
+    ],
+    "6": [
+      {
+        "id": "shell-credit",
+        "value": 16000
+      },
+      {
+        "id": "refined-phlogiston",
+        "value": 3
+      },
+      {
+        "id": "hf-tidal-residuum",
+        "value": 2
+      }
+    ],
+    "7": [
+      {
+        "id": "shell-credit",
+        "value": 30000
+      },
+      {
+        "id": "refined-phlogiston",
+        "value": 5
+      },
+      {
+        "id": "hf-tidal-residuum",
+        "value": 3
+      },
+      {
+        "id": "curse-of-the-absyss",
+        "value": 1
+      }
+    ],
+    "8": [
+      {
+        "id": "shell-credit",
+        "value": 50000
+      },
+      {
+        "id": "flawless-phlogiston",
+        "value": 2
+      },
+      {
+        "id": "ff-tidal-residuum",
+        "value": 2
+      },
+      {
+        "id": "curse-of-the-absyss",
+        "value": 1
+      }
+    ],
+    "9": [
+      {
+        "id": "shell-credit",
+        "value": 70000
+      },
+      {
+        "id": "flawless-phlogiston",
+        "value": 3
+      },
+      {
+        "id": "ff-tidal-residuum",
+        "value": 3
+      },
+      {
+        "id": "curse-of-the-absyss",
+        "value": 1
+      }
+    ],
+    "10": [
+      {
+        "id": "shell-credit",
+        "value": 100000
+      },
+      {
+        "id": "flawless-phlogiston",
+        "value": 6
+      },
+      {
+        "id": "ff-tidal-residuum",
+        "value": 4
+      },
+      {
+        "id": "curse-of-the-absyss",
+        "value": 1
+      }
+    ]
+  },
+  "stats_bonus_materials": {
+    "rank_1": [
+      {
+        "id": "shell-credit",
+        "value": 50000
+      },
+      {
+        "id": "hf-tidal-residuum",
+        "value": 3
+      },
+      {
+        "id": "refined-phlogiston",
+        "value": 3
+      }
+    ],
+    "rank_2": [
+      {
+        "id": "shell-credit",
+        "value": 100000
+      },
+      {
+        "id": "ff-tidal-residuum",
+        "value": 3
+      },
+      {
+        "id": "flawless-phlogiston",
+        "value": 3
+      },
+      {
+        "id": "curse-of-the-absyss",
+        "value": 1
+      }
+    ]
+  },
+  "inherent_skill_materials": {
+    "skill_1": [
+      {
+        "id": "shell-credit",
+        "value": 10000
+      },
+      {
+        "id": "mf-tidal-residuum",
+        "value": 3
+      },
+      {
+        "id": "extracted-phlogiston",
+        "value": 3
+      },
+      {
+        "id": "curse-of-the-absyss",
+        "value": 1
+      }
+    ],
+    "skill_2": [
+      {
+        "id": "shell-credit",
+        "value": 20000
+      },
+      {
+        "id": "hf-tidal-residuum",
+        "value": 3
+      },
+      {
+        "id": "refined-phlogiston",
+        "value": 3
+      },
+      {
+        "id": "curse-of-the-absyss",
+        "value": 1
+      }
+    ]
+  }
 }
