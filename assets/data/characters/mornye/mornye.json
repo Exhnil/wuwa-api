@@ -1,0 +1,329 @@
+{
+    "id": "mornye",
+    "name": "Mornye",
+    "attribute": "Fusion",
+    "weapon": "Broadblades",
+    "gender": "Female",
+    "nation": "Lahai-Roi",
+    "class": "Natural",
+    "rarity": 5,
+    "release": "2026-01-15",
+    "ascension_materials": {
+        "1": [
+            {
+                "name": "Shell Credit",
+                "value": 5000
+            },
+            {
+                "name": "LF Mech Core",
+                "value": 4
+            }
+        ],
+        "2": [
+            {
+                "name": "Shell Credit",
+                "value": 10000
+            },
+            {
+                "name": "Gemini Spore",
+                "value": 4
+            },
+            {
+                "name": "MF Mech Core",
+                "value": 4
+            },
+            {
+                "name": " Burning Judgment",
+                "value": 3
+            }
+        ],
+        "3": [
+            {
+                "name": "Shell Credit",
+                "value": 15000
+            },
+            {
+                "name": "Gemini Spore",
+                "value": 8
+            },
+            {
+                "name": "MF Mech Core",
+                "value": 8
+            },
+            {
+                "name": " Burning Judgment",
+                "value": 6
+            }
+        ],
+        "4": [
+            {
+                "name": "Shell Credit",
+                "value": 20000
+            },
+            {
+                "name": "Gemini Spore",
+                "value": 12
+            },
+            {
+                "name": "HF Mech Core",
+                "value": 4
+            },
+            {
+                "name": " Burning Judgment",
+                "value": 9
+            }
+        ],
+        "5": [
+            {
+                "name": "Shell Credit",
+                "value": 40000
+            },
+            {
+                "name": "Gemini Spore",
+                "value": 16
+            },
+            {
+                "name": "HF Mech Core",
+                "value": 8
+            },
+            {
+                "name": " Burning Judgment",
+                "value": 12
+            }
+        ],
+        "6": [
+            {
+                "name": "Shell Credit",
+                "value": 80000
+            },
+            {
+                "name": "Gemini Spore",
+                "value": 20
+            },
+            {
+                "name": "FF Mech Core",
+                "value": 4
+            },
+            {
+                "name": " Burning Judgment",
+                "value": 16
+            }
+        ]
+    },
+    "skill_materials": {
+        "2": [
+            {
+                "name": "Shell Credit",
+                "value": 1500
+            },
+            {
+                "name": "LF Carved Crystal",
+                "value": 2
+            },
+            {
+                "name": "LF Mech Core",
+                "value": 2
+            }
+        ],
+        "3": [
+            {
+                "name": "Shell Credit",
+                "value": 2000
+            },
+            {
+                "name": "LF Carved Crystal",
+                "value": 3
+            },
+            {
+                "name": "LF Mech Core",
+                "value": 3
+            }
+        ],
+        "4": [
+            {
+                "name": "Shell Credit",
+                "value": 4500
+            },
+            {
+                "name": "MF Carved Crystal",
+                "value": 2
+            },
+            {
+                "name": "MF Mech Core",
+                "value": 2
+            }
+        ],
+        "5": [
+            {
+                "name": "Shell Credit",
+                "value": 6000
+            },
+            {
+                "name": "MF Carved Crystal",
+                "value": 3
+            },
+            {
+                "name": "MF Mech Core",
+                "value": 3
+            }
+        ],
+        "6": [
+            {
+                "name": "Shell Credit",
+                "value": 16000
+            },
+            {
+                "name": "HF Carved Crystal",
+                "value": 3
+            },
+            {
+                "name": "HF Mech Core",
+                "value": 2
+            }
+        ],
+        "7": [
+            {
+                "name": "Shell Credit",
+                "value": 30000
+            },
+            {
+                "name": "HF Carved Crystal",
+                "value": 5
+            },
+            {
+                "name": "HF Mech Core",
+                "value": 3
+            },
+            {
+                "name": "The Netherworld's Stare",
+                "value": 1
+            }
+        ],
+        "8": [
+            {
+                "name": "Shell Credit",
+                "value": 50000
+            },
+            {
+                "name": "FF Carved Crystal",
+                "value": 2
+            },
+            {
+                "name": "FF Mech Core",
+                "value": 2
+            },
+            {
+                "name": "The Netherworld's Stare",
+                "value": 1
+            }
+        ],
+        "9": [
+            {
+                "name": "Shell Credit",
+                "value": 70000
+            },
+            {
+                "name": "FF Carved Crystal",
+                "value": 3
+            },
+            {
+                "name": "FF Mech Core",
+                "value": 3
+            },
+            {
+                "name": "The Netherworld's Stare",
+                "value": 1
+            }
+        ],
+        "10": [
+            {
+                "name": "Shell Credit",
+                "value": 100000
+            },
+            {
+                "name": "FF Carved Crystal",
+                "value": 6
+            },
+            {
+                "name": "FF Mech Core",
+                "value": 4
+            },
+            {
+                "name": "The Netherworld's Stare",
+                "value": 1
+            }
+        ]
+    },
+    "stats_bonus_materials": {
+        "rank_1": [
+            {
+                "name": "Shell Credit",
+                "value": 50000
+            },
+            {
+                "name": "HF Mech Core",
+                "value": 3
+            },
+            {
+                "name": "HF Carved Crystal",
+                "value": 3
+            }
+        ],
+        "rank_2": [
+            {
+                "name": "Shell Credit",
+                "value": 100000
+            },
+            {
+                "name": "FF Mech Core",
+                "value": 3
+            },
+            {
+                "name": "FF Carved Crystal",
+                "value": 3
+            },
+            {
+                "name": "The Netherworld's Stare",
+                "value": 1
+            }
+        ]
+    },
+    "inherent_skill_materials": {
+        "skill_1": [
+            {
+                "name": "Shell Credit",
+                "value": 10000
+            },
+            {
+                "name": "MF Mech Core",
+                "value": 3
+            },
+            {
+                "name": "MF Carved Crystal",
+                "value": 3
+            },
+            {
+                "name": "The Netherworld's Stare",
+                "value": 1
+            }
+        ],
+        "skill_2": [
+            {
+                "name": "Shell Credit",
+                "value": 20000
+            },
+            {
+                "name": "HF Mech Core",
+                "value": 3
+            },
+            {
+                "name": "HF Carved Crystal",
+                "value": 3
+            },
+            {
+                "name": "The Netherworld's Stare",
+                "value": 1
+            }
+        ]
+    }
+}
