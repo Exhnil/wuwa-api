@@ -6,24 +6,60 @@ import morgan from "morgan";
 import helmet from "helmet";
 import fs from "fs";
 import path from "path";
+import rateLimit from "express-rate-limit";
 
 dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
+const allowedOrigins = process.env.CORS ? process.env.CORS.split(",") : ["*"];
+
+app.use(helmet());
+app.use(
+  cors({
+    origin: (origin, callback) => {
+      if (
+        !origin ||
+        allowedOrigins.includes("*") ||
+        allowedOrigins.includes(origin)
+      ) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
+  }),
+);
+app.use(morgan(process.env.NODE_ENV === "production" ? "combined" : "dev"));
+
+app.use(
+  rateLimit({
+    windowMs: 60 * 1000,
+    max: 120,
+  }),
+);
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-if (process.env.NODE_ENV !== "development") {
-  app.use(morgan("combined"));
-}
+app.use("/api", routes);
 
-app.use(helmet());
+app.get("/", (req, res) => {
+  res.json({
+    name: "Wuwa API",
+    status: "OK",
+    docs: "/api",
+    version: "1.0",
+  });
+});
 
-app.use(cors());
+app.use((req, res) => {
+  res.status(404).json({ message: "Not Found" });
+});
 
-app.use("/", routes);
+app.get("/favicon.ico", (req, res) => {
+  res.status(204).end();
+});
 
 const logFile = path.join(process.cwd(), "errors.log");
 

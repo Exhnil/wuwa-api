@@ -4,11 +4,14 @@ import keyv from "keyv";
 import sharp from "sharp";
 import mimeType from "mime-types";
 
-const cache = new keyv();
+const cache = new keyv({
+  namespace: "wuwa-api",
+  ttl: 1000 * 60 * 5,
+});
 const dataDir = path.join(process.cwd(), "/assets/data");
 const imageDir = path.join(process.cwd(), "/assets/images");
 
-function pathSafety(base, ...parts) {
+async function pathSafety(base, ...parts) {
   const resolveBase = path.resolve(base);
   const p = path.resolve(resolveBase, ...parts);
 
@@ -16,6 +19,15 @@ function pathSafety(base, ...parts) {
     return p;
   }
   throw new Error("Path traversal");
+}
+
+async function pathExist(p) {
+  try {
+    await fs.access(p);
+    return true;
+  } catch {
+    return false;
+  }
 }
 
 export async function containsFolders(p) {
@@ -28,13 +40,16 @@ export async function containsFolders(p) {
 
 export async function getTypes() {
   const found = await cache.get("types");
-  if (found) {
-    return found;
-  }
-  const types = await fs.readdir(dataDir);
+  if (found !== undefined) return found;
+
+  const dirs = await fs.readdir(dataDir, { withFileTypes: true });
+
+  const types = dirs.filter((d) => d.isDirectory()).map((d) => d.name);
 
   await cache.set("types", types);
-  console.log("Cached types");
+  if (process.env.NODE_ENV === "development") {
+    console.log("Cached types");
+  }
 
   return types;
 }
@@ -42,12 +57,14 @@ export async function getTypes() {
 export async function getAvailableEntities(type) {
   const cacheId = ("data-" + type).toLowerCase();
   const found = await cache.get(cacheId);
-  if (found) return found;
+  if (found !== undefined) return found;
 
   const dirPath = pathSafety(dataDir, type);
-  if (!existsSync(dirPath)) return [];
+  if (!(await pathExist(dirPath))) return [];
 
-  const entities = await fs.readdir(dirPath);
+  const entries = await fs.readdir(dirPath, { withFileTypes: true });
+
+  const entities = entries.filter((e) => e.isDirectory()).map((e) => e.name);
 
   await cache.set(cacheId, entities);
   return entities;
@@ -56,12 +73,15 @@ export async function getAvailableEntities(type) {
 export async function getAvailableImages(type, id) {
   const cacheId = ("image-" + type + "-" + id).toLowerCase();
   const found = await cache.get(cacheId);
-  if (found) return found;
+  if (found !== undefined) return found;
 
   const filePath = pathSafety(imageDir, type, id);
-  if (!existsSync(filePath)) return [];
+  if (!(await pathExist(dirPath))) return [];
 
-  const images = await fs.readdir(filePath);
+  const entries = await fs.readdir(filePath, { withFileTypes: true });
+
+  const images = entries.filter((e) => e.isFile()).map((e) => e.name);
+
   await cache.set(cacheId, images);
   return images;
 }
@@ -70,11 +90,9 @@ export async function getImage(type, id, image) {
   try {
     const filePath = pathSafety(imageDir, type, id, image);
 
-    if (!existsSync(filePath)) {
-      return null;
-    }
+    if (!(await pathExist(dirPath))) return null;
 
-    const buffer = await sharp(filePath).toBuffer();
+    const buffer = await fs.readFile(filePath);
     const mime = mimeType.lookup(image) || "application/octet-stream";
 
     return {
@@ -90,13 +108,11 @@ export async function getImage(type, id, image) {
 export async function getEntity(type, id) {
   const cacheId = ("data-" + type + "-" + id).toLowerCase();
   const found = await cache.get(cacheId);
-  if (found) return found;
+  if (found !== undefined) return found;
 
-  const filePath = pathSafety(dataDir, type, id, id + ".json");
+  const filePath = pathSafety(dataDir, type, id, `${id}.json`);
 
-  if (!existsSync(filePath)) {
-    return null;
-  }
+  if (!(await pathExist(dirPath))) return null;
 
   try {
     const file = await fs.readFile(filePath, "utf-8");
