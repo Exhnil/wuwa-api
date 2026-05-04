@@ -1,329 +1,397 @@
 {
-    "id": "lynae",
-    "name": "Lynae",
-    "attribute": "Spectro",
-    "weapon": "Pistols",
-    "gender": "Female",
-    "nation": "The Black Shores",
-    "class": "Congenital",
-    "rarity": 5,
-    "release": "2025-12-25",
-    "ascension_materials": {
-        "1": [
-            {
-                "name": "Shell Credit",
-                "value": 5000
-            },
-            {
-                "name": "LF Exoswarm Core",
-                "value": 4
-            }
-        ],
-        "2": [
-            {
-                "name": "Shell Credit",
-                "value": 10000
-            },
-            {
-                "name": "Rimewisp",
-                "value": 4
-            },
-            {
-                "name": "MF Exoswarm Core",
-                "value": 4
-            },
-            {
-                "name": "Suncoveter's Reach",
-                "value": 3
-            }
-        ],
-        "3": [
-            {
-                "name": "Shell Credit",
-                "value": 15000
-            },
-            {
-                "name": "Rimewisp",
-                "value": 8
-            },
-            {
-                "name": "MF Exoswarm Core",
-                "value": 8
-            },
-            {
-                "name": "Suncoveter's Reach",
-                "value": 6
-            }
-        ],
-        "4": [
-            {
-                "name": "Shell Credit",
-                "value": 20000
-            },
-            {
-                "name": "Rimewisp",
-                "value": 12
-            },
-            {
-                "name": "HF Exoswarm Core",
-                "value": 4
-            },
-            {
-                "name": "Suncoveter's Reach",
-                "value": 9
-            }
-        ],
-        "5": [
-            {
-                "name": "Shell Credit",
-                "value": 40000
-            },
-            {
-                "name": "Rimewisp",
-                "value": 16
-            },
-            {
-                "name": "HF Exoswarm Core",
-                "value": 8
-            },
-            {
-                "name": "Suncoveter's Reach",
-                "value": 12
-            }
-        ],
-        "6": [
-            {
-                "name": "Shell Credit",
-                "value": 80000
-            },
-            {
-                "name": "Rimewisp",
-                "value": 20
-            },
-            {
-                "name": "FF Exoswarm Core",
-                "value": 4
-            },
-            {
-                "name": "Suncoveter's Reach",
-                "value": 16
-            }
-        ]
-    },
-    "skill_materials": {
-        "2": [
-            {
-                "name": "Shell Credit",
-                "value": 1500
-            },
-            {
-                "name": "Incomplete Combuster",
-                "value": 2
-            },
-            {
-                "name": "LF Exoswarm Core",
-                "value": 2
-            }
-        ],
-        "3": [
-            {
-                "name": "Shell Credit",
-                "value": 2000
-            },
-            {
-                "name": "Incomplete Combuster",
-                "value": 3
-            },
-            {
-                "name": "LF Exoswarm Core",
-                "value": 3
-            }
-        ],
-        "4": [
-            {
-                "name": "Shell Credit",
-                "value": 4500
-            },
-            {
-                "name": "Aftertune Combuster",
-                "value": 2
-            },
-            {
-                "name": "MF Exoswarm Core",
-                "value": 2
-            }
-        ],
-        "5": [
-            {
-                "name": "Shell Credit",
-                "value": 6000
-            },
-            {
-                "name": "Aftertune Combuster",
-                "value": 3
-            },
-            {
-                "name": "MF Exoswarm Core",
-                "value": 3
-            }
-        ],
-        "6": [
-            {
-                "name": "Shell Credit",
-                "value": 16000
-            },
-            {
-                "name": "Renmant Combuster",
-                "value": 3
-            },
-            {
-                "name": "HF Exoswarm Core",
-                "value": 2
-            }
-        ],
-        "7": [
-            {
-                "name": "Shell Credit",
-                "value": 30000
-            },
-            {
-                "name": "Renmant Combuster",
-                "value": 5
-            },
-            {
-                "name": "HF Exoswarm Core",
-                "value": 3
-            },
-            {
-                "name": "Dreamless Feather",
-                "value": 1
-            }
-        ],
-        "8": [
-            {
-                "name": "Shell Credit",
-                "value": 50000
-            },
-            {
-                "name": "Reverb Combuster",
-                "value": 2
-            },
-            {
-                "name": "FF Exoswarm Core",
-                "value": 2
-            },
-            {
-                "name": "Dreamless Feather",
-                "value": 1
-            }
-        ],
-        "9": [
-            {
-                "name": "Shell Credit",
-                "value": 70000
-            },
-            {
-                "name": "Reverb Combuster",
-                "value": 3
-            },
-            {
-                "name": "FF Exoswarm Core",
-                "value": 3
-            },
-            {
-                "name": "Dreamless Feather",
-                "value": 1
-            }
-        ],
-        "10": [
-            {
-                "name": "Shell Credit",
-                "value": 100000
-            },
-            {
-                "name": "Reverb Combuster",
-                "value": 6
-            },
-            {
-                "name": "FF Exoswarm Core",
-                "value": 4
-            },
-            {
-                "name": "Dreamless Feather",
-                "value": 1
-            }
-        ]
-    },
-    "stats_bonus_materials": {
-        "rank_1": [
-            {
-                "name": "Shell Credit",
-                "value": 50000
-            },
-            {
-                "name": "HF Exoswarm Core",
-                "value": 3
-            },
-            {
-                "name": "Renmant Combuster",
-                "value": 3
-            }
-        ],
-        "rank_2": [
-            {
-                "name": "Shell Credit",
-                "value": 100000
-            },
-            {
-                "name": "FF Exoswarm Core",
-                "value": 3
-            },
-            {
-                "name": "Reverb Combuster",
-                "value": 3
-            },
-            {
-                "name": "Dreamless Feather",
-                "value": 1
-            }
-        ]
-    },
-    "inherent_skill_materials": {
-        "skill_1": [
-            {
-                "name": "Shell Credit",
-                "value": 10000
-            },
-            {
-                "name": "MF Exoswarm Core",
-                "value": 3
-            },
-            {
-                "name": "Aftertune Combuster",
-                "value": 3
-            },
-            {
-                "name": "Dreamless Feather",
-                "value": 1
-            }
-        ],
-        "skill_2": [
-            {
-                "name": "Shell Credit",
-                "value": 20000
-            },
-            {
-                "name": "HF Exoswarm Core",
-                "value": 3
-            },
-            {
-                "name": "Renmant Combuster",
-                "value": 3
-            },
-            {
-                "name": "Dreamless Feather",
-                "value": 1
-            }
-        ]
-    }
+  "id": "lynae",
+  "name": "Lynae",
+  "attribute": "Spectro",
+  "weapon": "Pistols",
+  "gender": "Female",
+  "nation": "The Black Shores",
+  "class": "Congenital",
+  "rarity": 5,
+  "release": "2025-12-25",
+  "ascension_materials": {
+    "1": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 5000
+      },
+      {
+        "id": "lf-exoswarm-core",
+        "name": "LF Exoswarm Core",
+        "value": 4
+      }
+    ],
+    "2": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 10000
+      },
+      {
+        "id": "rimewisp",
+        "name": "Rimewisp",
+        "value": 4
+      },
+      {
+        "id": "mf-exoswarm-core",
+        "name": "MF Exoswarm Core",
+        "value": 4
+      },
+      {
+        "id": "suncoveter-s-reach",
+        "name": "Suncoveter's Reach",
+        "value": 3
+      }
+    ],
+    "3": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 15000
+      },
+      {
+        "id": "rimewisp",
+        "name": "Rimewisp",
+        "value": 8
+      },
+      {
+        "id": "mf-exoswarm-core",
+        "name": "MF Exoswarm Core",
+        "value": 8
+      },
+      {
+        "id": "suncoveter-s-reach",
+        "name": "Suncoveter's Reach",
+        "value": 6
+      }
+    ],
+    "4": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 20000
+      },
+      {
+        "id": "rimewisp",
+        "name": "Rimewisp",
+        "value": 12
+      },
+      {
+        "id": "hf-exoswarm-core",
+        "name": "HF Exoswarm Core",
+        "value": 4
+      },
+      {
+        "id": "suncoveter-s-reach",
+        "name": "Suncoveter's Reach",
+        "value": 9
+      }
+    ],
+    "5": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 40000
+      },
+      {
+        "id": "rimewisp",
+        "name": "Rimewisp",
+        "value": 16
+      },
+      {
+        "id": "hf-exoswarm-core",
+        "name": "HF Exoswarm Core",
+        "value": 8
+      },
+      {
+        "id": "suncoveter-s-reach",
+        "name": "Suncoveter's Reach",
+        "value": 12
+      }
+    ],
+    "6": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 80000
+      },
+      {
+        "id": "rimewisp",
+        "name": "Rimewisp",
+        "value": 20
+      },
+      {
+        "id": "ff-exoswarm-core",
+        "name": "FF Exoswarm Core",
+        "value": 4
+      },
+      {
+        "id": "suncoveter-s-reach",
+        "name": "Suncoveter's Reach",
+        "value": 16
+      }
+    ]
+  },
+  "skill_materials": {
+    "2": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 1500
+      },
+      {
+        "id": "incomplete-combuster",
+        "name": "Incomplete Combuster",
+        "value": 2
+      },
+      {
+        "id": "lf-exoswarm-core",
+        "name": "LF Exoswarm Core",
+        "value": 2
+      }
+    ],
+    "3": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 2000
+      },
+      {
+        "id": "incomplete-combuster",
+        "name": "Incomplete Combuster",
+        "value": 3
+      },
+      {
+        "id": "lf-exoswarm-core",
+        "name": "LF Exoswarm Core",
+        "value": 3
+      }
+    ],
+    "4": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 4500
+      },
+      {
+        "id": "aftertune-combuster",
+        "name": "Aftertune Combuster",
+        "value": 2
+      },
+      {
+        "id": "mf-exoswarm-core",
+        "name": "MF Exoswarm Core",
+        "value": 2
+      }
+    ],
+    "5": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 6000
+      },
+      {
+        "id": "aftertune-combuster",
+        "name": "Aftertune Combuster",
+        "value": 3
+      },
+      {
+        "id": "mf-exoswarm-core",
+        "name": "MF Exoswarm Core",
+        "value": 3
+      }
+    ],
+    "6": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 16000
+      },
+      {
+        "id": "renmant-combuster",
+        "name": "Renmant Combuster",
+        "value": 3
+      },
+      {
+        "id": "hf-exoswarm-core",
+        "name": "HF Exoswarm Core",
+        "value": 2
+      }
+    ],
+    "7": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 30000
+      },
+      {
+        "id": "renmant-combuster",
+        "name": "Renmant Combuster",
+        "value": 5
+      },
+      {
+        "id": "hf-exoswarm-core",
+        "name": "HF Exoswarm Core",
+        "value": 3
+      },
+      {
+        "id": "dreamless-feather",
+        "name": "Dreamless Feather",
+        "value": 1
+      }
+    ],
+    "8": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 50000
+      },
+      {
+        "id": "reverb-combuster",
+        "name": "Reverb Combuster",
+        "value": 2
+      },
+      {
+        "id": "ff-exoswarm-core",
+        "name": "FF Exoswarm Core",
+        "value": 2
+      },
+      {
+        "id": "dreamless-feather",
+        "name": "Dreamless Feather",
+        "value": 1
+      }
+    ],
+    "9": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 70000
+      },
+      {
+        "id": "reverb-combuster",
+        "name": "Reverb Combuster",
+        "value": 3
+      },
+      {
+        "id": "ff-exoswarm-core",
+        "name": "FF Exoswarm Core",
+        "value": 3
+      },
+      {
+        "id": "dreamless-feather",
+        "name": "Dreamless Feather",
+        "value": 1
+      }
+    ],
+    "10": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 100000
+      },
+      {
+        "id": "reverb-combuster",
+        "name": "Reverb Combuster",
+        "value": 6
+      },
+      {
+        "id": "ff-exoswarm-core",
+        "name": "FF Exoswarm Core",
+        "value": 4
+      },
+      {
+        "id": "dreamless-feather",
+        "name": "Dreamless Feather",
+        "value": 1
+      }
+    ]
+  },
+  "stats_bonus_materials": {
+    "rank_1": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 50000
+      },
+      {
+        "id": "hf-exoswarm-core",
+        "name": "HF Exoswarm Core",
+        "value": 3
+      },
+      {
+        "id": "renmant-combuster",
+        "name": "Renmant Combuster",
+        "value": 3
+      }
+    ],
+    "rank_2": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 100000
+      },
+      {
+        "id": "ff-exoswarm-core",
+        "name": "FF Exoswarm Core",
+        "value": 3
+      },
+      {
+        "id": "reverb-combuster",
+        "name": "Reverb Combuster",
+        "value": 3
+      },
+      {
+        "id": "dreamless-feather",
+        "name": "Dreamless Feather",
+        "value": 1
+      }
+    ]
+  },
+  "inherent_skill_materials": {
+    "skill_1": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 10000
+      },
+      {
+        "id": "mf-exoswarm-core",
+        "name": "MF Exoswarm Core",
+        "value": 3
+      },
+      {
+        "id": "aftertune-combuster",
+        "name": "Aftertune Combuster",
+        "value": 3
+      },
+      {
+        "id": "dreamless-feather",
+        "name": "Dreamless Feather",
+        "value": 1
+      }
+    ],
+    "skill_2": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 20000
+      },
+      {
+        "id": "hf-exoswarm-core",
+        "name": "HF Exoswarm Core",
+        "value": 3
+      },
+      {
+        "id": "renmant-combuster",
+        "name": "Renmant Combuster",
+        "value": 3
+      },
+      {
+        "id": "dreamless-feather",
+        "name": "Dreamless Feather",
+        "value": 1
+      }
+    ]
+  }
 }

@@ -1,329 +1,397 @@
 {
-    "id": "aemeath",
-    "name": "Aemeath",
-    "attribute": "Fusion",
-    "weapon": "Swords",
-    "gender": "Female",
-    "nation": "Lahai-Roi",
-    "class": "Natural",
-    "rarity": 5,
-    "release": "2026-02-05",
-    "ascension_materials": {
-        "1": [
-            {
-                "name": "Shell Credit",
-                "value": 5000
-            },
-            {
-                "name": "LF Exoswarm Core",
-                "value": 4
-            }
-        ],
-        "2": [
-            {
-                "name": "Shell Credit",
-                "value": 10000
-            },
-            {
-                "name": "Moss Amber",
-                "value": 4
-            },
-            {
-                "name": "MF Exoswarm Core",
-                "value": 4
-            },
-            {
-                "name": "Our Choice",
-                "value": 3
-            }
-        ],
-        "3": [
-            {
-                "name": "Shell Credit",
-                "value": 15000
-            },
-            {
-                "name": "Moss Amber",
-                "value": 8
-            },
-            {
-                "name": "MF Exoswarm Core",
-                "value": 8
-            },
-            {
-                "name": "Our Choice",
-                "value": 6
-            }
-        ],
-        "4": [
-            {
-                "name": "Shell Credit",
-                "value": 20000
-            },
-            {
-                "name": "Moss Amber",
-                "value": 12
-            },
-            {
-                "name": "HF Exoswarm Core",
-                "value": 4
-            },
-            {
-                "name": "Our Choice",
-                "value": 9
-            }
-        ],
-        "5": [
-            {
-                "name": "Shell Credit",
-                "value": 40000
-            },
-            {
-                "name": "Moss Amber",
-                "value": 16
-            },
-            {
-                "name": "HF Exoswarm Core",
-                "value": 8
-            },
-            {
-                "name": "Our Choice",
-                "value": 12
-            }
-        ],
-        "6": [
-            {
-                "name": "Shell Credit",
-                "value": 80000
-            },
-            {
-                "name": "Moss Amber",
-                "value": 20
-            },
-            {
-                "name": "FF Exoswarm Core",
-                "value": 4
-            },
-            {
-                "name": "Our Choice",
-                "value": 16
-            }
-        ]
-    },
-    "skill_materials": {
-        "2": [
-            {
-                "name": "Shell Credit",
-                "value": 1500
-            },
-            {
-                "name": "Broken Wing Polarizer",
-                "value": 2
-            },
-            {
-                "name": "LF Exoswarm Core",
-                "value": 2
-            }
-        ],
-        "3": [
-            {
-                "name": "Shell Credit",
-                "value": 2000
-            },
-            {
-                "name": "Broken Wing Polarizer",
-                "value": 3
-            },
-            {
-                "name": "LF Exoswarm Core",
-                "value": 3
-            }
-        ],
-        "4": [
-            {
-                "name": "Shell Credit",
-                "value": 4500
-            },
-            {
-                "name": "Monowing Polarizer",
-                "value": 2
-            },
-            {
-                "name": "MF Exoswarm Core",
-                "value": 2
-            }
-        ],
-        "5": [
-            {
-                "name": "Shell Credit",
-                "value": 6000
-            },
-            {
-                "name": "Monowing Polarizer",
-                "value": 3
-            },
-            {
-                "name": "MF Exoswarm Core",
-                "value": 3
-            }
-        ],
-        "6": [
-            {
-                "name": "Shell Credit",
-                "value": 16000
-            },
-            {
-                "name": "Polywing Polarizer",
-                "value": 3
-            },
-            {
-                "name": "HF Exoswarm Core",
-                "value": 2
-            }
-        ],
-        "7": [
-            {
-                "name": "Shell Credit",
-                "value": 30000
-            },
-            {
-                "name": "Polywing Polarizer",
-                "value": 5
-            },
-            {
-                "name": "HF Exoswarm Core",
-                "value": 3
-            },
-            {
-                "name": "Gold in Memory",
-                "value": 1
-            }
-        ],
-        "8": [
-            {
-                "name": "Shell Credit",
-                "value": 50000
-            },
-            {
-                "name": "Layered Wing Polarizer",
-                "value": 2
-            },
-            {
-                "name": "FF Exoswarm Core",
-                "value": 2
-            },
-            {
-                "name": "Gold in Memory",
-                "value": 1
-            }
-        ],
-        "9": [
-            {
-                "name": "Shell Credit",
-                "value": 70000
-            },
-            {
-                "name": "Layered Wing Polarizer",
-                "value": 3
-            },
-            {
-                "name": "FF Exoswarm Core",
-                "value": 3
-            },
-            {
-                "name": "Gold in Memory",
-                "value": 1
-            }
-        ],
-        "10": [
-            {
-                "name": "Shell Credit",
-                "value": 100000
-            },
-            {
-                "name": "Layered Wing Polarizer",
-                "value": 6
-            },
-            {
-                "name": "FF Exoswarm Core",
-                "value": 4
-            },
-            {
-                "name": "Gold in Memory",
-                "value": 1
-            }
-        ]
-    },
-    "stats_bonus_materials": {
-        "rank_1": [
-            {
-                "name": "Shell Credit",
-                "value": 50000
-            },
-            {
-                "name": "HF Exoswarm Core",
-                "value": 3
-            },
-            {
-                "name": "Polywing Polarizer",
-                "value": 3
-            }
-        ],
-        "rank_2": [
-            {
-                "name": "Shell Credit",
-                "value": 100000
-            },
-            {
-                "name": "FF Exoswarm Core",
-                "value": 3
-            },
-            {
-                "name": "Layered Wing Polarizer",
-                "value": 3
-            },
-            {
-                "name": "Gold in Memory",
-                "value": 1
-            }
-        ]
-    },
-    "inherent_skill_materials": {
-        "skill_1": [
-            {
-                "name": "Shell Credit",
-                "value": 10000
-            },
-            {
-                "name": "MF Exoswarm Core",
-                "value": 3
-            },
-            {
-                "name": "Monowing Polarizer",
-                "value": 3
-            },
-            {
-                "name": "Gold in Memory",
-                "value": 1
-            }
-        ],
-        "skill_2": [
-            {
-                "name": "Shell Credit",
-                "value": 20000
-            },
-            {
-                "name": "HF Exoswarm Core",
-                "value": 3
-            },
-            {
-                "name": "Polywing Polarizer",
-                "value": 3
-            },
-            {
-                "name": "Gold in Memory",
-                "value": 1
-            }
-        ]
-    }
+  "id": "aemeath",
+  "name": "Aemeath",
+  "attribute": "Fusion",
+  "weapon": "Swords",
+  "gender": "Female",
+  "nation": "Lahai-Roi",
+  "class": "Natural",
+  "rarity": 5,
+  "release": "2026-02-05",
+  "ascension_materials": {
+    "1": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 5000
+      },
+      {
+        "id": "lf-exoswarm-core",
+        "name": "LF Exoswarm Core",
+        "value": 4
+      }
+    ],
+    "2": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 10000
+      },
+      {
+        "id": "moss-amber",
+        "name": "Moss Amber",
+        "value": 4
+      },
+      {
+        "id": "mf-exoswarm-core",
+        "name": "MF Exoswarm Core",
+        "value": 4
+      },
+      {
+        "id": "our-choice",
+        "name": "Our Choice",
+        "value": 3
+      }
+    ],
+    "3": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 15000
+      },
+      {
+        "id": "moss-amber",
+        "name": "Moss Amber",
+        "value": 8
+      },
+      {
+        "id": "mf-exoswarm-core",
+        "name": "MF Exoswarm Core",
+        "value": 8
+      },
+      {
+        "id": "our-choice",
+        "name": "Our Choice",
+        "value": 6
+      }
+    ],
+    "4": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 20000
+      },
+      {
+        "id": "moss-amber",
+        "name": "Moss Amber",
+        "value": 12
+      },
+      {
+        "id": "hf-exoswarm-core",
+        "name": "HF Exoswarm Core",
+        "value": 4
+      },
+      {
+        "id": "our-choice",
+        "name": "Our Choice",
+        "value": 9
+      }
+    ],
+    "5": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 40000
+      },
+      {
+        "id": "moss-amber",
+        "name": "Moss Amber",
+        "value": 16
+      },
+      {
+        "id": "hf-exoswarm-core",
+        "name": "HF Exoswarm Core",
+        "value": 8
+      },
+      {
+        "id": "our-choice",
+        "name": "Our Choice",
+        "value": 12
+      }
+    ],
+    "6": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 80000
+      },
+      {
+        "id": "moss-amber",
+        "name": "Moss Amber",
+        "value": 20
+      },
+      {
+        "id": "ff-exoswarm-core",
+        "name": "FF Exoswarm Core",
+        "value": 4
+      },
+      {
+        "id": "our-choice",
+        "name": "Our Choice",
+        "value": 16
+      }
+    ]
+  },
+  "skill_materials": {
+    "2": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 1500
+      },
+      {
+        "id": "broken-wing-polarizer",
+        "name": "Broken Wing Polarizer",
+        "value": 2
+      },
+      {
+        "id": "lf-exoswarm-core",
+        "name": "LF Exoswarm Core",
+        "value": 2
+      }
+    ],
+    "3": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 2000
+      },
+      {
+        "id": "broken-wing-polarizer",
+        "name": "Broken Wing Polarizer",
+        "value": 3
+      },
+      {
+        "id": "lf-exoswarm-core",
+        "name": "LF Exoswarm Core",
+        "value": 3
+      }
+    ],
+    "4": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 4500
+      },
+      {
+        "id": "monowing-polarizer",
+        "name": "Monowing Polarizer",
+        "value": 2
+      },
+      {
+        "id": "mf-exoswarm-core",
+        "name": "MF Exoswarm Core",
+        "value": 2
+      }
+    ],
+    "5": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 6000
+      },
+      {
+        "id": "monowing-polarizer",
+        "name": "Monowing Polarizer",
+        "value": 3
+      },
+      {
+        "id": "mf-exoswarm-core",
+        "name": "MF Exoswarm Core",
+        "value": 3
+      }
+    ],
+    "6": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 16000
+      },
+      {
+        "id": "polywing-polarizer",
+        "name": "Polywing Polarizer",
+        "value": 3
+      },
+      {
+        "id": "hf-exoswarm-core",
+        "name": "HF Exoswarm Core",
+        "value": 2
+      }
+    ],
+    "7": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 30000
+      },
+      {
+        "id": "polywing-polarizer",
+        "name": "Polywing Polarizer",
+        "value": 5
+      },
+      {
+        "id": "hf-exoswarm-core",
+        "name": "HF Exoswarm Core",
+        "value": 3
+      },
+      {
+        "id": "gold-in-memory",
+        "name": "Gold in Memory",
+        "value": 1
+      }
+    ],
+    "8": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 50000
+      },
+      {
+        "id": "layered-wing-polarizer",
+        "name": "Layered Wing Polarizer",
+        "value": 2
+      },
+      {
+        "id": "ff-exoswarm-core",
+        "name": "FF Exoswarm Core",
+        "value": 2
+      },
+      {
+        "id": "gold-in-memory",
+        "name": "Gold in Memory",
+        "value": 1
+      }
+    ],
+    "9": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 70000
+      },
+      {
+        "id": "layered-wing-polarizer",
+        "name": "Layered Wing Polarizer",
+        "value": 3
+      },
+      {
+        "id": "ff-exoswarm-core",
+        "name": "FF Exoswarm Core",
+        "value": 3
+      },
+      {
+        "id": "gold-in-memory",
+        "name": "Gold in Memory",
+        "value": 1
+      }
+    ],
+    "10": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 100000
+      },
+      {
+        "id": "layered-wing-polarizer",
+        "name": "Layered Wing Polarizer",
+        "value": 6
+      },
+      {
+        "id": "ff-exoswarm-core",
+        "name": "FF Exoswarm Core",
+        "value": 4
+      },
+      {
+        "id": "gold-in-memory",
+        "name": "Gold in Memory",
+        "value": 1
+      }
+    ]
+  },
+  "stats_bonus_materials": {
+    "rank_1": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 50000
+      },
+      {
+        "id": "hf-exoswarm-core",
+        "name": "HF Exoswarm Core",
+        "value": 3
+      },
+      {
+        "id": "polywing-polarizer",
+        "name": "Polywing Polarizer",
+        "value": 3
+      }
+    ],
+    "rank_2": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 100000
+      },
+      {
+        "id": "ff-exoswarm-core",
+        "name": "FF Exoswarm Core",
+        "value": 3
+      },
+      {
+        "id": "layered-wing-polarizer",
+        "name": "Layered Wing Polarizer",
+        "value": 3
+      },
+      {
+        "id": "gold-in-memory",
+        "name": "Gold in Memory",
+        "value": 1
+      }
+    ]
+  },
+  "inherent_skill_materials": {
+    "skill_1": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 10000
+      },
+      {
+        "id": "mf-exoswarm-core",
+        "name": "MF Exoswarm Core",
+        "value": 3
+      },
+      {
+        "id": "monowing-polarizer",
+        "name": "Monowing Polarizer",
+        "value": 3
+      },
+      {
+        "id": "gold-in-memory",
+        "name": "Gold in Memory",
+        "value": 1
+      }
+    ],
+    "skill_2": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 20000
+      },
+      {
+        "id": "hf-exoswarm-core",
+        "name": "HF Exoswarm Core",
+        "value": 3
+      },
+      {
+        "id": "polywing-polarizer",
+        "name": "Polywing Polarizer",
+        "value": 3
+      },
+      {
+        "id": "gold-in-memory",
+        "name": "Gold in Memory",
+        "value": 1
+      }
+    ]
+  }
 }

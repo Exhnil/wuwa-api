@@ -1,329 +1,397 @@
 {
-    "id": "sigrika",
-    "name": "Sigrika",
-    "attribute": "Aero",
-    "weapon": "Gauntlets",
-    "gender": "Female",
-    "nation": "Lahai-Roi",
-    "class": "Congenital",
-    "rarity": 5,
-    "release": "2026-03-19",
-    "ascension_materials": {
-        "1": [
-            {
-                "name": "Shell Credit",
-                "value": 5000
-            },
-            {
-                "name": "Fractured Exoswarm Pendant",
-                "value": 4
-            }
-        ],
-        "2": [
-            {
-                "name": "Shell Credit",
-                "value": 10000
-            },
-            {
-                "name": "Arithmetic Shell",
-                "value": 4
-            },
-            {
-                "name": "Worn Exoswarm Pendant",
-                "value": 4
-            },
-            {
-                "name": "Our Choice",
-                "value": 3
-            }
-        ],
-        "3": [
-            {
-                "name": "Shell Credit",
-                "value": 15000
-            },
-            {
-                "name": "Arithmetic Shell",
-                "value": 8
-            },
-            {
-                "name": "Worn Exoswarm Pendant",
-                "value": 8
-            },
-            {
-                "name": "Our Choice",
-                "value": 6
-            }
-        ],
-        "4": [
-            {
-                "name": "Shell Credit",
-                "value": 20000
-            },
-            {
-                "name": "Arithmetic Shell",
-                "value": 12
-            },
-            {
-                "name": "Chipped Exoswarm Pendant",
-                "value": 4
-            },
-            {
-                "name": "Our Choice",
-                "value": 9
-            }
-        ],
-        "5": [
-            {
-                "name": "Shell Credit",
-                "value": 40000
-            },
-            {
-                "name": "Arithmetic Shell",
-                "value": 16
-            },
-            {
-                "name": "Chipped Exoswarm Pendant",
-                "value": 8
-            },
-            {
-                "name": "Our Choice",
-                "value": 12
-            }
-        ],
-        "6": [
-            {
-                "name": "Shell Credit",
-                "value": 80000
-            },
-            {
-                "name": "Arithmetic Shell",
-                "value": 20
-            },
-            {
-                "name": "Intact Exoswarm Pendant",
-                "value": 4
-            },
-            {
-                "name": "Our Choice",
-                "value": 16
-            }
-        ]
-    },
-    "skill_materials": {
-        "2": [
-            {
-                "name": "Shell Credit",
-                "value": 1500
-            },
-            {
-                "name": "LF Waveworn Shard",
-                "value": 2
-            },
-            {
-                "name": "Fractured Exoswarm Pendant",
-                "value": 2
-            }
-        ],
-        "3": [
-            {
-                "name": "Shell Credit",
-                "value": 2000
-            },
-            {
-                "name": "LF Waveworn Shard",
-                "value": 3
-            },
-            {
-                "name": "Fractured Exoswarm Pendant",
-                "value": 3
-            }
-        ],
-        "4": [
-            {
-                "name": "Shell Credit",
-                "value": 4500
-            },
-            {
-                "name": "MF Waveworn Shard",
-                "value": 2
-            },
-            {
-                "name": "Worn Exoswarm Pendant",
-                "value": 2
-            }
-        ],
-        "5": [
-            {
-                "name": "Shell Credit",
-                "value": 6000
-            },
-            {
-                "name": "MF Waveworn Shard",
-                "value": 3
-            },
-            {
-                "name": "Worn Exoswarm Pendant",
-                "value": 3
-            }
-        ],
-        "6": [
-            {
-                "name": "Shell Credit",
-                "value": 16000
-            },
-            {
-                "name": "HF Waveworn Shard",
-                "value": 3
-            },
-            {
-                "name": "Chipped Exoswarm Pendant",
-                "value": 2
-            }
-        ],
-        "7": [
-            {
-                "name": "Shell Credit",
-                "value": 30000
-            },
-            {
-                "name": "HF Waveworn Shard",
-                "value": 5
-            },
-            {
-                "name": "Chipped Exoswarm Pendant",
-                "value": 3
-            },
-            {
-                "name": "The Netherworld's Stare",
-                "value": 1
-            }
-        ],
-        "8": [
-            {
-                "name": "Shell Credit",
-                "value": 50000
-            },
-            {
-                "name": "FF Waveworn Shard",
-                "value": 2
-            },
-            {
-                "name": "Intact Exoswarm Pendant",
-                "value": 2
-            },
-            {
-                "name": "The Netherworld's Stare",
-                "value": 1
-            }
-        ],
-        "9": [
-            {
-                "name": "Shell Credit",
-                "value": 70000
-            },
-            {
-                "name": "FF Waveworn Shard",
-                "value": 3
-            },
-            {
-                "name": "Intact Exoswarm Pendant",
-                "value": 3
-            },
-            {
-                "name": "The Netherworld's Stare",
-                "value": 1
-            }
-        ],
-        "10": [
-            {
-                "name": "Shell Credit",
-                "value": 100000
-            },
-            {
-                "name": "FF Waveworn Shard",
-                "value": 6
-            },
-            {
-                "name": "Intact Exoswarm Pendant",
-                "value": 4
-            },
-            {
-                "name": "The Netherworld's Stare",
-                "value": 1
-            }
-        ]
-    },
-    "stats_bonus_materials": {
-        "rank_1": [
-            {
-                "name": "Shell Credit",
-                "value": 50000
-            },
-            {
-                "name": "Chipped Exoswarm Pendant",
-                "value": 3
-            },
-            {
-                "name": "HF Waveworn Shard",
-                "value": 3
-            }
-        ],
-        "rank_2": [
-            {
-                "name": "Shell Credit",
-                "value": 100000
-            },
-            {
-                "name": "Intact Exoswarm Pendant",
-                "value": 3
-            },
-            {
-                "name": "FF Waveworn Shard",
-                "value": 3
-            },
-            {
-                "name": "The Netherworld's Stare",
-                "value": 1
-            }
-        ]
-    },
-    "inherent_skill_materials": {
-        "skill_1": [
-            {
-                "name": "Shell Credit",
-                "value": 10000
-            },
-            {
-                "name": "Worn Exoswarm Pendant",
-                "value": 3
-            },
-            {
-                "name": "MF Waveworn Shard",
-                "value": 3
-            },
-            {
-                "name": "The Netherworld's Stare",
-                "value": 1
-            }
-        ],
-        "skill_2": [
-            {
-                "name": "Shell Credit",
-                "value": 20000
-            },
-            {
-                "name": "Chipped Exoswarm Pendant",
-                "value": 3
-            },
-            {
-                "name": "HF Waveworn Shard",
-                "value": 3
-            },
-            {
-                "name": "The Netherworld's Stare",
-                "value": 1
-            }
-        ]
-    }
+  "id": "sigrika",
+  "name": "Sigrika",
+  "attribute": "Aero",
+  "weapon": "Gauntlets",
+  "gender": "Female",
+  "nation": "Lahai-Roi",
+  "class": "Congenital",
+  "rarity": 5,
+  "release": "2026-03-19",
+  "ascension_materials": {
+    "1": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 5000
+      },
+      {
+        "id": "fractured-exoswarm-pendant",
+        "name": "Fractured Exoswarm Pendant",
+        "value": 4
+      }
+    ],
+    "2": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 10000
+      },
+      {
+        "id": "arithmetic-shell",
+        "name": "Arithmetic Shell",
+        "value": 4
+      },
+      {
+        "id": "worn-exoswarm-pendant",
+        "name": "Worn Exoswarm Pendant",
+        "value": 4
+      },
+      {
+        "id": "our-choice",
+        "name": "Our Choice",
+        "value": 3
+      }
+    ],
+    "3": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 15000
+      },
+      {
+        "id": "arithmetic-shell",
+        "name": "Arithmetic Shell",
+        "value": 8
+      },
+      {
+        "id": "worn-exoswarm-pendant",
+        "name": "Worn Exoswarm Pendant",
+        "value": 8
+      },
+      {
+        "id": "our-choice",
+        "name": "Our Choice",
+        "value": 6
+      }
+    ],
+    "4": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 20000
+      },
+      {
+        "id": "arithmetic-shell",
+        "name": "Arithmetic Shell",
+        "value": 12
+      },
+      {
+        "id": "chipped-exoswarm-pendant",
+        "name": "Chipped Exoswarm Pendant",
+        "value": 4
+      },
+      {
+        "id": "our-choice",
+        "name": "Our Choice",
+        "value": 9
+      }
+    ],
+    "5": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 40000
+      },
+      {
+        "id": "arithmetic-shell",
+        "name": "Arithmetic Shell",
+        "value": 16
+      },
+      {
+        "id": "chipped-exoswarm-pendant",
+        "name": "Chipped Exoswarm Pendant",
+        "value": 8
+      },
+      {
+        "id": "our-choice",
+        "name": "Our Choice",
+        "value": 12
+      }
+    ],
+    "6": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 80000
+      },
+      {
+        "id": "arithmetic-shell",
+        "name": "Arithmetic Shell",
+        "value": 20
+      },
+      {
+        "id": "intact-exoswarm-pendant",
+        "name": "Intact Exoswarm Pendant",
+        "value": 4
+      },
+      {
+        "id": "our-choice",
+        "name": "Our Choice",
+        "value": 16
+      }
+    ]
+  },
+  "skill_materials": {
+    "2": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 1500
+      },
+      {
+        "id": "lf-waveworn-shard",
+        "name": "LF Waveworn Shard",
+        "value": 2
+      },
+      {
+        "id": "fractured-exoswarm-pendant",
+        "name": "Fractured Exoswarm Pendant",
+        "value": 2
+      }
+    ],
+    "3": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 2000
+      },
+      {
+        "id": "lf-waveworn-shard",
+        "name": "LF Waveworn Shard",
+        "value": 3
+      },
+      {
+        "id": "fractured-exoswarm-pendant",
+        "name": "Fractured Exoswarm Pendant",
+        "value": 3
+      }
+    ],
+    "4": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 4500
+      },
+      {
+        "id": "mf-waveworn-shard",
+        "name": "MF Waveworn Shard",
+        "value": 2
+      },
+      {
+        "id": "worn-exoswarm-pendant",
+        "name": "Worn Exoswarm Pendant",
+        "value": 2
+      }
+    ],
+    "5": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 6000
+      },
+      {
+        "id": "mf-waveworn-shard",
+        "name": "MF Waveworn Shard",
+        "value": 3
+      },
+      {
+        "id": "worn-exoswarm-pendant",
+        "name": "Worn Exoswarm Pendant",
+        "value": 3
+      }
+    ],
+    "6": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 16000
+      },
+      {
+        "id": "hf-waveworn-shard",
+        "name": "HF Waveworn Shard",
+        "value": 3
+      },
+      {
+        "id": "chipped-exoswarm-pendant",
+        "name": "Chipped Exoswarm Pendant",
+        "value": 2
+      }
+    ],
+    "7": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 30000
+      },
+      {
+        "id": "hf-waveworn-shard",
+        "name": "HF Waveworn Shard",
+        "value": 5
+      },
+      {
+        "id": "chipped-exoswarm-pendant",
+        "name": "Chipped Exoswarm Pendant",
+        "value": 3
+      },
+      {
+        "id": "the-netherworld-s-stare",
+        "name": "The Netherworld's Stare",
+        "value": 1
+      }
+    ],
+    "8": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 50000
+      },
+      {
+        "id": "ff-waveworn-shard",
+        "name": "FF Waveworn Shard",
+        "value": 2
+      },
+      {
+        "id": "intact-exoswarm-pendant",
+        "name": "Intact Exoswarm Pendant",
+        "value": 2
+      },
+      {
+        "id": "the-netherworld-s-stare",
+        "name": "The Netherworld's Stare",
+        "value": 1
+      }
+    ],
+    "9": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 70000
+      },
+      {
+        "id": "ff-waveworn-shard",
+        "name": "FF Waveworn Shard",
+        "value": 3
+      },
+      {
+        "id": "intact-exoswarm-pendant",
+        "name": "Intact Exoswarm Pendant",
+        "value": 3
+      },
+      {
+        "id": "the-netherworld-s-stare",
+        "name": "The Netherworld's Stare",
+        "value": 1
+      }
+    ],
+    "10": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 100000
+      },
+      {
+        "id": "ff-waveworn-shard",
+        "name": "FF Waveworn Shard",
+        "value": 6
+      },
+      {
+        "id": "intact-exoswarm-pendant",
+        "name": "Intact Exoswarm Pendant",
+        "value": 4
+      },
+      {
+        "id": "the-netherworld-s-stare",
+        "name": "The Netherworld's Stare",
+        "value": 1
+      }
+    ]
+  },
+  "stats_bonus_materials": {
+    "rank_1": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 50000
+      },
+      {
+        "id": "chipped-exoswarm-pendant",
+        "name": "Chipped Exoswarm Pendant",
+        "value": 3
+      },
+      {
+        "id": "hf-waveworn-shard",
+        "name": "HF Waveworn Shard",
+        "value": 3
+      }
+    ],
+    "rank_2": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 100000
+      },
+      {
+        "id": "intact-exoswarm-pendant",
+        "name": "Intact Exoswarm Pendant",
+        "value": 3
+      },
+      {
+        "id": "ff-waveworn-shard",
+        "name": "FF Waveworn Shard",
+        "value": 3
+      },
+      {
+        "id": "the-netherworld-s-stare",
+        "name": "The Netherworld's Stare",
+        "value": 1
+      }
+    ]
+  },
+  "inherent_skill_materials": {
+    "skill_1": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 10000
+      },
+      {
+        "id": "worn-exoswarm-pendant",
+        "name": "Worn Exoswarm Pendant",
+        "value": 3
+      },
+      {
+        "id": "mf-waveworn-shard",
+        "name": "MF Waveworn Shard",
+        "value": 3
+      },
+      {
+        "id": "the-netherworld-s-stare",
+        "name": "The Netherworld's Stare",
+        "value": 1
+      }
+    ],
+    "skill_2": [
+      {
+        "id": "shell-credit",
+        "name": "Shell Credit",
+        "value": 20000
+      },
+      {
+        "id": "chipped-exoswarm-pendant",
+        "name": "Chipped Exoswarm Pendant",
+        "value": 3
+      },
+      {
+        "id": "hf-waveworn-shard",
+        "name": "HF Waveworn Shard",
+        "value": 3
+      },
+      {
+        "id": "the-netherworld-s-stare",
+        "name": "The Netherworld's Stare",
+        "value": 1
+      }
+    ]
+  }
 }
