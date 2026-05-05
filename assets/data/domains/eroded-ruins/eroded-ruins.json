@@ -1,24 +1,32 @@
 {
-    "name": "Eroded Ruins",
-    "id": "eroded-ruins",
-    "type": "Forgery Challenge",
-    "cost": 60,
-    "materials": [
-        {
-            "name": "Waveworn Residue 210",
-            "id": "waveworn-residue-210"
-        },
-        {
-            "name": "Waveworn Residue 226",
-            "id": "waveworn-residue-226"
-        },
-        {
-            "name": "Waveworn Residue 235",
-            "id": "waveworn-residue-235"
-        },
-        {
-            "name": "Waveworn Residue 239",
-            "id": "waveworn-residue-239"
-        }
-    ]
+  "name": "Eroded Ruins",
+  "id": "eroded-ruins",
+  "type": "Forgery Challenge",
+  "cost": 60,
+  "materials": [
+    {
+      "name": "Waveworn Residue 210",
+      "id": "waveworn-residue-210",
+      "rarity": 2,
+      "value": 6.4
+    },
+    {
+      "name": "Waveworn Residue 226",
+      "id": "waveworn-residue-226",
+      "rarity": 3,
+      "value": 8
+    },
+    {
+      "name": "Waveworn Residue 235",
+      "id": "waveworn-residue-235",
+      "rarity": 4,
+      "value": 1.682
+    },
+    {
+      "name": "Waveworn Residue 239",
+      "id": "waveworn-residue-239",
+      "rarity": 5,
+      "value": 0.206
+    }
+  ]
 }

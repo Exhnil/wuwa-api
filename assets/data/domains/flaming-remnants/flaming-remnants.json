@@ -1,28 +1,32 @@
 {
-    "name": "Flaming Remnants",
-    "id": "flaming-remnants",
-    "type": "Forgery Challenge",
-    "cost": 40,
-    "materials": [
-        {
-            "name": "Inert Metallic Drip",
-            "id": "inert-metallic-drip",
-            "value": 6.4
-        },
-        {
-            "name": "Reactive Metallic Drip",
-            "id": "reactive-metallic-drip",
-            "value": 8
-        },
-        {
-            "name": "Polarized Metallic Drip",
-            "id": "polarized-metallic-drip",
-            "value": 1.682
-        },
-        {
-            "name": "Heterized Metallic Drip",
-            "id": "heterized-metallic-drip",
-            "value": 0.206
-        }
-    ]
+  "name": "Flaming Remnants",
+  "id": "flaming-remnants",
+  "type": "Forgery Challenge",
+  "cost": 40,
+  "materials": [
+    {
+      "name": "Inert Metallic Drip",
+      "id": "inert-metallic-drip",
+      "rarity": 2,
+      "value": 6.4
+    },
+    {
+      "name": "Reactive Metallic Drip",
+      "id": "reactive-metallic-drip",
+      "rarity": 3,
+      "value": 8
+    },
+    {
+      "name": "Polarized Metallic Drip",
+      "id": "polarized-metallic-drip",
+      "rarity": 4,
+      "value": 1.682
+    },
+    {
+      "name": "Heterized Metallic Drip",
+      "id": "heterized-metallic-drip",
+      "rarity": 5,
+      "value": 0.206
+    }
+  ]
 }

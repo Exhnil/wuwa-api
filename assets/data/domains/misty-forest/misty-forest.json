@@ -1,28 +1,32 @@
 {
-    "name": "Misty Forest",
-    "id": "misty-forest",
-    "type": "Forgery Challenge",
-    "cost": 40,
-    "materials": [
-        {
-            "name": "Lento Helix",
-            "id": "lento-helix",
-            "value": 6.4
-        },
-        {
-            "name": "Adagio Helix",
-            "id": "adagio-helix",
-            "value": 8
-        },
-        {
-            "name": "Andante Helix",
-            "id": "andante-helix",
-            "value": 1.682
-        },
-        {
-            "name": "Presto Helix",
-            "id": "presto-helix",
-            "value": 0.206
-        }
-    ]
+  "name": "Misty Forest",
+  "id": "misty-forest",
+  "type": "Forgery Challenge",
+  "cost": 40,
+  "materials": [
+    {
+      "name": "Lento Helix",
+      "id": "lento-helix",
+      "rarity": 2,
+      "value": 6.4
+    },
+    {
+      "name": "Adagio Helix",
+      "id": "adagio-helix",
+      "rarity": 3,
+      "value": 8
+    },
+    {
+      "name": "Andante Helix",
+      "id": "andante-helix",
+      "rarity": 4,
+      "value": 1.682
+    },
+    {
+      "name": "Presto Helix",
+      "id": "presto-helix",
+      "rarity": 5,
+      "value": 0.206
+    }
+  ]
 }
