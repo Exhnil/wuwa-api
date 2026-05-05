@@ -1,13 +1,13 @@
 {
-    "id": "aemeath",
-    "name": "Aemeath",
-    "attribute": "Fusion",
+    "id": "hiyuki",
+    "name": "Hiyuki",
+    "attribute": "Glacio",
     "weapon": "Swords",
     "gender": "Female",
     "nation": "Lahai-Roi",
-    "class": "Natural",
+    "class": "Unknown",
     "rarity": 5,
-    "release": "2026-02-05",
+    "release": "2026-04-30",
     "ascension_materials": {
         "1": [
             {
@@ -25,7 +25,7 @@
                 "value": 10000
             },
             {
-                "id": "Moss Amber",
+                "id": "Redbell",
                 "value": 4
             },
             {
@@ -43,7 +43,7 @@
                 "value": 15000
             },
             {
-                "id": "Moss Amber",
+                "id": "Redbell",
                 "value": 8
             },
             {
@@ -61,7 +61,7 @@
                 "value": 20000
             },
             {
-                "id": "Moss Amber",
+                "id": "Redbell",
                 "value": 12
             },
             {
@@ -79,7 +79,7 @@
                 "value": 40000
             },
             {
-                "id": "Moss Amber",
+                "id": "Redbell",
                 "value": 16
             },
             {
@@ -97,7 +97,7 @@
                 "value": 80000
             },
             {
-                "id": "Moss Amber",
+                "id": "Redbell",
                 "value": 20
             },
             {
@@ -195,7 +195,7 @@
                 "value": 3
             },
             {
-                "id": "Gold in Memory",
+                "id": "We Who Question",
                 "value": 1
             }
         ],
@@ -213,7 +213,7 @@
                 "value": 2
             },
             {
-                "id": "Gold in Memory",
+                "id": "We Who Question",
                 "value": 1
             }
         ],
@@ -231,7 +231,7 @@
                 "value": 3
             },
             {
-                "id": "Gold in Memory",
+                "id": "We Who Question",
                 "value": 1
             }
         ],
@@ -249,7 +249,7 @@
                 "value": 4
             },
             {
-                "id": "Gold in Memory",
+                "id": "We Who Question",
                 "value": 1
             }
         ]
@@ -283,7 +283,7 @@
                 "value": 3
             },
             {
-                "id": "Gold in Memory",
+                "id": "We Who Question",
                 "value": 1
             }
         ]
@@ -303,7 +303,7 @@
                 "value": 3
             },
             {
-                "id": "Gold in Memory",
+                "id": "We Who Question",
                 "value": 1
             }
         ],
@@ -321,7 +321,7 @@
                 "value": 3
             },
             {
-                "id": "Gold in Memory",
+                "id": "We Who Question",
                 "value": 1
             }
         ]
