@@ -1,11 +1,11 @@
 {
-    "name": "Blazing Justice",
-    "id": "blazing-justice",
-    "type": "Gauntlets",
+    "name": "Starfield Calibrator",
+    "id": "starfield-calibrator",
+    "type": "Broadblades",
     "rarity": 5,
-    "base_attack": 47,
-    "sub_stat": "Crit. DMG",
-    "sub_stat_base": 10.8,
+    "base_attack": 33,
+    "sub_stat": "Energy Regen",
+    "sub_stat_base": 30.3,
     "ascension_materials": {
         "1": [
             {
@@ -14,7 +14,7 @@
             },
             {
                 "value": 6,
-                "id": "lf-howler-core"
+                "id": "fractured-exoswarm-pendant"
             }
         ],
         "2": [
@@ -24,11 +24,11 @@
             },
             {
                 "value": 6,
-                "id": "mf-howler-core"
+                "id": "worn-exoswarm-pendant"
             },
             {
                 "value": 6,
-                "id": "cadence-seed"
+                "id": "lf-carved-crystal"
             }
         ],
         "3": [
@@ -38,11 +38,11 @@
             },
             {
                 "value": 4,
-                "id": "hf-howler-core"
+                "id": "chipped-exoswarm-pendant"
             },
             {
                 "value": 8,
-                "id": "cadence-bud"
+                "id": "mf-carved-crystal"
             }
         ],
         "4": [
@@ -52,11 +52,11 @@
             },
             {
                 "value": 6,
-                "id": "hf-howler-core"
+                "id": "chipped-exoswarm-pendant"
             },
             {
                 "value": 6,
-                "id": "cadence-leaf"
+                "id": "hf-carved-crystal"
             }
         ],
         "5": [
@@ -66,11 +66,11 @@
             },
             {
                 "value": 4,
-                "id": "ff-howler-core"
+                "id": "intact-exoswarm-pendant"
             },
             {
                 "value": 8,
-                "id": "cadence-blossom"
+                "id": "ff-carved-crystal"
             }
         ],
         "6": [
@@ -80,11 +80,11 @@
             },
             {
                 "value": 8,
-                "id": "ff-howler-core"
+                "id": "intact-exoswarm-pendant"
             },
             {
                 "value": 12,
-                "id": "cadence-blossom"
+                "id": "ff-carved-crystal"
             }
         ]
     }

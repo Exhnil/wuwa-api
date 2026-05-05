@@ -9,82 +9,82 @@
     "ascension_materials": {
         "1": [
             {
-                "name": "Shell Credit",
-                "value": 10000
+                "value": 10000,
+                "id": "shell-credit"
             },
             {
-                "name": "LF Howler Core",
-                "value": 6
+                "value": 6,
+                "id": "lf-howler-core"
             }
         ],
         "2": [
             {
-                "name": "Shell Credit",
-                "value": 20000
+                "value": 20000,
+                "id": "shell-credit"
             },
             {
-                "name": "MF Howler Core",
-                "value": 6
+                "value": 6,
+                "id": "mf-howler-core"
             },
             {
-                "name": "Cadence Seed",
-                "value": 6
+                "value": 6,
+                "id": "cadence-seed"
             }
         ],
         "3": [
             {
-                "name": "Shell Credit",
-                "value": 40000
+                "value": 40000,
+                "id": "shell-credit"
             },
             {
-                "name": "HF Howler Core",
-                "value": 4
+                "value": 4,
+                "id": "hf-howler-core"
             },
             {
-                "name": "Cadence Bud",
-                "value": 8
+                "value": 8,
+                "id": "cadence-bud"
             }
         ],
         "4": [
             {
-                "name": "Shell Credit",
-                "value": 60000
+                "value": 60000,
+                "id": "shell-credit"
             },
             {
-                "name": "HF Howler Core",
-                "value": 6
+                "value": 6,
+                "id": "hf-howler-core"
             },
             {
-                "name": "Cadence Leaf",
-                "value": 6
+                "value": 6,
+                "id": "cadence-leaf"
             }
         ],
         "5": [
             {
-                "name": "Shell Credit",
-                "value": 80000
+                "value": 80000,
+                "id": "shell-credit"
             },
             {
-                "name": "FF Howler Core",
-                "value": 4
+                "value": 4,
+                "id": "ff-howler-core"
             },
             {
-                "name": "Cadence Blossom",
-                "value": 8
+                "value": 8,
+                "id": "cadence-blossom"
             }
         ],
         "6": [
             {
-                "name": "Shell Credit",
-                "value": 12000
+                "value": 12000,
+                "id": "shell-credit"
             },
             {
-                "name": "FF Howler Core",
-                "value": 8
+                "value": 8,
+                "id": "ff-howler-core"
             },
             {
-                "name": "Cadence Blossom",
-                "value": 12
+                "value": 12,
+                "id": "cadence-blossom"
             }
         ]
     }

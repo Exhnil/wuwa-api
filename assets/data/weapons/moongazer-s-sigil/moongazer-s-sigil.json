@@ -9,82 +9,82 @@
     "ascension_materials": {
         "1": [
             {
-                "name": "Shell Credit",
-                "value": 5000
+                "value": 5000,
+                "id": "shell-credit"
             },
             {
-                "name": "LF Polygon Core",
-                "value": 6
+                "value": 6,
+                "id": "lf-polygon-core"
             }
         ],
         "2": [
             {
-                "name": "Shell Credit",
-                "value": 10000
+                "value": 10000,
+                "id": "shell-credit"
             },
             {
-                "name": "MF Polygon Core",
-                "value": 6
+                "value": 6,
+                "id": "mf-polygon-core"
             },
             {
-                "name": "Cadence Seed",
-                "value": 6
+                "value": 6,
+                "id": "cadence-seed"
             }
         ],
         "3": [
             {
-                "name": "Shell Credit",
-                "value": 15000
+                "value": 15000,
+                "id": "shell-credit"
             },
             {
-                "name": "HF Polygon Core",
-                "value": 4
+                "value": 4,
+                "id": "hf-polygon-core"
             },
             {
-                "name": "Cadence Bud",
-                "value": 8
+                "value": 8,
+                "id": "cadence-bud"
             }
         ],
         "4": [
             {
-                "name": "Shell Credit",
-                "value": 20000
+                "value": 20000,
+                "id": "shell-credit"
             },
             {
-                "name": "HF Polygon Core",
-                "value": 6
+                "value": 6,
+                "id": "hf-polygon-core"
             },
             {
-                "name": "Cadence Leaf",
-                "value": 6
+                "value": 6,
+                "id": "cadence-leaf"
             }
         ],
         "5": [
             {
-                "name": "Shell Credit",
-                "value": 40000
+                "value": 40000,
+                "id": "shell-credit"
             },
             {
-                "name": "FF Polygon Core",
-                "value": 4
+                "value": 4,
+                "id": "ff-polygon-core"
             },
             {
-                "name": "Cadence Blossom",
-                "value": 8
+                "value": 8,
+                "id": "cadence-blossom"
             }
         ],
         "6": [
             {
-                "name": "Shell Credit",
-                "value": 80000
+                "value": 80000,
+                "id": "shell-credit"
             },
             {
-                "name": "FF Polygon Core",
-                "value": 8
+                "value": 8,
+                "id": "ff-polygon-core"
             },
             {
-                "name": "Cadence Blossom",
-                "value": 12
+                "value": 12,
+                "id": "cadence-blossom"
             }
         ]
     }

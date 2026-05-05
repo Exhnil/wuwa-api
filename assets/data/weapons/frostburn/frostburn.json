@@ -1,0 +1,91 @@
+{
+    "name": "Frostburn",
+    "id": "frostburn",
+    "type": "Swords",
+    "rarity": 5,
+    "base_attack": 47,
+    "sub_stat": "Crit. Rate",
+    "sub_stat_base": 9.5,
+    "ascension_materials": {
+        "1": [
+            {
+                "id": "shell-credit",
+                "value": 10000
+            },
+            {
+                "id": "lf-mech-core",
+                "value": 6
+            }
+        ],
+        "2": [
+            {
+                "id": "shell-credit",
+                "value": 20000
+            },
+            {
+                "id": "mf-mech-core",
+                "value": 6
+            },
+            {
+                "id": "broken-wing-polarizer",
+                "value": 6
+            }
+        ],
+        "3": [
+            {
+                "id": "shell-credit",
+                "value": 40000
+            },
+            {
+                "id": "hf-mech-core",
+                "value": 4
+            },
+            {
+                "id": "monowing-polarizer",
+                "value": 8
+            }
+        ],
+        "4": [
+            {
+                "id": "shell-credit",
+                "value": 60000
+            },
+            {
+                "id": "hf-mech-core",
+                "value": 6
+            },
+            {
+                "id": "polywing-polarizer",
+                "value": 6
+            }
+        ],
+        "5": [
+            {
+                "id": "shell-credit",
+                "value": 80000
+            },
+            {
+                "id": "ff-mech-core",
+                "value": 4
+            },
+            {
+                "id": "layered-wing-polarizer",
+                "value": 8
+            }
+        ],
+        "6": [
+            {
+                "id": "shell-credit",
+                "value": 12000
+            },
+            {
+                "id": "ff-mech-core",
+                "value": 8
+            },
+            {
+                "id": "layered-wing-polarizer",
+                "value": 12
+            }
+        ]
+    }
+}

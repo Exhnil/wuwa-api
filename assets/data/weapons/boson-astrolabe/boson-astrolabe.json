@@ -1,90 +1,90 @@
 {
-    "name": "Variation",
-    "id": "variation",
+    "name": "Boson Astrolabe",
+    "id": "boson-astrolabe",
     "type": "Rectifiers",
-    "rarity": 4,
-    "base_attack": 27,
+    "rarity": 5,
+    "base_attack": 42,
     "sub_stat": "Energy Regen",
-    "sub_stat_base": 11.5,
+    "sub_stat_base": 15.3,
     "ascension_materials": {
         "1": [
             {
-                "value": 8000,
+                "value": 10000,
                 "id": "shell-credit"
             },
             {
-                "value": 5,
-                "id": "crude-ring"
+                "value": 6,
+                "id": "lf-exoswarm-core"
             }
         ],
         "2": [
             {
-                "value": 16000,
+                "value": 20000,
                 "id": "shell-credit"
             },
             {
-                "value": 5,
-                "id": "basic-ring"
+                "value": 6,
+                "id": "mf-exoswarm-core"
             },
             {
-                "value": 5,
-                "id": "lento-helix"
+                "value": 6,
+                "id": "spliced-string"
             }
         ],
         "3": [
             {
-                "value": 32000,
+                "value": 40000,
                 "id": "shell-credit"
             },
             {
                 "value": 4,
-                "id": "improved-ring"
+                "id": "hf-exoswarm-core"
             },
             {
-                "value": 7,
-                "id": "adagio-helix"
+                "value": 8,
+                "id": "broken-string"
             }
         ],
         "4": [
             {
-                "value": 48000,
+                "value": 60000,
                 "id": "shell-credit"
             },
             {
-                "value": 5,
-                "id": "improved-ring"
+                "value": 6,
+                "id": "hf-exoswarm-core"
             },
             {
-                "value": 5,
-                "id": "andante-helix"
+                "value": 6,
+                "id": "solidifed-string"
             }
         ],
         "5": [
             {
-                "value": 64000,
+                "value": 80000,
                 "id": "shell-credit"
             },
             {
                 "value": 4,
-                "id": "tailored-ring"
+                "id": "ff-exoswarm-core"
             },
             {
-                "value": 7,
-                "id": "presto-helix"
+                "value": 8,
+                "id": "melodic-string"
             }
         ],
         "6": [
             {
-                "value": 96000,
+                "value": 12000,
                 "id": "shell-credit"
             },
             {
-                "value": 7,
-                "id": "tailored-ring"
+                "value": 8,
+                "id": "ff-exoswarm-core"
             },
             {
-                "value": 10,
-                "id": "presto-helix"
+                "value": 12,
+                "id": "melodic-string"
             }
         ]
     }

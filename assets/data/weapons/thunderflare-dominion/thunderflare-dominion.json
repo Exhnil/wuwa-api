@@ -9,82 +9,82 @@
     "ascension_materials": {
         "1": [
             {
-                "name": "Shell Credit",
-                "value": 10000
+                "value": 10000,
+                "id": "shell-credit"
             },
             {
-                "name": "LF Whisperin Core",
-                "value": 6
+                "value": 6,
+                "id": "lf-whisperin-core"
             }
         ],
         "2": [
             {
-                "name": "Shell Credit",
-                "value": 20000
+                "value": 20000,
+                "id": "shell-credit"
             },
             {
-                "name": "MF Whisperin Core",
-                "value": 6
+                "value": 6,
+                "id": "mf-whisperin-core"
             },
             {
-                "name": "Waveworn Residue 210",
-                "value": 6
+                "value": 6,
+                "id": "waveworn-residue-210"
             }
         ],
         "3": [
             {
-                "name": "Shell Credit",
-                "value": 40000
+                "value": 40000,
+                "id": "shell-credit"
             },
             {
-                "name": "HF Whisperin Core",
-                "value": 4
+                "value": 4,
+                "id": "hf-whisperin-core"
             },
             {
-                "name": "Waveworn Residue 226",
-                "value": 8
+                "value": 8,
+                "id": "waveworn-residue-226"
             }
         ],
         "4": [
             {
-                "name": "Shell Credit",
-                "value": 60000
+                "value": 60000,
+                "id": "shell-credit"
             },
             {
-                "name": "HF Whisperin Core",
-                "value": 6
+                "value": 6,
+                "id": "hf-whisperin-core"
             },
             {
-                "name": "Waveworn Residue 235",
-                "value": 6
+                "value": 6,
+                "id": "waveworn-residue-235"
             }
         ],
         "5": [
             {
-                "name": "Shell Credit",
-                "value": 80000
+                "value": 80000,
+                "id": "shell-credit"
             },
             {
-                "name": "FF Whisperin Core",
-                "value": 4
+                "value": 4,
+                "id": "ff-whisperin-core"
             },
             {
-                "name": "Waveworn Residue 239",
-                "value": 8
+                "value": 8,
+                "id": "waveworn-residue-239"
             }
         ],
         "6": [
             {
-                "name": "Shell Credit",
-                "value": 12000
+                "value": 12000,
+                "id": "shell-credit"
             },
             {
-                "name": "FF Whisperin Core",
-                "value": 8
+                "value": 8,
+                "id": "ff-whisperin-core"
             },
             {
-                "name": "Waveworn Residue 239",
-                "value": 12
+                "value": 12,
+                "id": "waveworn-residue-239"
             }
         ]
     }

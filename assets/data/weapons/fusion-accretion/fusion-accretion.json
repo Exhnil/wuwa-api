@@ -9,82 +9,82 @@
     "ascension_materials": {
         "": [
             {
-                "name": "Shell Credit",
-                "value": 8000
+                "value": 8000,
+                "id": "shell-credit"
             },
             {
-                "name": "Crude Ring",
-                "value": 5
+                "value": 5,
+                "id": "crude-ring"
             }
         ],
         "2": [
             {
-                "name": "Shell Credit",
-                "value": 16000
+                "value": 16000,
+                "id": "shell-credit"
             },
             {
-                "name": "Basic Ring",
-                "value": 5
+                "value": 5,
+                "id": "basic-ring"
             },
             {
-                "name": "Lento Helix",
-                "value": 5
+                "value": 5,
+                "id": "lento-helix"
             }
         ],
         "3": [
             {
-                "name": "Shell Credit",
-                "value": 32000
+                "value": 32000,
+                "id": "shell-credit"
             },
             {
-                "name": "Improved Ring",
-                "value": 4
+                "value": 4,
+                "id": "improved-ring"
             },
             {
-                "name": "Adagio Helix",
-                "value": 7
+                "value": 7,
+                "id": "adagio-helix"
             }
         ],
         "4": [
             {
-                "name": "Shell Credit",
-                "value": 48000
+                "value": 48000,
+                "id": "shell-credit"
             },
             {
-                "name": "Improved Ring",
-                "value": 5
+                "value": 5,
+                "id": "improved-ring"
             },
             {
-                "name": "Andante Helix",
-                "value": 5
+                "value": 5,
+                "id": "andante-helix"
             }
         ],
         "5": [
             {
-                "name": "Shell Credit",
-                "value": 64000
+                "value": 64000,
+                "id": "shell-credit"
             },
             {
-                "name": "Tailored Ring",
-                "value": 4
+                "value": 4,
+                "id": "tailored-ring"
             },
             {
-                "name": "Presto Helix",
-                "value": 7
+                "value": 7,
+                "id": "presto-helix"
             }
         ],
         "6": [
             {
-                "name": "Shell Credit",
-                "value": 96000
+                "value": 96000,
+                "id": "shell-credit"
             },
             {
-                "name": "Tailored Ring",
-                "value": 7
+                "value": 7,
+                "id": "tailored-ring"
             },
             {
-                "name": "Presto Helix",
-                "value": 10
+                "value": 10,
+                "id": "presto-helix"
             }
         ]
     }
