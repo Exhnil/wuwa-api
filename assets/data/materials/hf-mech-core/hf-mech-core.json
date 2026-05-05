@@ -1,0 +1,8 @@
+{
+    "name": "HF Mech Core",
+    "id": "hf-mech-core",
+    "type": "Weapon and Skill Material",
+    "rarity": 4,
+    "source": "enemies",
+    "group": "mech-core"
+}

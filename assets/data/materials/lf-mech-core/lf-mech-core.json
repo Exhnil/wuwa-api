@@ -1,0 +1,8 @@
+{
+    "name": "LF Mech Core",
+    "id": "lf-mech-core",
+    "type": "Weapon and Skill Material",
+    "rarity": 2,
+    "source": "enemies",
+    "group": "mech-core"
+}
