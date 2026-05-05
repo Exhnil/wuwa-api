@@ -3,5 +3,6 @@
   "id": "aftertune-combustor",
   "type": "Weapon and Skill Material",
   "rarity": 3,
-  "source": "forgery"
+  "source": "forgery",
+  "group": "combustor"
 }

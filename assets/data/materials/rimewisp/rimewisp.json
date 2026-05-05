@@ -1,7 +1,8 @@
 {
-    "name": "Rimewisp",
-    "id": "rimewisp",
-    "type": "Ascension Material",
-    "rarity": 1,
-    "source": "local"
+  "name": "Rimewisp",
+  "id": "rimewisp",
+  "type": "Ascension Material",
+  "rarity": 1,
+  "source": "local",
+  "group": "none"
 }
