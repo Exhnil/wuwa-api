@@ -25,7 +25,7 @@
         "value": 10000
       },
       {
-        "id": "Arithmetic Shell",
+        "id": "arithmetic-shell",
         "value": 4
       },
       {
@@ -33,7 +33,7 @@
         "value": 4
       },
       {
-        "id": "Our Choice",
+        "id": "our-choice",
         "value": 3
       }
     ],
@@ -43,7 +43,7 @@
         "value": 15000
       },
       {
-        "id": "Arithmetic Shell",
+        "id": "arithmetic-shell",
         "value": 8
       },
       {
@@ -51,7 +51,7 @@
         "value": 8
       },
       {
-        "id": "Our Choice",
+        "id": "our-choice",
         "value": 6
       }
     ],
@@ -61,7 +61,7 @@
         "value": 20000
       },
       {
-        "id": "Arithmetic Shell",
+        "id": "arithmetic-shell",
         "value": 12
       },
       {
@@ -69,7 +69,7 @@
         "value": 4
       },
       {
-        "id": "Our Choice",
+        "id": "our-choice",
         "value": 9
       }
     ],
@@ -79,7 +79,7 @@
         "value": 40000
       },
       {
-        "id": "Arithmetic Shell",
+        "id": "arithmetic-shell",
         "value": 16
       },
       {
@@ -87,7 +87,7 @@
         "value": 8
       },
       {
-        "id": "Our Choice",
+        "id": "our-choice",
         "value": 12
       }
     ],
@@ -97,7 +97,7 @@
         "value": 80000
       },
       {
-        "id": "Arithmetic Shell",
+        "id": "arithmetic-shell",
         "value": 20
       },
       {
@@ -105,7 +105,7 @@
         "value": 4
       },
       {
-        "id": "Our Choice",
+        "id": "our-choice",
         "value": 16
       }
     ]
@@ -195,7 +195,7 @@
         "value": 3
       },
       {
-        "id": "Gold in Memory",
+        "id": "gold-in-memory",
         "value": 1
       }
     ],
@@ -213,7 +213,7 @@
         "value": 2
       },
       {
-        "id": "Gold in Memory",
+        "id": "gold-in-memory",
         "value": 1
       }
     ],
@@ -231,7 +231,7 @@
         "value": 3
       },
       {
-        "id": "Gold in Memory",
+        "id": "gold-in-memory",
         "value": 1
       }
     ],
@@ -249,7 +249,7 @@
         "value": 4
       },
       {
-        "id": "Gold in Memory",
+        "id": "gold-in-memory",
         "value": 1
       }
     ]
@@ -283,7 +283,7 @@
         "value": 3
       },
       {
-        "id": "Gold in Memory",
+        "id": "gold-in-memory",
         "value": 1
       }
     ]
@@ -303,7 +303,7 @@
         "value": 3
       },
       {
-        "id": "Gold in Memory",
+        "id": "gold-in-memory",
         "value": 1
       }
     ],
@@ -321,7 +321,7 @@
         "value": 3
       },
       {
-        "id": "Gold in Memory",
+        "id": "gold-in-memory",
         "value": 1
       }
     ]
