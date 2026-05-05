@@ -1,0 +1,32 @@
+{
+    "name": "Lesson in Sunset",
+    "id": "lesson-in-sunset",
+    "type": "Forgery Challenge",
+    "cost": 40,
+    "materials": [
+        {
+            "name": "Spliced String",
+            "id": "spliced-string",
+            "rarity": 2,
+            "value": 6.4
+        },
+        {
+            "name": "Broken String",
+            "id": "broken-string",
+            "rarity": 3,
+            "value": 8
+        },
+        {
+            "name": "Solidifed String",
+            "id": "solidifed-string",
+            "rarity": 4,
+            "value": 1.682
+        },
+        {
+            "name": "Melodic String",
+            "id": "melodic-string",
+            "rarity": 5,
+            "value": 0.206
+        }
+    ]
+}

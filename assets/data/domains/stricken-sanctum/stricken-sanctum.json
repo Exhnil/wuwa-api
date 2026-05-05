@@ -1,0 +1,32 @@
+{
+    "name": "Stricken Sanctum",
+    "id": "stricken-sanctum",
+    "type": "Forgery Challenge",
+    "cost": 40,
+    "materials": [
+        {
+            "name": "LF Carved Crystal",
+            "id": "lf-carved-crystal",
+            "rarity": 2,
+            "value": 6.4
+        },
+        {
+            "name": "MF Carved Crystal",
+            "id": "mf-carved-crystal",
+            "rarity": 3,
+            "value": 8
+        },
+        {
+            "name": "HF Carved Crystal",
+            "id": "hf-carved-crystal",
+            "rarity": 4,
+            "value": 1.682
+        },
+        {
+            "name": "FF Carved Crystal",
+            "id": "ff-carved-crystal",
+            "rarity": 5,
+            "value": 0.206
+        }
+    ]
+}

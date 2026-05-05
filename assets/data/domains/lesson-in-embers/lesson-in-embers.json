@@ -1,0 +1,32 @@
+{
+    "name": "Lesson in Embers",
+    "id": "lesson-in-embers",
+    "type": "Forgery Challenge",
+    "cost": 40,
+    "materials": [
+        {
+            "name": "Incomplete Combustor",
+            "id": "incomplete-combustor",
+            "rarity": 2,
+            "value": 6.4
+        },
+        {
+            "name": "Aftertune Combustor",
+            "id": "aftertune-combustor",
+            "rarity": 3,
+            "value": 8
+        },
+        {
+            "name": "Remnant Combustor",
+            "id": "remnant-combustor",
+            "rarity": 4,
+            "value": 1.682
+        },
+        {
+            "name": "Reverb Combustor",
+            "id": "reverb-combustor",
+            "rarity": 5,
+            "value": 0.206
+        }
+    ]
+}

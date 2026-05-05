@@ -1,0 +1,32 @@
+{
+    "name": "Lesson in Void",
+    "id": "lesson-in-void",
+    "type": "Forgery Challenge",
+    "cost": 40,
+    "materials": [
+        {
+            "name": "LF Waveworn Shard",
+            "id": "lf-waveworn-shard",
+            "rarity": 2,
+            "value": 6.4
+        },
+        {
+            "name": "MF Waveworn Shard",
+            "id": "mf-waveworn-shard",
+            "rarity": 3,
+            "value": 8
+        },
+        {
+            "name": "HF Waveworn Shard",
+            "id": "hf-waveworn-shard",
+            "rarity": 4,
+            "value": 1.682
+        },
+        {
+            "name": "FF Waveworn Shard",
+            "id": "ff-waveworn-shard",
+            "rarity": 5,
+            "value": 0.206
+        }
+    ]
+}

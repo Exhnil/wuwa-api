@@ -1,0 +1,32 @@
+{
+    "name": "Fallen Sanctum",
+    "id": "fallen-sanctum",
+    "type": "Forgery Challenge",
+    "cost": 40,
+    "materials": [
+        {
+            "name": "Broken Wing Polarizer",
+            "id": "broken-wing-polarizer",
+            "rarity": 2,
+            "value": 6.4
+        },
+        {
+            "name": "Monowing Polarizer",
+            "id": "monowing-polarizer",
+            "rarity": 3,
+            "value": 8
+        },
+        {
+            "name": "Polywing Polarizer",
+            "id": "polywing-polarizer",
+            "rarity": 4,
+            "value": 1.682
+        },
+        {
+            "name": "Layered Wing Polarizer",
+            "id": "layered-wing-polarizer",
+            "rarity": 5,
+            "value": 0.206
+        }
+    ]
+}
