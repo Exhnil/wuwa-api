@@ -35,7 +35,7 @@ app.use(morgan(process.env.NODE_ENV === "production" ? "combined" : "dev"));
 app.use(
   rateLimit({
     windowMs: 60 * 1000,
-    max: 120,
+    max: 1200,
   }),
 );
 

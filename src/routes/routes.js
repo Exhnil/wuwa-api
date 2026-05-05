@@ -5,6 +5,7 @@ import {
   getEntity,
   getAvailableImages,
   getImage,
+  getAsset,
 } from "../module/filesystem.js";
 import {
   validateImage,
@@ -13,6 +14,23 @@ import {
 } from "../middleware/validator.js";
 
 const router = Router();
+
+//Various Assets
+router.get("/assets/*path", async (req, res, next) => {
+  try {
+    const path = req.params.path.join("/");
+    const asset = await getAsset(path);
+
+    if (!asset) {
+      return res.status(404).json({ error: "Not found" });
+    }
+
+    res.set("Content-Type", asset.type);
+    res.send(asset.image);
+  } catch (e) {
+    next(e);
+  }
+});
 
 // Root path
 router.get("/", async (req, res, next) => {

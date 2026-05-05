@@ -9,16 +9,19 @@ const cache = new keyv({
   ttl: 1000 * 60 * 5,
 });
 const dataDir = path.join(process.cwd(), "/assets/data");
-const imageDir = path.join(process.cwd(), "/assets/images");
+const imageDir = path.join(process.cwd(), "assets", "images");
 
-async function pathSafety(base, ...parts) {
-  const resolveBase = path.resolve(base);
-  const p = path.resolve(resolveBase, ...parts);
+function pathSafety(base, ...parts) {
+  const basePath = path.resolve(base);
+  const target = path.resolve(basePath, ...parts);
 
-  if (p === resolveBase || p.startsWith(resolveBase + path.sep)) {
-    return p;
+  const relative = path.relative(basePath, target);
+
+  if (relative.startsWith("..") || path.isAbsolute(relative)) {
+    throw new Error("Path traversal");
   }
-  throw new Error("Path traversal");
+
+  return target;
 }
 
 async function pathExist(p) {
@@ -28,14 +31,6 @@ async function pathExist(p) {
   } catch {
     return false;
   }
-}
-
-export async function containsFolders(p) {
-  const fullPath = pathSafety(dataDir, p);
-  const folder = await fs.readdir(fullPath, {
-    withFileTypes: true,
-  });
-  return folder.some((f) => f.isDirectory());
 }
 
 export async function getTypes() {
@@ -76,7 +71,7 @@ export async function getAvailableImages(type, id) {
   if (found !== undefined) return found;
 
   const filePath = pathSafety(imageDir, type, id);
-  if (!(await pathExist(dirPath))) return [];
+  if (!(await pathExist(filePath))) return [];
 
   const entries = await fs.readdir(filePath, { withFileTypes: true });
 
@@ -88,19 +83,51 @@ export async function getAvailableImages(type, id) {
 
 export async function getImage(type, id, image) {
   try {
-    const filePath = pathSafety(imageDir, type, id, image);
+    const basePath = pathSafety(imageDir, type, id);
+    const extensions = ["png", "jpg", "jpeg", "webp"];
+    console.log(basePath);
+    for (const ext of extensions) {
+      const filePath = path.join(basePath, `${image}.${ext}`);
 
-    if (!(await pathExist(dirPath))) return null;
+      if (await pathExist(filePath)) {
+        const buffer = await fs.readFile(filePath);
+        const mime = mimeType.lookup(filePath) || "application/octet-stream";
 
-    const buffer = await fs.readFile(filePath);
-    const mime = mimeType.lookup(image) || "application/octet-stream";
-
-    return {
-      image: buffer,
-      type: mime,
-    };
+        return {
+          image: buffer,
+          type: mime,
+        };
+      }
+    }
+    return null;
   } catch (e) {
     console.error("Error reading image at " + filePath, e);
+    return null;
+  }
+}
+
+export async function getAsset(relativePath) {
+  try {
+    const basePath = pathSafety(imageDir, relativePath);
+    const extensions = ["png", "jpg", "jpeg", "webp"];
+    console.log(basePath);
+    for (const ext of extensions) {
+      const filePath = `${basePath}.${ext}`;
+      console.log(filePath);
+
+      if (await pathExist(filePath)) {
+        const buffer = await fs.readFile(filePath);
+        const mime = mimeType.lookup(filePath) || "application/octet-stream";
+
+        return {
+          image: buffer,
+          type: mime,
+        };
+      }
+    }
+    return null;
+  } catch (e) {
+    console.log("Error reading asset", e);
     return null;
   }
 }
@@ -112,7 +139,7 @@ export async function getEntity(type, id) {
 
   const filePath = pathSafety(dataDir, type, id, `${id}.json`);
 
-  if (!(await pathExist(dirPath))) return null;
+  if (!(await pathExist(filePath))) return null;
 
   try {
     const file = await fs.readFile(filePath, "utf-8");
