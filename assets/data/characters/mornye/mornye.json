@@ -1,329 +1,329 @@
 {
-    "id": "mornye",
-    "name": "Mornye",
-    "attribute": "Fusion",
-    "weapon": "Broadblades",
-    "gender": "Female",
-    "nation": "Lahai-Roi",
-    "class": "Natural",
-    "rarity": 5,
-    "release": "2026-01-15",
-    "ascension_materials": {
-        "1": [
-            {
-                "id": "shell-credit",
-                "value": 5000
-            },
-            {
-                "id": "lf-mech-core",
-                "value": 4
-            }
-        ],
-        "2": [
-            {
-                "id": "shell-credit",
-                "value": 10000
-            },
-            {
-                "id": "Gemini Spore",
-                "value": 4
-            },
-            {
-                "id": "mf-mech-core",
-                "value": 4
-            },
-            {
-                "id": " Burning Judgment",
-                "value": 3
-            }
-        ],
-        "3": [
-            {
-                "id": "shell-credit",
-                "value": 15000
-            },
-            {
-                "id": "Gemini Spore",
-                "value": 8
-            },
-            {
-                "id": "mf-mech-core",
-                "value": 8
-            },
-            {
-                "id": " Burning Judgment",
-                "value": 6
-            }
-        ],
-        "4": [
-            {
-                "id": "shell-credit",
-                "value": 20000
-            },
-            {
-                "id": "Gemini Spore",
-                "value": 12
-            },
-            {
-                "id": "hf-mech-core",
-                "value": 4
-            },
-            {
-                "id": " Burning Judgment",
-                "value": 9
-            }
-        ],
-        "5": [
-            {
-                "id": "shell-credit",
-                "value": 40000
-            },
-            {
-                "id": "Gemini Spore",
-                "value": 16
-            },
-            {
-                "id": "hf-mech-core",
-                "value": 8
-            },
-            {
-                "id": " Burning Judgment",
-                "value": 12
-            }
-        ],
-        "6": [
-            {
-                "id": "shell-credit",
-                "value": 80000
-            },
-            {
-                "id": "Gemini Spore",
-                "value": 20
-            },
-            {
-                "id": "ff-mech-core",
-                "value": 4
-            },
-            {
-                "id": " Burning Judgment",
-                "value": 16
-            }
-        ]
-    },
-    "skill_materials": {
-        "2": [
-            {
-                "id": "shell-credit",
-                "value": 1500
-            },
-            {
-                "id": "lf-carved-crystal",
-                "value": 2
-            },
-            {
-                "id": "lf-mech-core",
-                "value": 2
-            }
-        ],
-        "3": [
-            {
-                "id": "shell-credit",
-                "value": 2000
-            },
-            {
-                "id": "lf-carved-crystal",
-                "value": 3
-            },
-            {
-                "id": "lf-mech-core",
-                "value": 3
-            }
-        ],
-        "4": [
-            {
-                "id": "shell-credit",
-                "value": 4500
-            },
-            {
-                "id": "mf-carved-crystal",
-                "value": 2
-            },
-            {
-                "id": "mf-mech-core",
-                "value": 2
-            }
-        ],
-        "5": [
-            {
-                "id": "shell-credit",
-                "value": 6000
-            },
-            {
-                "id": "mf-carved-crystal",
-                "value": 3
-            },
-            {
-                "id": "mf-mech-core",
-                "value": 3
-            }
-        ],
-        "6": [
-            {
-                "id": "shell-credit",
-                "value": 16000
-            },
-            {
-                "id": "hf-carved-crystal",
-                "value": 3
-            },
-            {
-                "id": "hf-mech-core",
-                "value": 2
-            }
-        ],
-        "7": [
-            {
-                "id": "shell-credit",
-                "value": 30000
-            },
-            {
-                "id": "hf-carved-crystal",
-                "value": 5
-            },
-            {
-                "id": "hf-mech-core",
-                "value": 3
-            },
-            {
-                "id": "The Netherworld's Stare",
-                "value": 1
-            }
-        ],
-        "8": [
-            {
-                "id": "shell-credit",
-                "value": 50000
-            },
-            {
-                "id": "ff-carved-crystal",
-                "value": 2
-            },
-            {
-                "id": "ff-mech-core",
-                "value": 2
-            },
-            {
-                "id": "The Netherworld's Stare",
-                "value": 1
-            }
-        ],
-        "9": [
-            {
-                "id": "shell-credit",
-                "value": 70000
-            },
-            {
-                "id": "ff-carved-crystal",
-                "value": 3
-            },
-            {
-                "id": "ff-mech-core",
-                "value": 3
-            },
-            {
-                "id": "The Netherworld's Stare",
-                "value": 1
-            }
-        ],
-        "10": [
-            {
-                "id": "shell-credit",
-                "value": 100000
-            },
-            {
-                "id": "ff-carved-crystal",
-                "value": 6
-            },
-            {
-                "id": "ff-mech-core",
-                "value": 4
-            },
-            {
-                "id": "The Netherworld's Stare",
-                "value": 1
-            }
-        ]
-    },
-    "stats_bonus_materials": {
-        "rank_1": [
-            {
-                "id": "shell-credit",
-                "value": 50000
-            },
-            {
-                "id": "hf-mech-core",
-                "value": 3
-            },
-            {
-                "id": "hf-carved-crystal",
-                "value": 3
-            }
-        ],
-        "rank_2": [
-            {
-                "id": "shell-credit",
-                "value": 100000
-            },
-            {
-                "id": "ff-mech-core",
-                "value": 3
-            },
-            {
-                "id": "ff-carved-crystal",
-                "value": 3
-            },
-            {
-                "id": "The Netherworld's Stare",
-                "value": 1
-            }
-        ]
-    },
-    "inherent_skill_materials": {
-        "skill_1": [
-            {
-                "id": "shell-credit",
-                "value": 10000
-            },
-            {
-                "id": "mf-mech-core",
-                "value": 3
-            },
-            {
-                "id": "mf-carved-crystal",
-                "value": 3
-            },
-            {
-                "id": "The Netherworld's Stare",
-                "value": 1
-            }
-        ],
-        "skill_2": [
-            {
-                "id": "shell-credit",
-                "value": 20000
-            },
-            {
-                "id": "hf-mech-core",
-                "value": 3
-            },
-            {
-                "id": "hf-carved-crystal",
-                "value": 3
-            },
-            {
-                "id": "The Netherworld's Stare",
-                "value": 1
-            }
-        ]
-    }
+  "id": "mornye",
+  "name": "Mornye",
+  "attribute": "Fusion",
+  "weapon": "Broadblades",
+  "gender": "Female",
+  "nation": "Lahai-Roi",
+  "class": "Natural",
+  "rarity": 5,
+  "release": "2026-01-15",
+  "ascension_materials": {
+    "1": [
+      {
+        "id": "shell-credit",
+        "value": 5000
+      },
+      {
+        "id": "lf-mech-core",
+        "value": 4
+      }
+    ],
+    "2": [
+      {
+        "id": "shell-credit",
+        "value": 10000
+      },
+      {
+        "id": "gemini-spore",
+        "value": 4
+      },
+      {
+        "id": "mf-mech-core",
+        "value": 4
+      },
+      {
+        "id": " burning-judgment",
+        "value": 3
+      }
+    ],
+    "3": [
+      {
+        "id": "shell-credit",
+        "value": 15000
+      },
+      {
+        "id": "gemini-spore",
+        "value": 8
+      },
+      {
+        "id": "mf-mech-core",
+        "value": 8
+      },
+      {
+        "id": " burning-judgment",
+        "value": 6
+      }
+    ],
+    "4": [
+      {
+        "id": "shell-credit",
+        "value": 20000
+      },
+      {
+        "id": "gemini-spore",
+        "value": 12
+      },
+      {
+        "id": "hf-mech-core",
+        "value": 4
+      },
+      {
+        "id": " burning-judgment",
+        "value": 9
+      }
+    ],
+    "5": [
+      {
+        "id": "shell-credit",
+        "value": 40000
+      },
+      {
+        "id": "gemini-spore",
+        "value": 16
+      },
+      {
+        "id": "hf-mech-core",
+        "value": 8
+      },
+      {
+        "id": " burning-judgment",
+        "value": 12
+      }
+    ],
+    "6": [
+      {
+        "id": "shell-credit",
+        "value": 80000
+      },
+      {
+        "id": "gemini-spore",
+        "value": 20
+      },
+      {
+        "id": "ff-mech-core",
+        "value": 4
+      },
+      {
+        "id": " burning-judgment",
+        "value": 16
+      }
+    ]
+  },
+  "skill_materials": {
+    "2": [
+      {
+        "id": "shell-credit",
+        "value": 1500
+      },
+      {
+        "id": "lf-carved-crystal",
+        "value": 2
+      },
+      {
+        "id": "lf-mech-core",
+        "value": 2
+      }
+    ],
+    "3": [
+      {
+        "id": "shell-credit",
+        "value": 2000
+      },
+      {
+        "id": "lf-carved-crystal",
+        "value": 3
+      },
+      {
+        "id": "lf-mech-core",
+        "value": 3
+      }
+    ],
+    "4": [
+      {
+        "id": "shell-credit",
+        "value": 4500
+      },
+      {
+        "id": "mf-carved-crystal",
+        "value": 2
+      },
+      {
+        "id": "mf-mech-core",
+        "value": 2
+      }
+    ],
+    "5": [
+      {
+        "id": "shell-credit",
+        "value": 6000
+      },
+      {
+        "id": "mf-carved-crystal",
+        "value": 3
+      },
+      {
+        "id": "mf-mech-core",
+        "value": 3
+      }
+    ],
+    "6": [
+      {
+        "id": "shell-credit",
+        "value": 16000
+      },
+      {
+        "id": "hf-carved-crystal",
+        "value": 3
+      },
+      {
+        "id": "hf-mech-core",
+        "value": 2
+      }
+    ],
+    "7": [
+      {
+        "id": "shell-credit",
+        "value": 30000
+      },
+      {
+        "id": "hf-carved-crystal",
+        "value": 5
+      },
+      {
+        "id": "hf-mech-core",
+        "value": 3
+      },
+      {
+        "id": "The Netherworld's Stare",
+        "value": 1
+      }
+    ],
+    "8": [
+      {
+        "id": "shell-credit",
+        "value": 50000
+      },
+      {
+        "id": "ff-carved-crystal",
+        "value": 2
+      },
+      {
+        "id": "ff-mech-core",
+        "value": 2
+      },
+      {
+        "id": "The Netherworld's Stare",
+        "value": 1
+      }
+    ],
+    "9": [
+      {
+        "id": "shell-credit",
+        "value": 70000
+      },
+      {
+        "id": "ff-carved-crystal",
+        "value": 3
+      },
+      {
+        "id": "ff-mech-core",
+        "value": 3
+      },
+      {
+        "id": "The Netherworld's Stare",
+        "value": 1
+      }
+    ],
+    "10": [
+      {
+        "id": "shell-credit",
+        "value": 100000
+      },
+      {
+        "id": "ff-carved-crystal",
+        "value": 6
+      },
+      {
+        "id": "ff-mech-core",
+        "value": 4
+      },
+      {
+        "id": "The Netherworld's Stare",
+        "value": 1
+      }
+    ]
+  },
+  "stats_bonus_materials": {
+    "rank_1": [
+      {
+        "id": "shell-credit",
+        "value": 50000
+      },
+      {
+        "id": "hf-mech-core",
+        "value": 3
+      },
+      {
+        "id": "hf-carved-crystal",
+        "value": 3
+      }
+    ],
+    "rank_2": [
+      {
+        "id": "shell-credit",
+        "value": 100000
+      },
+      {
+        "id": "ff-mech-core",
+        "value": 3
+      },
+      {
+        "id": "ff-carved-crystal",
+        "value": 3
+      },
+      {
+        "id": "The Netherworld's Stare",
+        "value": 1
+      }
+    ]
+  },
+  "inherent_skill_materials": {
+    "skill_1": [
+      {
+        "id": "shell-credit",
+        "value": 10000
+      },
+      {
+        "id": "mf-mech-core",
+        "value": 3
+      },
+      {
+        "id": "mf-carved-crystal",
+        "value": 3
+      },
+      {
+        "id": "The Netherworld's Stare",
+        "value": 1
+      }
+    ],
+    "skill_2": [
+      {
+        "id": "shell-credit",
+        "value": 20000
+      },
+      {
+        "id": "hf-mech-core",
+        "value": 3
+      },
+      {
+        "id": "hf-carved-crystal",
+        "value": 3
+      },
+      {
+        "id": "The Netherworld's Stare",
+        "value": 1
+      }
+    ]
+  }
 }

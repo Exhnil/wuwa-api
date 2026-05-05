@@ -1,329 +1,329 @@
 {
-    "id": "hiyuki",
-    "name": "Hiyuki",
-    "attribute": "Glacio",
-    "weapon": "Swords",
-    "gender": "Female",
-    "nation": "Lahai-Roi",
-    "class": "Unknown",
-    "rarity": 5,
-    "release": "2026-04-30",
-    "ascension_materials": {
-        "1": [
-            {
-                "id": "shell-credit",
-                "value": 5000
-            },
-            {
-                "id": "lf-exoswarm-core",
-                "value": 4
-            }
-        ],
-        "2": [
-            {
-                "id": "shell-credit",
-                "value": 10000
-            },
-            {
-                "id": "Redbell",
-                "value": 4
-            },
-            {
-                "id": "mf-exoswarm-core",
-                "value": 4
-            },
-            {
-                "id": "Our Choice",
-                "value": 3
-            }
-        ],
-        "3": [
-            {
-                "id": "shell-credit",
-                "value": 15000
-            },
-            {
-                "id": "Redbell",
-                "value": 8
-            },
-            {
-                "id": "mf-exoswarm-core",
-                "value": 8
-            },
-            {
-                "id": "Our Choice",
-                "value": 6
-            }
-        ],
-        "4": [
-            {
-                "id": "shell-credit",
-                "value": 20000
-            },
-            {
-                "id": "Redbell",
-                "value": 12
-            },
-            {
-                "id": "hf-exoswarm-core",
-                "value": 4
-            },
-            {
-                "id": "Our Choice",
-                "value": 9
-            }
-        ],
-        "5": [
-            {
-                "id": "shell-credit",
-                "value": 40000
-            },
-            {
-                "id": "Redbell",
-                "value": 16
-            },
-            {
-                "id": "hf-exoswarm-core",
-                "value": 8
-            },
-            {
-                "id": "Our Choice",
-                "value": 12
-            }
-        ],
-        "6": [
-            {
-                "id": "shell-credit",
-                "value": 80000
-            },
-            {
-                "id": "Redbell",
-                "value": 20
-            },
-            {
-                "id": "ff-exoswarm-core",
-                "value": 4
-            },
-            {
-                "id": "Our Choice",
-                "value": 16
-            }
-        ]
-    },
-    "skill_materials": {
-        "2": [
-            {
-                "id": "shell-credit",
-                "value": 1500
-            },
-            {
-                "id": "broken-wing-polarizer",
-                "value": 2
-            },
-            {
-                "id": "lf-exoswarm-core",
-                "value": 2
-            }
-        ],
-        "3": [
-            {
-                "id": "shell-credit",
-                "value": 2000
-            },
-            {
-                "id": "broken-wing-polarizer",
-                "value": 3
-            },
-            {
-                "id": "lf-exoswarm-core",
-                "value": 3
-            }
-        ],
-        "4": [
-            {
-                "id": "shell-credit",
-                "value": 4500
-            },
-            {
-                "id": "monowing-polarizer",
-                "value": 2
-            },
-            {
-                "id": "mf-exoswarm-core",
-                "value": 2
-            }
-        ],
-        "5": [
-            {
-                "id": "shell-credit",
-                "value": 6000
-            },
-            {
-                "id": "monowing-polarizer",
-                "value": 3
-            },
-            {
-                "id": "mf-exoswarm-core",
-                "value": 3
-            }
-        ],
-        "6": [
-            {
-                "id": "shell-credit",
-                "value": 16000
-            },
-            {
-                "id": "polywing-polarizer",
-                "value": 3
-            },
-            {
-                "id": "hf-exoswarm-core",
-                "value": 2
-            }
-        ],
-        "7": [
-            {
-                "id": "shell-credit",
-                "value": 30000
-            },
-            {
-                "id": "polywing-polarizer",
-                "value": 5
-            },
-            {
-                "id": "hf-exoswarm-core",
-                "value": 3
-            },
-            {
-                "id": "We Who Question",
-                "value": 1
-            }
-        ],
-        "8": [
-            {
-                "id": "shell-credit",
-                "value": 50000
-            },
-            {
-                "id": "layered-wing-polarizer",
-                "value": 2
-            },
-            {
-                "id": "ff-exoswarm-core",
-                "value": 2
-            },
-            {
-                "id": "We Who Question",
-                "value": 1
-            }
-        ],
-        "9": [
-            {
-                "id": "shell-credit",
-                "value": 70000
-            },
-            {
-                "id": "layered-wing-polarizer",
-                "value": 3
-            },
-            {
-                "id": "ff-exoswarm-core",
-                "value": 3
-            },
-            {
-                "id": "We Who Question",
-                "value": 1
-            }
-        ],
-        "10": [
-            {
-                "id": "shell-credit",
-                "value": 100000
-            },
-            {
-                "id": "layered-wing-polarizer",
-                "value": 6
-            },
-            {
-                "id": "ff-exoswarm-core",
-                "value": 4
-            },
-            {
-                "id": "We Who Question",
-                "value": 1
-            }
-        ]
-    },
-    "stats_bonus_materials": {
-        "rank_1": [
-            {
-                "id": "shell-credit",
-                "value": 50000
-            },
-            {
-                "id": "hf-exoswarm-core",
-                "value": 3
-            },
-            {
-                "id": "polywing-polarizer",
-                "value": 3
-            }
-        ],
-        "rank_2": [
-            {
-                "id": "shell-credit",
-                "value": 100000
-            },
-            {
-                "id": "ff-exoswarm-core",
-                "value": 3
-            },
-            {
-                "id": "layered-wing-polarizer",
-                "value": 3
-            },
-            {
-                "id": "We Who Question",
-                "value": 1
-            }
-        ]
-    },
-    "inherent_skill_materials": {
-        "skill_1": [
-            {
-                "id": "shell-credit",
-                "value": 10000
-            },
-            {
-                "id": "mf-exoswarm-core",
-                "value": 3
-            },
-            {
-                "id": "monowing-polarizer",
-                "value": 3
-            },
-            {
-                "id": "We Who Question",
-                "value": 1
-            }
-        ],
-        "skill_2": [
-            {
-                "id": "shell-credit",
-                "value": 20000
-            },
-            {
-                "id": "hf-exoswarm-core",
-                "value": 3
-            },
-            {
-                "id": "polywing-polarizer",
-                "value": 3
-            },
-            {
-                "id": "We Who Question",
-                "value": 1
-            }
-        ]
-    }
+  "id": "hiyuki",
+  "name": "Hiyuki",
+  "attribute": "Glacio",
+  "weapon": "Swords",
+  "gender": "Female",
+  "nation": "Lahai-Roi",
+  "class": "Unknown",
+  "rarity": 5,
+  "release": "2026-04-30",
+  "ascension_materials": {
+    "1": [
+      {
+        "id": "shell-credit",
+        "value": 5000
+      },
+      {
+        "id": "lf-exoswarm-core",
+        "value": 4
+      }
+    ],
+    "2": [
+      {
+        "id": "shell-credit",
+        "value": 10000
+      },
+      {
+        "id": "redbell",
+        "value": 4
+      },
+      {
+        "id": "mf-exoswarm-core",
+        "value": 4
+      },
+      {
+        "id": "our-choice",
+        "value": 3
+      }
+    ],
+    "3": [
+      {
+        "id": "shell-credit",
+        "value": 15000
+      },
+      {
+        "id": "redbell",
+        "value": 8
+      },
+      {
+        "id": "mf-exoswarm-core",
+        "value": 8
+      },
+      {
+        "id": "our-choice",
+        "value": 6
+      }
+    ],
+    "4": [
+      {
+        "id": "shell-credit",
+        "value": 20000
+      },
+      {
+        "id": "redbell",
+        "value": 12
+      },
+      {
+        "id": "hf-exoswarm-core",
+        "value": 4
+      },
+      {
+        "id": "our-choice",
+        "value": 9
+      }
+    ],
+    "5": [
+      {
+        "id": "shell-credit",
+        "value": 40000
+      },
+      {
+        "id": "redbell",
+        "value": 16
+      },
+      {
+        "id": "hf-exoswarm-core",
+        "value": 8
+      },
+      {
+        "id": "our-choice",
+        "value": 12
+      }
+    ],
+    "6": [
+      {
+        "id": "shell-credit",
+        "value": 80000
+      },
+      {
+        "id": "redbell",
+        "value": 20
+      },
+      {
+        "id": "ff-exoswarm-core",
+        "value": 4
+      },
+      {
+        "id": "our-choice",
+        "value": 16
+      }
+    ]
+  },
+  "skill_materials": {
+    "2": [
+      {
+        "id": "shell-credit",
+        "value": 1500
+      },
+      {
+        "id": "broken-wing-polarizer",
+        "value": 2
+      },
+      {
+        "id": "lf-exoswarm-core",
+        "value": 2
+      }
+    ],
+    "3": [
+      {
+        "id": "shell-credit",
+        "value": 2000
+      },
+      {
+        "id": "broken-wing-polarizer",
+        "value": 3
+      },
+      {
+        "id": "lf-exoswarm-core",
+        "value": 3
+      }
+    ],
+    "4": [
+      {
+        "id": "shell-credit",
+        "value": 4500
+      },
+      {
+        "id": "monowing-polarizer",
+        "value": 2
+      },
+      {
+        "id": "mf-exoswarm-core",
+        "value": 2
+      }
+    ],
+    "5": [
+      {
+        "id": "shell-credit",
+        "value": 6000
+      },
+      {
+        "id": "monowing-polarizer",
+        "value": 3
+      },
+      {
+        "id": "mf-exoswarm-core",
+        "value": 3
+      }
+    ],
+    "6": [
+      {
+        "id": "shell-credit",
+        "value": 16000
+      },
+      {
+        "id": "polywing-polarizer",
+        "value": 3
+      },
+      {
+        "id": "hf-exoswarm-core",
+        "value": 2
+      }
+    ],
+    "7": [
+      {
+        "id": "shell-credit",
+        "value": 30000
+      },
+      {
+        "id": "polywing-polarizer",
+        "value": 5
+      },
+      {
+        "id": "hf-exoswarm-core",
+        "value": 3
+      },
+      {
+        "id": "We Who Question",
+        "value": 1
+      }
+    ],
+    "8": [
+      {
+        "id": "shell-credit",
+        "value": 50000
+      },
+      {
+        "id": "layered-wing-polarizer",
+        "value": 2
+      },
+      {
+        "id": "ff-exoswarm-core",
+        "value": 2
+      },
+      {
+        "id": "We Who Question",
+        "value": 1
+      }
+    ],
+    "9": [
+      {
+        "id": "shell-credit",
+        "value": 70000
+      },
+      {
+        "id": "layered-wing-polarizer",
+        "value": 3
+      },
+      {
+        "id": "ff-exoswarm-core",
+        "value": 3
+      },
+      {
+        "id": "We Who Question",
+        "value": 1
+      }
+    ],
+    "10": [
+      {
+        "id": "shell-credit",
+        "value": 100000
+      },
+      {
+        "id": "layered-wing-polarizer",
+        "value": 6
+      },
+      {
+        "id": "ff-exoswarm-core",
+        "value": 4
+      },
+      {
+        "id": "We Who Question",
+        "value": 1
+      }
+    ]
+  },
+  "stats_bonus_materials": {
+    "rank_1": [
+      {
+        "id": "shell-credit",
+        "value": 50000
+      },
+      {
+        "id": "hf-exoswarm-core",
+        "value": 3
+      },
+      {
+        "id": "polywing-polarizer",
+        "value": 3
+      }
+    ],
+    "rank_2": [
+      {
+        "id": "shell-credit",
+        "value": 100000
+      },
+      {
+        "id": "ff-exoswarm-core",
+        "value": 3
+      },
+      {
+        "id": "layered-wing-polarizer",
+        "value": 3
+      },
+      {
+        "id": "We Who Question",
+        "value": 1
+      }
+    ]
+  },
+  "inherent_skill_materials": {
+    "skill_1": [
+      {
+        "id": "shell-credit",
+        "value": 10000
+      },
+      {
+        "id": "mf-exoswarm-core",
+        "value": 3
+      },
+      {
+        "id": "monowing-polarizer",
+        "value": 3
+      },
+      {
+        "id": "We Who Question",
+        "value": 1
+      }
+    ],
+    "skill_2": [
+      {
+        "id": "shell-credit",
+        "value": 20000
+      },
+      {
+        "id": "hf-exoswarm-core",
+        "value": 3
+      },
+      {
+        "id": "polywing-polarizer",
+        "value": 3
+      },
+      {
+        "id": "We Who Question",
+        "value": 1
+      }
+    ]
+  }
 }

@@ -1,0 +1,13 @@
+{
+    "name": "Denia",
+    "id": "denia",
+    "type": "Weekly Challenge",
+    "cost": 60,
+    "materials": [
+        {
+            "name": "We Who Question",
+            "id": "we-who-question",
+            "value": 3
+        }
+    ]
+}
