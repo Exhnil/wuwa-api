@@ -1,0 +1,13 @@
+{
+  "name": "Reactor Husk",
+  "id": "reactor-husk",
+  "type": "Overlord Class",
+  "cost": 60,
+  "materials": [
+    {
+      "name": "Burning Judgment",
+      "id": "burning-judgment",
+      "value": 4.1
+    }
+  ]
+}

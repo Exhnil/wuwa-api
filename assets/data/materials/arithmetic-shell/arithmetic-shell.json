@@ -1,6 +1,6 @@
 {
-    "name": "Rimewisp",
-    "id": "rimewisp",
+    "name": "Arithmetic Shell",
+    "id": "arithmetic-shell",
     "type": "Ascension Material",
     "rarity": 1,
     "source": "local",

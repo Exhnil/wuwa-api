@@ -1,0 +1,13 @@
+{
+    "name": "Hyvatia",
+    "id": "hyvatia",
+    "type": "Overlord Class",
+    "cost": 60,
+    "materials": [
+        {
+            "name": "Suncoveter's Reach",
+            "id": "suncoveter-s-reach",
+            "value": 4.1
+        }
+    ]
+}

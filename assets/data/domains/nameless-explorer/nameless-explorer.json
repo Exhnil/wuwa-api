@@ -1,0 +1,13 @@
+{
+    "name": "Nameless Explorer",
+    "id": "nameless-explorer",
+    "type": "Overlord Class",
+    "cost": 60,
+    "materials": [
+        {
+            "name": "Our Choice",
+            "id": "our-choice",
+            "value": 4.1
+        }
+    ]
+}
