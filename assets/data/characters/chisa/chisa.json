@@ -349,7 +349,7 @@
     ]
   },
   "inherent_skill_materials": {
-    "skill_1": [
+    "rank_1": [
       {
         "id": "shell-credit",
         "name": "Shell Credit",
@@ -371,7 +371,7 @@
         "value": 1
       }
     ],
-    "skill_2": [
+    "rank_2": [
       {
         "id": "shell-credit",
         "name": "Shell Credit",
