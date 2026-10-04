@@ -1,6 +1,18 @@
 {
-  "nations": ["Huanglong", "Rinascita", "Black Shores"],
-  "attributes": ["Fusion", "Glacio", "Aero", "Electro", "Spectro", "Havoc"],
+  "nations": [
+    "Huanglong",
+    "Rinascita",
+    "Black Shores",
+    "Lahai-Roi"
+  ],
+  "attributes": [
+    "Fusion",
+    "Glacio",
+    "Aero",
+    "Electro",
+    "Spectro",
+    "Havoc"
+  ],
   "classes": [
     "Congenital",
     "Mutant",
@@ -11,5 +23,11 @@
     "Acquired",
     "Arbiters"
   ],
-  "weapons": ["Swords", "Broadblades", "Pistols", "Gauntlets", "Rectifiers"]
+  "weapons": [
+    "Swords",
+    "Broadblades",
+    "Pistols",
+    "Gauntlets",
+    "Rectifiers"
+  ]
 }
