@@ -6,6 +6,7 @@ import {
   getAvailableImages,
   getImage,
   getAsset,
+  getMisc,
 } from "../module/filesystem.js";
 import {
   validateImage,
@@ -44,6 +45,17 @@ router.get("/", async (req, res) => {
     count: types.length,
   });
 });
+
+//Get misc data
+router.get("/misc", async (req, res) => {
+  const misc = await getMisc();
+
+  if (!misc) {
+    return res.status(404).json({ error: "Misc data not found" })
+  }
+
+  res.json(misc)
+})
 
 //Get all entities ids
 router.get("/:type", validateType, async (req, res) => {

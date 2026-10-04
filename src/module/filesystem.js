@@ -44,6 +44,31 @@ export async function getTypes() {
   return types;
 }
 
+export async function getMisc() {
+  const cacheId = "misc"
+
+  const found = await cache.get(cacheId)
+  if (found !== undefined) return found
+
+  const filePath = pathSafety(dataDir, "misc.json")
+
+  try {
+    const file = await fs.readFile(filePath, "utf-8")
+    const misc = JSON.parse(file)
+
+    await cache.set(cacheId, misc)
+
+    return misc
+  }
+  catch (e) {
+    if (e.code === "ENOENT") {
+      return null
+    }
+
+    throw e
+  }
+}
+
 export async function getAvailableEntities(type) {
   const cacheId = `entities:${type}`;
 
@@ -103,8 +128,8 @@ async function readImage(filePath) {
     const candidate = `${filePath}.${ext}`
 
     try {
-      const buffer = await fs.readFile(filePath);
-      const mime = mimeType.lookup(filePath) || "application/octet-stream";
+      const buffer = await fs.readFile(candidate);
+      const mime = mimeType.lookup(candidate) || "application/octet-stream";
 
       return {
         image: buffer,
