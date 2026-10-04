@@ -25,7 +25,9 @@ app.use(
       ) {
         callback(null, true);
       } else {
-        callback(new Error("Not allowed by CORS"));
+        const error = new Error("Not allowed by CORS")
+        error.code = "CORS_FORBIDDEN"
+        callback(error);
       }
     },
   }),
@@ -53,24 +55,39 @@ app.get("/", (req, res) => {
   });
 });
 
-app.use((req, res) => {
-  res.status(404).json({ message: "Not Found" });
-});
-
 app.get("/favicon.ico", (req, res) => {
   res.status(204).end();
+});
+
+app.use((req, res) => {
+  res.status(404).json({ error: "Not Found" });
 });
 
 const logFile = path.join(process.cwd(), "errors.log");
 
 app.use((error, req, res, next) => {
-  console.error(error.stack);
+  if (res.headersSent) {
+    return next(error)
+  }
+  if (error.code === "PATH_TRAVERSAL") {
+    return res.status(400).json({
+      error: "Invalid path",
+    });
+  }
+  if (error.code === "CORS_FORBIDDEN") {
+    return res.status(403).json({
+      error: "Forbidden"
+    })
+  }
+
+  console.error(error.stack || error);
   const log = `[${new Date().toISOString()}] ${error.stack}\n`;
   fs.appendFile(logFile, log, (e) => {
     if (e) console.error("Failed to write log", e);
   });
+
   res.status(500).json({
-    message:
+    error:
       process.env.NODE_ENV === "production"
         ? "Internal Server Error"
         : error.message,

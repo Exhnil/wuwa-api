@@ -1,15 +1,15 @@
-import { promises as fs, existsSync } from "fs";
+import { promises as fs } from "fs";
 import path from "path";
 import keyv from "keyv";
-import sharp from "sharp";
 import mimeType from "mime-types";
 
 const cache = new keyv({
   namespace: "wuwa-api",
   ttl: 1000 * 60 * 5,
 });
-const dataDir = path.join(process.cwd(), "/assets/data");
+const dataDir = path.join(process.cwd(), "assets", "data");
 const imageDir = path.join(process.cwd(), "assets", "images");
+const imageExtensions = ["png", "jpg", "jpeg", "webp"];
 
 function pathSafety(base, ...parts) {
   const basePath = path.resolve(base);
@@ -17,24 +17,19 @@ function pathSafety(base, ...parts) {
 
   const relative = path.relative(basePath, target);
 
-  if (relative.startsWith("..") || path.isAbsolute(relative)) {
-    throw new Error("Path traversal");
+  if (relative === ".." || relative.startsWith(`..${path.sep}`) || path.isAbsolute(relative)) {
+    const error = new Error("Path traversal")
+    error.code = "PATH_TRAVERSAL"
+    throw error;
   }
 
   return target;
 }
 
-async function pathExist(p) {
-  try {
-    await fs.access(p);
-    return true;
-  } catch {
-    return false;
-  }
-}
-
 export async function getTypes() {
-  const found = await cache.get("types");
+  const cacheId = "types"
+
+  const found = await cache.get(cacheId);
   if (found !== undefined) return found;
 
   const dirs = await fs.readdir(dataDir, { withFileTypes: true });
@@ -50,96 +45,100 @@ export async function getTypes() {
 }
 
 export async function getAvailableEntities(type) {
-  const cacheId = ("data-" + type).toLowerCase();
+  const cacheId = `entities:${type}`;
+
   const found = await cache.get(cacheId);
   if (found !== undefined) return found;
 
   const dirPath = pathSafety(dataDir, type);
-  if (!(await pathExist(dirPath))) return [];
+  try {
+    const entries = await fs.readdir(dirPath, { withFileTypes: true });
 
-  const entries = await fs.readdir(dirPath, { withFileTypes: true });
+    const entities = entries.filter((e) => e.isDirectory()).map((e) => e.name).sort();
 
-  const entities = entries.filter((e) => e.isDirectory()).map((e) => e.name);
+    await cache.set(cacheId, entities);
+    return entities;
+  } catch (error) {
+    if (error.code === "ENOENT") {
+      return null;
+    }
 
-  await cache.set(cacheId, entities);
-  return entities;
+    throw error;
+  }
 }
 
 export async function getAvailableImages(type, id) {
-  const cacheId = ("image-" + type + "-" + id).toLowerCase();
+  const cacheId = `images:${type}:${id}`;
+
   const found = await cache.get(cacheId);
   if (found !== undefined) return found;
 
   const filePath = pathSafety(imageDir, type, id);
-  if (!(await pathExist(filePath))) return [];
 
-  const entries = await fs.readdir(filePath, { withFileTypes: true });
+  try {
+    const entries = await fs.readdir(filePath, { withFileTypes: true });
 
-  const images = entries.filter((e) => e.isFile()).map((e) => e.name);
+    const images = entries.filter((e) => {
+      if (!e.isFile()) return false
 
-  await cache.set(cacheId, images);
-  return images;
+      const extension = path.extname(e.name).slice(1).toLowerCase()
+
+      return imageExtensions.includes(extension)
+
+    }).map((e) => path.basename(e.name, path.extname(e.name))).sort();
+
+    await cache.set(cacheId, images);
+    return images;
+  } catch (error) {
+    if (error.code === "ENOENT") {
+      return null;
+    }
+
+    throw error;
+  }
+}
+
+async function readImage(filePath) {
+  for (const ext of imageExtensions) {
+    const candidate = `${filePath}.${ext}`
+
+    try {
+      const buffer = await fs.readFile(filePath);
+      const mime = mimeType.lookup(filePath) || "application/octet-stream";
+
+      return {
+        image: buffer,
+        type: mime,
+      };
+    }
+    catch (e) {
+      if (e.code === "ENOENT") {
+        continue
+      }
+      throw e
+    }
+  }
+
+  return null
 }
 
 export async function getImage(type, id, image) {
-  try {
-    const basePath = pathSafety(imageDir, type, id);
-    const extensions = ["png", "jpg", "jpeg", "webp"];
-    console.log(basePath);
-    for (const ext of extensions) {
-      const filePath = path.join(basePath, `${image}.${ext}`);
-
-      if (await pathExist(filePath)) {
-        const buffer = await fs.readFile(filePath);
-        const mime = mimeType.lookup(filePath) || "application/octet-stream";
-
-        return {
-          image: buffer,
-          type: mime,
-        };
-      }
-    }
-    return null;
-  } catch (e) {
-    console.error("Error reading image at " + filePath, e);
-    return null;
-  }
+  const filePath = pathSafety(imageDir, type, id, image);
+  return readImage(filePath)
 }
 
 export async function getAsset(relativePath) {
-  try {
-    const basePath = pathSafety(imageDir, relativePath);
-    const extensions = ["png", "jpg", "jpeg", "webp"];
-    console.log(basePath);
-    for (const ext of extensions) {
-      const filePath = `${basePath}.${ext}`;
-      console.log(filePath);
-
-      if (await pathExist(filePath)) {
-        const buffer = await fs.readFile(filePath);
-        const mime = mimeType.lookup(filePath) || "application/octet-stream";
-
-        return {
-          image: buffer,
-          type: mime,
-        };
-      }
-    }
-    return null;
-  } catch (e) {
-    console.log("Error reading asset", e);
-    return null;
-  }
+  const filePath = pathSafety(imageDir, relativePath)
+  return readImage(filePath)
 }
 
 export async function getEntity(type, id) {
-  const cacheId = ("data-" + type + "-" + id).toLowerCase();
+  const cacheId = `entitiy:${type}:${id}`;
+
   const found = await cache.get(cacheId);
   if (found !== undefined) return found;
 
   const filePath = pathSafety(dataDir, type, id, `${id}.json`);
-
-  if (!(await pathExist(filePath))) return null;
 
   try {
     const file = await fs.readFile(filePath, "utf-8");
@@ -147,7 +146,10 @@ export async function getEntity(type, id) {
     await cache.set(cacheId, entity);
     return entity;
   } catch (e) {
-    console.error("Error reading entity " + type, e);
-    return null;
+    if (e.code === 'ENOENT') {
+      return null
+    }
+
+    throw e
   }
 }

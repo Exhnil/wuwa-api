@@ -16,119 +16,107 @@ import {
 const router = Router();
 
 //Various Assets
-router.get("/assets/*path", async (req, res, next) => {
-  try {
-    const path = req.params.path.join("/");
-    const asset = await getAsset(path);
+router.get("/assets/{*path}", async (req, res) => {
+  const assetPath = req.params.path.join("/");
+  const asset = await getAsset(assetPath);
 
-    if (!asset) {
-      return res.status(404).json({ error: "Not found" });
-    }
-
-    res.set("Content-Type", asset.type);
-    res.send(asset.image);
-  } catch (e) {
-    next(e);
+  if (!asset) {
+    return res.status(404).json({ error: "Not found" });
   }
+
+  res.set("Content-Type", asset.type);
+  res.send(asset.image);
 });
 
 // Root path
-router.get("/", async (req, res, next) => {
-  try {
-    const types = await getTypes();
+router.get("/", async (req, res) => {
+  const types = await getTypes();
 
-    res.json({
-      types,
-      endpoints: types.map((t) => ({
-        type: t,
-        list: `/api/${t}`,
-        all: `/api/${t}/all`,
-        item: `/api/${t}/:id`,
-        images: `/api/${t}/:id/images`,
-      })),
-      count: types.length,
-    });
-  } catch (e) {
-    next(e);
-  }
+  res.json({
+    types,
+    endpoints: types.map((t) => ({
+      type: t,
+      list: `/api/${t}`,
+      all: `/api/${t}/all`,
+      item: `/api/${t}/:id`,
+      images: `/api/${t}/:id/images`,
+    })),
+    count: types.length,
+  });
 });
 
 //Get all entities ids
-router.get("/:type", validateType, async (req, res, next) => {
+router.get("/:type", validateType, async (req, res) => {
   const { type } = req.params;
 
-  try {
-    const entities = await getAvailableEntities(type);
-    res.json(entities ?? []);
-  } catch (e) {
-    next(e);
+  const entities = await getAvailableEntities(type);
+
+  if (!entities) {
+    return res.status(404).json({ error: "Type not found" })
   }
+
+  res.json(entities)
+
 });
 
 //Get all entities full object
-router.get("/:type/all", validateType, async (req, res, next) => {
+router.get("/:type/all", validateType, async (req, res) => {
   const { type } = req.params;
 
-  try {
-    const entities = await getAvailableEntities(type);
+  const entities = await getAvailableEntities(type);
 
-    if (entities.length > 200) {
-      return res.status(400).json({ error: "Too many entities" });
-    }
-    const data = await Promise.all(entities.map((id) => getEntity(type, id)));
-    res.json(data);
-  } catch (e) {
-    console.error(`Error getting all entities for type ${type}:`, e);
-    next(e);
+  if (!entities) {
+    return res.status(404).json({ error: "Type not found" })
   }
+  const data = await Promise.all(
+    entities.map(async (id) => {
+      const entity = await getEntity(type, id);
+      if (!entity) {
+        throw new Error(`Entity data missing: ${type}/${id}`)
+      }
+      return entity
+    }),
+  )
+  res.json(data);
 });
 
 //Get Single Entity
-router.get("/:type/:id", validateTypeAndId, async (req, res, next) => {
+router.get("/:type/:id", validateTypeAndId, async (req, res) => {
   const { type, id } = req.params;
 
-  try {
-    const entity = await getEntity(type, id);
-    if (!entity) {
-      return res.status(404).json({ error: "Entity not found" });
-    }
-
-    res.json(entity);
-  } catch (e) {
-    next(e);
+  const entity = await getEntity(type, id);
+  if (!entity) {
+    return res.status(404).json({ error: "Entity not found" });
   }
+
+  res.json(entity);
 });
 
 //Get list of images
-router.get("/:type/:id/images", validateTypeAndId, async (req, res, next) => {
+router.get("/:type/:id/images", validateTypeAndId, async (req, res) => {
   const { type, id } = req.params;
 
-  try {
-    const images = await getAvailableImages(type, id);
-    res.json(images ?? []);
-  } catch (e) {
-    next(e);
+  const images = await getAvailableImages(type, id);
+
+  if (!images) {
+    return res.status(404).json({ error: "Images not found" })
   }
+  res.json(images);
 });
 
 //Get single Image
 router.get(
   "/:type/:id/images/:imageType",
   validateImage,
-  async (req, res, next) => {
+  async (req, res) => {
     const { type, id, imageType } = req.params;
 
-    try {
-      const image = await getImage(type, id, imageType);
+    const image = await getImage(type, id, imageType);
 
-      if (!image) return res.status(404).json({ error: "Image not found" });
+    if (!image) return res.status(404).json({ error: "Image not found" });
 
-      res.set("Content-Type", image.type);
-      res.send(image.image);
-    } catch (e) {
-      console.error("Error fetching image " + type);
-      next(e);
-    }
+    res.set("Content-Type", image.type);
+    res.send(image.image);
   },
 );
 
