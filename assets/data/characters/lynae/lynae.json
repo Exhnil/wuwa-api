@@ -140,8 +140,8 @@
         "value": 1500
       },
       {
-        "id": "incomplete-combuster",
-        "name": "Incomplete Combuster",
+        "id": "incomplete-combustor",
+        "name": "Incomplete Combustor",
         "value": 2
       },
       {
@@ -157,8 +157,8 @@
         "value": 2000
       },
       {
-        "id": "incomplete-combuster",
-        "name": "Incomplete Combuster",
+        "id": "incomplete-combustor",
+        "name": "Incomplete Combustor",
         "value": 3
       },
       {
@@ -174,8 +174,8 @@
         "value": 4500
       },
       {
-        "id": "aftertune-combuster",
-        "name": "Aftertune Combuster",
+        "id": "aftertune-combustor",
+        "name": "Aftertune Combustor",
         "value": 2
       },
       {
@@ -191,8 +191,8 @@
         "value": 6000
       },
       {
-        "id": "aftertune-combuster",
-        "name": "Aftertune Combuster",
+        "id": "aftertune-combustor",
+        "name": "Aftertune Combustor",
         "value": 3
       },
       {
@@ -208,8 +208,8 @@
         "value": 16000
       },
       {
-        "id": "renmant-combuster",
-        "name": "Renmant Combuster",
+        "id": "remnant-combustor",
+        "name": "Renmant Combustor",
         "value": 3
       },
       {
@@ -225,8 +225,8 @@
         "value": 30000
       },
       {
-        "id": "renmant-combuster",
-        "name": "Renmant Combuster",
+        "id": "remnant-combustor",
+        "name": "Renmant Combustor",
         "value": 5
       },
       {
@@ -247,8 +247,8 @@
         "value": 50000
       },
       {
-        "id": "reverb-combuster",
-        "name": "Reverb Combuster",
+        "id": "reverb-combustor",
+        "name": "Reverb Combustor",
         "value": 2
       },
       {
@@ -269,8 +269,8 @@
         "value": 70000
       },
       {
-        "id": "reverb-combuster",
-        "name": "Reverb Combuster",
+        "id": "reverb-combustor",
+        "name": "Reverb Combustor",
         "value": 3
       },
       {
@@ -291,8 +291,8 @@
         "value": 100000
       },
       {
-        "id": "reverb-combuster",
-        "name": "Reverb Combuster",
+        "id": "reverb-combustor",
+        "name": "Reverb Combustor",
         "value": 6
       },
       {
@@ -320,8 +320,8 @@
         "value": 3
       },
       {
-        "id": "renmant-combuster",
-        "name": "Renmant Combuster",
+        "id": "remnant-combustor",
+        "name": "Renmant Combustor",
         "value": 3
       }
     ],
@@ -337,8 +337,8 @@
         "value": 3
       },
       {
-        "id": "reverb-combuster",
-        "name": "Reverb Combuster",
+        "id": "reverb-combustor",
+        "name": "Reverb Combustor",
         "value": 3
       },
       {
@@ -361,8 +361,8 @@
         "value": 3
       },
       {
-        "id": "aftertune-combuster",
-        "name": "Aftertune Combuster",
+        "id": "aftertune-combustor",
+        "name": "Aftertune Combustor",
         "value": 3
       },
       {
@@ -383,8 +383,8 @@
         "value": 3
       },
       {
-        "id": "renmant-combuster",
-        "name": "Renmant Combuster",
+        "id": "remnant-combustor",
+        "name": "Renmant Combustor",
         "value": 3
       },
       {
