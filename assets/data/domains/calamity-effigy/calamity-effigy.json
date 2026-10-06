@@ -1,0 +1,13 @@
+{
+    "name": "Calamity Effigy",
+    "id": "calamity-effigy",
+    "type": "Overlord Class",
+    "cost": 60,
+    "materials": [
+        {
+            "name": "Forged Empyrean's Sigh",
+            "id": "forged-empyrean-s-sigh",
+            "value": 4.1
+        }
+    ]
+}

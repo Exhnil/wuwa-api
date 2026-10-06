@@ -69,6 +69,14 @@ export async function getMisc() {
   }
 }
 
+export async function getChangelog() {
+  const file = pathSafety(dataDir, "..", "metadata", "changelog.json");
+
+  const content = await fs.readFile(file, "utf-8");
+
+  return JSON.parse(content);
+}
+
 export async function getAvailableEntities(type) {
   const cacheId = `entities:${type}`;
 

@@ -1,0 +1,329 @@
+{
+    "id": "suisui",
+    "name": "Suisui",
+    "attribute": "Glacio",
+    "weapon": "Rectifiers",
+    "gender": "Female",
+    "nation": "Huanglong",
+    "class": "Natural",
+    "rarity": 5,
+    "release": "2026-07-30",
+    "ascension_materials": {
+        "1": [
+            {
+                "id": "shell-credit",
+                "value": 5000
+            },
+            {
+                "id": "lf-autopuppet-kernel",
+                "value": 4
+            }
+        ],
+        "2": [
+            {
+                "id": "shell-credit",
+                "value": 10000
+            },
+            {
+                "id": "flowborne-dream",
+                "value": 4
+            },
+            {
+                "id": "mf-autopuppet-kernel",
+                "value": 4
+            },
+            {
+                "id": "solidarity-s-loneflame",
+                "value": 3
+            }
+        ],
+        "3": [
+            {
+                "id": "shell-credit",
+                "value": 15000
+            },
+            {
+                "id": "flowborne-dream",
+                "value": 8
+            },
+            {
+                "id": "mf-autopuppet-kernel",
+                "value": 8
+            },
+            {
+                "id": "solidarity-s-loneflame",
+                "value": 6
+            }
+        ],
+        "4": [
+            {
+                "id": "shell-credit",
+                "value": 20000
+            },
+            {
+                "id": "flowborne-dream",
+                "value": 12
+            },
+            {
+                "id": "hf-autopuppet-kernel",
+                "value": 4
+            },
+            {
+                "id": "solidarity-s-loneflame",
+                "value": 9
+            }
+        ],
+        "5": [
+            {
+                "id": "shell-credit",
+                "value": 40000
+            },
+            {
+                "id": "flowborne-dream",
+                "value": 16
+            },
+            {
+                "id": "hf-autopuppet-kernel",
+                "value": 8
+            },
+            {
+                "id": "solidarity-s-loneflame",
+                "value": 12
+            }
+        ],
+        "6": [
+            {
+                "id": "shell-credit",
+                "value": 80000
+            },
+            {
+                "id": "flowborne-dream",
+                "value": 20
+            },
+            {
+                "id": "ff-autopuppet-kernel",
+                "value": 4
+            },
+            {
+                "id": "solidarity-s-loneflame",
+                "value": 16
+            }
+        ]
+    },
+    "skill_materials": {
+        "2": [
+            {
+                "id": "shell-credit",
+                "value": 1500
+            },
+            {
+                "id": "spliced-string",
+                "value": 2
+            },
+            {
+                "id": "lf-autopuppet-kernel",
+                "value": 2
+            }
+        ],
+        "3": [
+            {
+                "id": "shell-credit",
+                "value": 2000
+            },
+            {
+                "id": "spliced-string",
+                "value": 3
+            },
+            {
+                "id": "lf-autopuppet-kernel",
+                "value": 3
+            }
+        ],
+        "4": [
+            {
+                "id": "shell-credit",
+                "value": 4500
+            },
+            {
+                "id": "broken-string",
+                "value": 2
+            },
+            {
+                "id": "mf-autopuppet-kernel",
+                "value": 2
+            }
+        ],
+        "5": [
+            {
+                "id": "shell-credit",
+                "value": 6000
+            },
+            {
+                "id": "broken-string",
+                "value": 3
+            },
+            {
+                "id": "mf-autopuppet-kernel",
+                "value": 3
+            }
+        ],
+        "6": [
+            {
+                "id": "shell-credit",
+                "value": 16000
+            },
+            {
+                "id": "solidified-string",
+                "value": 3
+            },
+            {
+                "id": "hf-autopuppet-kernel",
+                "value": 2
+            }
+        ],
+        "7": [
+            {
+                "id": "shell-credit",
+                "value": 30000
+            },
+            {
+                "id": "solidified-string",
+                "value": 5
+            },
+            {
+                "id": "hf-autopuppet-kernel",
+                "value": 3
+            },
+            {
+                "id": "we-who-question",
+                "value": 1
+            }
+        ],
+        "8": [
+            {
+                "id": "shell-credit",
+                "value": 50000
+            },
+            {
+                "id": "melodic-string",
+                "value": 2
+            },
+            {
+                "id": "ff-autopuppet-kernel",
+                "value": 2
+            },
+            {
+                "id": "we-who-question",
+                "value": 1
+            }
+        ],
+        "9": [
+            {
+                "id": "shell-credit",
+                "value": 70000
+            },
+            {
+                "id": "melodic-string",
+                "value": 3
+            },
+            {
+                "id": "ff-autopuppet-kernel",
+                "value": 3
+            },
+            {
+                "id": "we-who-question",
+                "value": 1
+            }
+        ],
+        "10": [
+            {
+                "id": "shell-credit",
+                "value": 100000
+            },
+            {
+                "id": "melodic-string",
+                "value": 6
+            },
+            {
+                "id": "ff-autopuppet-kernel",
+                "value": 4
+            },
+            {
+                "id": "we-who-question",
+                "value": 1
+            }
+        ]
+    },
+    "stats_bonus_materials": {
+        "rank_1": [
+            {
+                "id": "shell-credit",
+                "value": 50000
+            },
+            {
+                "id": "hf-autopuppet-kernel",
+                "value": 3
+            },
+            {
+                "id": "solidified-string",
+                "value": 3
+            }
+        ],
+        "rank_2": [
+            {
+                "id": "shell-credit",
+                "value": 100000
+            },
+            {
+                "id": "ff-autopuppet-kernel",
+                "value": 3
+            },
+            {
+                "id": "melodic-string",
+                "value": 3
+            },
+            {
+                "id": "we-who-question",
+                "value": 1
+            }
+        ]
+    },
+    "inherent_skill_materials": {
+        "skill_1": [
+            {
+                "id": "shell-credit",
+                "value": 10000
+            },
+            {
+                "id": "mf-autopuppet-kernel",
+                "value": 3
+            },
+            {
+                "id": "broken-string",
+                "value": 3
+            },
+            {
+                "id": "we-who-question",
+                "value": 1
+            }
+        ],
+        "skill_2": [
+            {
+                "id": "shell-credit",
+                "value": 20000
+            },
+            {
+                "id": "hf-autopuppet-kernel",
+                "value": 3
+            },
+            {
+                "id": "solidified-string",
+                "value": 3
+            },
+            {
+                "id": "we-who-question",
+                "value": 1
+            }
+        ]
+    }
+}

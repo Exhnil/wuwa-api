@@ -132,4 +132,11 @@ router.get(
   },
 );
 
+//Get single Image
+router.get("/changelog", async (req, res) => {
+  const changelog = await getChangelog()
+  res.json(changelog)
+},
+);
+
 export default router;
