@@ -1,0 +1,8 @@
+{
+    "name": "FF Autopuppet Kernel",
+    "id": "ff-autopuppet-kernel",
+    "type": "Weapon and Skill Material",
+    "rarity": 5,
+    "source": "enemies",
+    "group": "autopuppet"
+}

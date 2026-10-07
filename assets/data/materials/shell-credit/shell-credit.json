@@ -2,7 +2,7 @@
   "name": "Shell Credit",
   "id": "shell-credit",
   "type": "credit",
-  "rarity": 1,
+  "rarity": 3,
   "source": "activity",
   "group": "none"
 }

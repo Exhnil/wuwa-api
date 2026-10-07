@@ -1,0 +1,91 @@
+{
+    "name": "Blooming Jadehaven",
+    "id": "blooming-jadehaven",
+    "type": "Rectifiers",
+    "rarity": 5,
+    "base_attack": 47,
+    "sub_stat": "Crit. Rate",
+    "sub_stat_base": 5.4,
+    "ascension_materials": {
+        "1": [
+            {
+                "id": "shell-credit",
+                "value": 10000
+            },
+            {
+                "id": "lf-exoswarm-core",
+                "value": 6
+            }
+        ],
+        "2": [
+            {
+                "id": "shell-credit",
+                "value": 20000
+            },
+            {
+                "id": "mf-exoswarm-core",
+                "value": 6
+            },
+            {
+                "id": "spliced-string",
+                "value": 6
+            }
+        ],
+        "3": [
+            {
+                "id": "shell-credit",
+                "value": 40000
+            },
+            {
+                "id": "hf-exoswarm-core",
+                "value": 4
+            },
+            {
+                "id": "broken-string",
+                "value": 8
+            }
+        ],
+        "4": [
+            {
+                "id": "shell-credit",
+                "value": 60000
+            },
+            {
+                "id": "hf-exoswarm-core",
+                "value": 6
+            },
+            {
+                "id": "solidified-string",
+                "value": 6
+            }
+        ],
+        "5": [
+            {
+                "id": "shell-credit",
+                "value": 80000
+            },
+            {
+                "id": "ff-exoswarm-core",
+                "value": 4
+            },
+            {
+                "id": "melodic-string",
+                "value": 8
+            }
+        ],
+        "6": [
+            {
+                "id": "shell-credit",
+                "value": 120000
+            },
+            {
+                "id": "ff-exoswarm-core",
+                "value": 8
+            },
+            {
+                "id": "melodic-string",
+                "value": 12
+            }
+        ]
+    }
+}

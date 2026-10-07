@@ -1,0 +1,8 @@
+{
+    "name": "LF Autopuppet Kernel",
+    "id": "lf-autopuppet-kernel",
+    "type": "Weapon and Skill Material",
+    "rarity": 2,
+    "source": "enemies",
+    "group": "autopuppet"
+}

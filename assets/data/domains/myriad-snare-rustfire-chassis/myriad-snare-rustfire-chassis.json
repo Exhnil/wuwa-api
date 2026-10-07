@@ -1,0 +1,13 @@
+{
+    "name": "Myriad Snare: Rustfire Chassis",
+    "id": "myriad-snare-rustfire-chassis",
+    "type": "Overlord Class",
+    "cost": 60,
+    "materials": [
+        {
+            "name": "Solidarity's Loneflame",
+            "id": "solidarity-s-loneflame",
+            "value": 4.1
+        }
+    ]
+}

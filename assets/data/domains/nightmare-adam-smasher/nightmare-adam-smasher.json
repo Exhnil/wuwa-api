@@ -1,0 +1,13 @@
+{
+    "name": "Nightmare: Adam Smasher",
+    "id": "nightmare-adam-smasher",
+    "type": "Overlord Class",
+    "cost": 60,
+    "materials": [
+        {
+            "name": "Nightmare Flashdrive",
+            "id": "nightmare-flashdrive",
+            "value": 4.1
+        }
+    ]
+}

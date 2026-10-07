@@ -1,0 +1,13 @@
+{
+    "name": "Suhsin the Inevitable: Fractal Form",
+    "id": "suhsin-the-inevitable-fractal-form",
+    "type": "Weekly Challenge",
+    "cost": 60,
+    "materials": [
+        {
+            "name": "Remnant of the Wheel",
+            "id": "remnant-of-the-wheel",
+            "value": 3
+        }
+    ]
+}

@@ -28,7 +28,7 @@
             },
             {
                 "value": 6,
-                "id": "incomplete-combuster"
+                "id": "incomplete-combustor"
             }
         ],
         "3": [
@@ -42,7 +42,7 @@
             },
             {
                 "value": 8,
-                "id": "aftertune-combuster"
+                "id": "aftertune-combustor"
             }
         ],
         "4": [
@@ -56,7 +56,7 @@
             },
             {
                 "value": 6,
-                "id": "renmant-combuster"
+                "id": "remnant-combustor"
             }
         ],
         "5": [
@@ -70,7 +70,7 @@
             },
             {
                 "value": 8,
-                "id": "reverb-combuster"
+                "id": "reverb-combustor"
             }
         ],
         "6": [
@@ -84,7 +84,7 @@
             },
             {
                 "value": 12,
-                "id": "reverb-combuster"
+                "id": "reverb-combustor"
             }
         ]
     }

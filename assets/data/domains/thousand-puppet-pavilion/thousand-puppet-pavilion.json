@@ -1,0 +1,13 @@
+{
+    "name": "Thousand-Puppet Pavilion",
+    "id": "thousand-puppet-pavilion",
+    "type": "Weekly Challenge",
+    "cost": 60,
+    "materials": [
+        {
+            "name": "Skyward Glazed Heart",
+            "id": "skyward-glazed-heart",
+            "value": 3
+        }
+    ]
+}
