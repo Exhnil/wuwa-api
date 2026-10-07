@@ -70,7 +70,7 @@ export async function getMisc() {
 }
 
 export async function getChangelog() {
-  const file = pathSafety(dataDir, "..", "metadata", "changelog.json");
+  const file = path.join(dataDir, "..", "metadata", "changelog.json");
 
   const content = await fs.readFile(file, "utf-8");
 

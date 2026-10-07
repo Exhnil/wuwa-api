@@ -7,6 +7,7 @@ import {
   getImage,
   getAsset,
   getMisc,
+  getChangelog
 } from "../module/filesystem.js";
 import {
   validateImage,
@@ -56,6 +57,13 @@ router.get("/misc", async (req, res) => {
 
   res.json(misc)
 })
+
+//Get single Image
+router.get("/changelog", async (req, res) => {
+  const changelog = await getChangelog();
+  res.json(changelog)
+},
+);
 
 //Get all entities ids
 router.get("/:type", validateType, async (req, res) => {
@@ -130,13 +138,6 @@ router.get(
     res.set("Content-Type", image.type);
     res.send(image.image);
   },
-);
-
-//Get single Image
-router.get("/changelog", async (req, res) => {
-  const changelog = await getChangelog()
-  res.json(changelog)
-},
 );
 
 export default router;
