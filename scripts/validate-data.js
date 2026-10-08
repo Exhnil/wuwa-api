@@ -2,7 +2,6 @@ import { promises as fs } from "fs"
 import path from "path"
 
 const dataDir = path.join(process.cwd(), "assets", "data")
-const entityTypes = ["characters", "weapons", "materials", "domains"]
 const materials = new Set()
 
 const errors = []
@@ -247,7 +246,7 @@ function validateDomain(id, data) {
             );
         }
 
-        if (!isPositiveInteger(material.rarity)) {
+        if (material.rarity !== undefined && !isPositiveInteger(material.rarity)) {
             error(`domains/${id}/materials/${index}: invalid rarity`);
         }
 

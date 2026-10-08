@@ -7,12 +7,18 @@ import helmet from "helmet";
 import fs from "fs";
 import path from "path";
 import rateLimit from "express-rate-limit";
+import swaggerUi from "swagger-ui-express"
+import YAML from "yamljs"
 
 dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
 const allowedOrigins = process.env.CORS ? process.env.CORS.split(",") : ["*"];
+
+const swaggerDocument = YAML.load("./docs/openapi.yml");
+
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 app.use(helmet());
 app.use(
