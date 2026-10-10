@@ -6,6 +6,4 @@ dist/
 .vs
 .idea
 
-package-lock.json
-
 errors.log

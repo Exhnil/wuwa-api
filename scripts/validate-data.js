@@ -247,7 +247,7 @@ function validateDomain(id, data) {
             );
         }
 
-        if (!isPositiveInteger(material.rarity)) {
+        if (material.rarity && !isPositiveInteger(material.rarity)) {
             error(`domains/${id}/materials/${index}: invalid rarity`);
         }
 
