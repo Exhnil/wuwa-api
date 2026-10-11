@@ -50,7 +50,7 @@ jobs:
                   printf '%s\n' "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
                   chmod 600 ~/.ssh/known_hosts
 
-            - name: Test SSH connection
+            - name: Deploy
               env:
                   SSH_USER: ${{ secrets.SSH_USER }}
                   SSH_HOST: ${{ secrets.SSH_HOST }}
@@ -59,8 +59,17 @@ jobs:
                   -i ~/.ssh/wuwa-api-deploy \
                   -o IdentitiesOnly=yes \
                   -o StrictHostKeyChecking=yes \
+                  -o BatchMode=yes \
                   "$SSH_USER@$SSH_HOST" \
-                  "echo 'Connected to server:' && hostname && echo 'User:' && whoami"
+                  'bash -se' <<'REMOTE'
+                  set -e
+
+                  cd /home/wuwa-deploy/apps/backend
+
+                  git pull --ff-only
+                  npm ci --omit=dev
+                  pm2 restart wuwa-backend --update-env
+                  REMOTE
 
             - name: Deploy
               run:
