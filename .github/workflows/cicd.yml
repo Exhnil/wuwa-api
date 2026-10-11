@@ -36,37 +36,30 @@ jobs:
         runs-on: ubuntu-24.04
 
         steps:
-            - name: Checkout repository
-              uses: actions/checkout@v6
-
-            - name: Setup Node.js
-              uses: actions/setup-node@v6
-              with:
-                  node-version: 22
-                  cache: npm
-
-            - name: Install dependencies
-              run: npm ci
-
             - name: Prepare SSH
               env:
+                  SSH_USER: ${{ secrets.SSH_USER }}
+                  SSH_HOST: ${{ secrets.SSH_HOST }}
                   SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
                   SSH_KNOWN_HOSTS: ${{ secrets.SSH_KNOWN_HOSTS }}
               run: |
                   mkdir -p ~/.ssh
                   chmod 700 ~/.ssh
 
-                  printf '%s\n' "$secrets.SSH_PRIVATE_KEY" > ~/.ssh/wuwa-api-deploy
+                  printf '%s\n' "$SSH_PRIVATE_KEY" > ~/.ssh/wuwa-api-deploy
                   chmod 600 ~/.ssh/wuwa-api-deploy
 
                   printf '%s\n' "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
-                    chmod 600 ~/.ssh/known_hosts
+                  chmod 600 ~/.ssh/known_hosts
 
+            - name: Test SSH connection
+              run: |
                   ssh \
-                      -i ~/.ssh/wuwa-api-deploy \
-                      -o StrictHostKeyChecking=yes \
-                      ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
-                      "echo 'Connected to server:' && hostname && echo 'User:' && whoami"
+                  -i ~/.ssh/wuwa-api-deploy \
+                  -o IdentitiesOnly=yes \
+                  -o StrictHostKeyChecking=yes \
+                  "$SSH_USER@$SSH_HOST" \
+                  "echo 'Connected to server:' && hostname && echo 'User:' && whoami"
 
             - name: Deploy
               run:
