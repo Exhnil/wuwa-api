@@ -38,8 +38,6 @@ jobs:
         steps:
             - name: Prepare SSH
               env:
-                  SSH_USER: ${{ secrets.SSH_USER }}
-                  SSH_HOST: ${{ secrets.SSH_HOST }}
                   SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
                   SSH_KNOWN_HOSTS: ${{ secrets.SSH_KNOWN_HOSTS }}
               run: |
@@ -53,6 +51,9 @@ jobs:
                   chmod 600 ~/.ssh/known_hosts
 
             - name: Test SSH connection
+              env:
+                  SSH_USER: ${{ secrets.SSH_USER }}
+                  SSH_HOST: ${{ secrets.SSH_HOST }}
               run: |
                   ssh \
                   -i ~/.ssh/wuwa-api-deploy \
